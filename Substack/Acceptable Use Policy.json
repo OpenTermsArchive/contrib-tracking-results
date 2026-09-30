@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:45.903Z",
+    "serviceName": "Substack",
+    "sourceDocuments": [
+      {
+        "id": "content",
+        "fetch": "https://substack.com/content",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": ".footer-wrap"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "3d5cd5d4eaa2f82fea8717eca11c7720ced91e99"
+      }
+    ]
+  }
+}
