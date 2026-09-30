@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:48.606Z",
+    "serviceName": "Shockwave.com",
+    "sourceDocuments": [
+      {
+        "id": "about-terms.jsp",
+        "fetch": "http://www.shockwave.com/about/terms.jsp",
+        "select": ".podContent",
+        "mimeType": "text/html",
+        "snapshotId": "492c4bdce601db3a9207fa2cd5f65cdf477a26a9"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".podContent\" has no match in the web page at 'http://www.shockwave.com/about/terms.jsp'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
