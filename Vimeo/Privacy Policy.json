@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:07:00.420Z",
+    "serviceName": "Vimeo",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://vimeo.com/privacy",
+        "select": {
+          "startBefore": "#vimeo_privacy_policy",
+          "endAfter": "#legal_doc"
+        },
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8e3b18abd75c4e9ebfc412c09c7057b5de694119"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"#vimeo_privacy_policy\",\"endAfter\":\"#legal_doc\"}"
+    ]
+  }
+}
