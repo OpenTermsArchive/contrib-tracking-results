@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:09.698Z",
+    "serviceName": "TIME",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.meredith.com/privacy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a6a79da5e4683547812b04095400e093d6693ab5"
+      }
+    ]
+  }
+}
