@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:51.194Z",
+    "serviceName": "Stack Overflow",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookie-policy",
+        "fetch": "https://stackoverflow.com/legal/cookie-policy",
+        "select": [
+          ".gsy"
+        ],
+        "remove": [
+          ".fc-green-400",
+          ".fc-red-400 "
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "445e6a1100fa6cd5870732f3b1942573a9454be2"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".gsy\"]\" has no match in the web page at 'https://stackoverflow.com/legal/cookie-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
