@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:36.362Z",
+    "serviceName": "Viber",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-cookies-and-tracking",
+        "fetch": "https://www.viber.com/en/terms/cookies-and-tracking/",
+        "select": [
+          ".post-116"
+        ],
+        "remove": [
+          "a[href=\\#top]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d2ea332262dc6a9f7a496138a212bc5ffe7e9a12"
+      }
+    ]
+  }
+}
