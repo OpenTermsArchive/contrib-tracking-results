@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:32.030Z",
+    "serviceName": "Tencent",
+    "sourceDocuments": [
+      {
+        "id": "en-us-service-agreement",
+        "fetch": "https://www.tencent.com/en-us/service-agreement.html",
+        "select": ".page-content",
+        "mimeType": "text/html",
+        "snapshotId": "22eae51d17a9c0d1d20e8583f5caaa350806af69"
+      }
+    ]
+  }
+}
