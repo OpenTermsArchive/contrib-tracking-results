@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:31.828Z",
+    "serviceName": "WPEngine",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://wpengine.com/legal/terms-of-service/",
+        "select": "article",
+        "mimeType": "text/html",
+        "snapshotId": "f9b5dd79f2d915ac9b7bb295abf41737dfdccac3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"article\" has no match in the web page at 'https://wpengine.com/legal/terms-of-service/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
