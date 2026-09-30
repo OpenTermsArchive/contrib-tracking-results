@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:23.852Z",
+    "serviceName": "Amazon E-Reader and Fire Tablet",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=200699130",
+        "select": ".cs-help-content",
+        "remove": [
+          ".cs-help-breadcrumb",
+          "#csg-search-cu",
+          "#hmd-FeedbackBox",
+          "#cf-div",
+          "#hmd-ReasonBox",
+          "#hmd-ConfirmYesBox",
+          "#hmd-ConfirmNoBox"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "af35c1821f02bb6460b01e6cd142f8da8ad700df"
+      }
+    ]
+  }
+}
