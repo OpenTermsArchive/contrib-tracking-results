@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:55.954Z",
+    "serviceName": "Starbucks",
+    "sourceDocuments": [
+      {
+        "id": "terms-starbucks-terms-of-use",
+        "fetch": "https://www.starbucks.com/terms/starbucks-terms-of-use",
+        "select": [
+          ".sb-contentColumn"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "504d5b841d583d5d4e5f2440384439922cf14f0a"
+      }
+    ]
+  }
+}
