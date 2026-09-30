@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:59.327Z",
+    "serviceName": "meet.jit.si",
+    "sourceDocuments": [
+      {
+        "id": "meet-jit-si-terms-of-service",
+        "fetch": "https://jitsi.org/meet-jit-si-terms-of-service/",
+        "select": [
+          ".img-text-holder"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0b05cba49aaa842294e7a7e57561ebc82e80a440"
+      }
+    ]
+  }
+}
