@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:57.855Z",
+    "serviceName": "Fox News",
+    "sourceDocuments": [
+      {
+        "id": "closed-captioning",
+        "fetch": "https://www.foxnews.com/closed-captioning",
+        "select": ".main-content",
+        "remove": "img:first-of-type",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a05431af71b6e244739aa363a24f1da87448bfea"
+      }
+    ]
+  }
+}
