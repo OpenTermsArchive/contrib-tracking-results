@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:41.957Z",
+    "serviceName": "Wire",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-terms-of-use-personal",
+        "fetch": "https://wire.com/en/legal/terms-of-use-personal/#legal4",
+        "select": [
+          "#legal4 .text-regular:nth-child(1)",
+          "#legal4 > .legalbody > .container > .container-legal"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "eb25bbfb67f65eb4401c8c5009c8f53acb7f4049"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#legal4 .text-regular:nth-child(1)\",\"#legal4 > .legalbody > .container > .container-legal\"]\" has no match in the web page at 'https://wire.com/en/legal/terms-of-use-personal/#legal4'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
