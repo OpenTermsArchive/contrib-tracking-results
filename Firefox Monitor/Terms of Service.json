@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:26.595Z",
+    "serviceName": "Firefox Monitor",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-firefox-monitor",
+        "fetch": "https://www.mozilla.org/en-US/privacy/firefox-monitor/",
+        "select": [
+          ".mzp-l-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e963a70361db89c4da361fec6f99f253c01b5895"
+      }
+    ]
+  }
+}
