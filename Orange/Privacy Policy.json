@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:09.062Z",
+    "serviceName": "Orange",
+    "sourceDocuments": [
+      {
+        "id": "pages-juridiques-donnees-personnelles",
+        "fetch": "https://c.orange.fr/pages-juridiques/donnees-personnelles.html",
+        "select": "h1, #o_content .left-container",
+        "mimeType": "text/html",
+        "snapshotId": "6e92e41d4510339ad9b80a638975d6b90c600fe5"
+      }
+    ]
+  }
+}
