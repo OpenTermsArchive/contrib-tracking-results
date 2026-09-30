@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:57:23.684Z",
+    "serviceName": "Taboola",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy-policy",
+        "fetch": "https://www.taboola.com/policies/privacy-policy",
+        "select": [
+          ".legal-portal-content__container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1664dc88904971d090525b3fb17b18a6c5afe73d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".legal-portal-content__container\"]\" has no match in the web page at 'https://www.taboola.com/policies/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
