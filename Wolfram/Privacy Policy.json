@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:48.336Z",
+    "serviceName": "Wolfram",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-wolfram",
+        "fetch": "https://www.wolfram.com/legal/privacy/wolfram/",
+        "select": "div.leftcolumn",
+        "mimeType": "text/html",
+        "snapshotId": "79990d4004fd7dd47ba2f483bac1091e40754a1f"
+      }
+    ]
+  }
+}
