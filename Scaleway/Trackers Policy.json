@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:46.512Z",
+    "serviceName": "Scaleway",
+    "sourceDocuments": [
+      {
+        "id": "en-cookie",
+        "fetch": "https://www.scaleway.com/en/cookie/",
+        "select": [
+          "main section"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b9f0010b09a98671c274fe79d1aa4464c61773d4"
+      }
+    ]
+  }
+}
