@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:52.402Z",
+    "serviceName": "Stack Overflow",
+    "sourceDocuments": [
+      {
+        "id": "legal-acceptable-use-policy",
+        "fetch": "https://stackoverflow.com/legal/acceptable-use-policy",
+        "select": [
+          ".gsy"
+        ],
+        "remove": [
+          ".fc-green-400",
+          ".fc-red-400 "
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "21fc40f0af9bcb93e19d451afdcb496f8e71c450"
+      }
+    ]
+  }
+}
