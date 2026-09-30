@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:06.135Z",
+    "serviceName": "W3Schools",
+    "sourceDocuments": [
+      {
+        "id": "about-about_privacy.asp",
+        "fetch": "https://www.w3schools.com/about/about_privacy.asp",
+        "select": "#main",
+        "remove": ".nextprev",
+        "mimeType": "text/html",
+        "snapshotId": "14cac2edb835f27c71880c32f7ad8af6aa655538"
+      }
+    ]
+  }
+}
