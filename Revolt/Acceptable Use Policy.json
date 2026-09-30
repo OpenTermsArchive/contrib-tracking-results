@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:08.106Z",
+    "serviceName": "Revolt",
+    "sourceDocuments": [
+      {
+        "id": "aup",
+        "fetch": "https://revolt.chat/aup",
+        "select": [
+          ".sc-b71eb2f3-0"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "775d4581faf389c360f587f2dbc6af62e587ab2f"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".sc-b71eb2f3-0\"]\" has no match in the web page at 'https://revolt.chat/aup'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
