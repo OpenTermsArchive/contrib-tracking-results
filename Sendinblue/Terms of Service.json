@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:47.052Z",
+    "serviceName": "Sendinblue",
+    "sourceDocuments": [
+      {
+        "id": "legal-termsofuse",
+        "fetch": "https://www.sendinblue.com/legal/termsofuse/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e5da444d47beac124cc288cdba2c21f771d7f56d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.sendinblue.com/legal/termsofuse/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
