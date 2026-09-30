@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:37:06.284Z",
+    "serviceName": "Couchsurfing",
+    "sourceDocuments": [
+      {
+        "id": "about-terms-of-use",
+        "fetch": "https://about.couchsurfing.com/about/terms-of-use/",
+        "select": "section#tos",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://about.couchsurfing.com/about/terms-of-use/'"
+    ]
+  }
+}
