@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:24.419Z",
+    "serviceName": "AdRoll",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.nextroll.com/terms",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "#services-addenda"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c5822de9c41a6c62bc6020512ca12ae6c6448ab6"
+      }
+    ]
+  }
+}
