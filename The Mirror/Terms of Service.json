@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:36.864Z",
+    "serviceName": "The Mirror",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.themirror.space/terms",
+        "select": [
+          "section.section"
+        ],
+        "remove": [
+          ".image-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9b8dbb73e4a9bf82702cb8259159690b4d190116"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"section.section\"]\" has no match in the web page at 'https://www.themirror.space/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
