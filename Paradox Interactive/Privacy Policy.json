@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:46.087Z",
+    "serviceName": "Paradox Interactive",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://legal.paradoxplaza.com/privacy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "aside"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d2c03d683aa879546acff46bdcda539edac92186"
+      }
+    ]
+  }
+}
