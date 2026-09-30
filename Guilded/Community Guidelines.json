@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:08.067Z",
+    "serviceName": "Guilded",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360052815873-Community-Guidelines",
+        "fetch": "https://support.guilded.gg/hc/en-us/articles/360052815873-Community-Guidelines",
+        "select": [
+          ".main-article-content .article-title",
+          ".main-article-content .article-body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "42894dd8d686cc6705a558057142ddcc53079e21"
+      }
+    ]
+  }
+}
