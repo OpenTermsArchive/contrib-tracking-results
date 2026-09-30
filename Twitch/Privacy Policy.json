@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:33.024Z",
+    "serviceName": "Twitch",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-privacy-notice",
+        "fetch": "https://legal.twitch.com/en/legal/privacy-notice/",
+        "select": "#main-content",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c9787b10b85355b82a49e7be58085bfad3ce595e"
+      }
+    ]
+  }
+}
