@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:08.112Z",
+    "serviceName": "Yelp",
+    "sourceDocuments": [
+      {
+        "id": "privacy-en_gb-20200101_en_gb",
+        "fetch": "https://terms.yelp.com/privacy/en_gb/20200101_en_gb/",
+        "select": ".article",
+        "mimeType": "text/html",
+        "snapshotId": "a2b817a76986b1e0dcd50a14614ab62430fa7b06"
+      }
+    ]
+  }
+}
