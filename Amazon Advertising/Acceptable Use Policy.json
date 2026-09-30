@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:20.241Z",
+    "serviceName": "Amazon Advertising",
+    "sourceDocuments": [
+      {
+        "id": "resources-ad-policy-creative-acceptance",
+        "fetch": "https://advertising.amazon.com/resources/ad-policy/creative-acceptance",
+        "select": [
+          "div.help-content",
+          ".cs-help-content",
+          "#mainContent"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "59e09500f55a0f3bff0298a01990a35ed97fa194"
+      }
+    ]
+  }
+}
