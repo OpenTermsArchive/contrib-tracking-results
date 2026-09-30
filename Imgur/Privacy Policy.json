@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:42:53.522Z",
+    "serviceName": "Imgur",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://imgur.com/privacy",
+        "select": [
+          ".text-content"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://imgur.com/privacy'"
+    ]
+  }
+}
