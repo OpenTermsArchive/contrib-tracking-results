@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:13.229Z",
+    "serviceName": "Tinder",
+    "sourceDocuments": [
+      {
+        "id": "terms-intl-en",
+        "fetch": "https://policies.tinder.com/terms/intl/en",
+        "select": [
+          "[class^=TextContent]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b15382eea965554e0eca83d1d240b629f8e6e696"
+      }
+    ]
+  }
+}
