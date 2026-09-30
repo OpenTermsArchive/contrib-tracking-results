@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:50.256Z",
+    "serviceName": "Signal",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://www.signal.org/legal/",
+        "select": [
+          {
+            "startBefore": "#terms-of-service",
+            "endBefore": "#privacy-policy"
+          },
+          "#document p:nth-last-child(-n+2)"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "438faace6979ca3b452896acf35a9654ff08f2aa"
+      }
+    ]
+  }
+}
