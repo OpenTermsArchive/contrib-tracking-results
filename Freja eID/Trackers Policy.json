@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:22.661Z",
+    "serviceName": "Freja eID",
+    "sourceDocuments": [
+      {
+        "id": "en-cookie-policy",
+        "fetch": "https://org.frejaeid.com/en/cookie-policy/",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "08f43ea9c205fd24ac8db769ddea2cd3a01d68e5"
+      }
+    ]
+  }
+}
