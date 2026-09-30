@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:48.632Z",
+    "serviceName": "xHamster",
+    "sourceDocuments": [
+      {
+        "id": "info-eu-digital-services-act",
+        "fetch": "https://xhamster.com/info/eu-digital-services-act",
+        "select": [
+          "h1",
+          "article"
+        ],
+        "remove": [
+          ".header-wrapper",
+          ".footer-wrapper"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2b3e0f2c4888b495982a67e0526d33c369c841ab"
+      }
+    ]
+  }
+}
