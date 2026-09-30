@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:06.976Z",
+    "serviceName": "Optimize",
+    "sourceDocuments": [
+      {
+        "id": "optimize-answer-6230273",
+        "fetch": "https://support.google.com/optimize/answer/6230273?hl=en-GB",
+        "select": "section[class=article-container]",
+        "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "cb5a508f81546aab47a6d32f69c2180dd8242f92"
+      }
+    ]
+  }
+}
