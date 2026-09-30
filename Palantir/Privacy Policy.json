@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:38.583Z",
+    "serviceName": "Palantir",
+    "sourceDocuments": [
+      {
+        "id": "privacy-and-security",
+        "fetch": "https://www.palantir.com/privacy-and-security/",
+        "select": [
+          "main section"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2b6e478ce66bfeefe4869c71351e2db488b27b9a"
+      }
+    ]
+  }
+}
