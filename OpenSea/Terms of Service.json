@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:53.484Z",
+    "serviceName": "OpenSea",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://opensea.io/tos",
+        "select": [
+          "#main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4b2380952f84c908d4cba8eca2a50ac53d31320d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#main\"]\" has no match in the web page at 'https://opensea.io/tos'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
