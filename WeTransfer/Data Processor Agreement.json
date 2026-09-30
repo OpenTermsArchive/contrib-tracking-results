@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:54.360Z",
+    "serviceName": "WeTransfer",
+    "sourceDocuments": [
+      {
+        "id": "documents-WeTransfer_Data_Processing_Agreement",
+        "fetch": "https://wetransfer.com/documents/WeTransfer_Data_Processing_Agreement.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "b37a92c80beca1f08169593dd97c00b2997e870b"
+      }
+    ]
+  }
+}
