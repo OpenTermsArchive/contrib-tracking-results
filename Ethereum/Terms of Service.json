@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:57.508Z",
+    "serviceName": "Ethereum",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-of-use",
+        "fetch": "https://ethereum.org/en/terms-of-use/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          "aside",
+          "#main-content > div.mb-4.mt-8.flex.w-full.flex-col.rounded.border.border-body-light.bg-feedback-gradient.p-6"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2f28c9776cc2d4aa40db793142294ae0c731b75d"
+      }
+    ]
+  }
+}
