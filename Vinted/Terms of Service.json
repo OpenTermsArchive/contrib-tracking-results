@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:07:13.179Z",
+    "serviceName": "Vinted",
+    "sourceDocuments": [
+      {
+        "id": "terms_and_conditions",
+        "fetch": "https://www.vinted.com/terms_and_conditions",
+        "select": "section#content",
+        "mimeType": "text/html",
+        "snapshotId": "38ed9c1f1e0768419b1ab50921112e195a89cf6b"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"section#content\" has no match in the web page at 'https://www.vinted.com/terms_and_conditions'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
