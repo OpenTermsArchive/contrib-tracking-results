@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:40.831Z",
+    "serviceName": "YellowPages",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://corporate.thryv.com/terms-of-use/",
+        "select": [
+          ".wrapper-newsTop",
+          ".mx-auto"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8d9dfc6d059907b0a54d8c4da3ead0100089e261"
+      }
+    ]
+  }
+}
