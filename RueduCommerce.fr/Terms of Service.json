@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:41.408Z",
+    "serviceName": "RueduCommerce.fr",
+    "sourceDocuments": [
+      {
+        "id": "info-mentions-legales-cgu-gm",
+        "fetch": "https://www.rueducommerce.fr/info/mentions-legales/cgu-gm",
+        "select": "#cms",
+        "remove": [
+          "#cms-new-1019-line-1"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a42cfa7201a8fec7efba5f626032c91893603805"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#cms\" has no match in the web page at 'https://www.rueducommerce.fr/info/mentions-legales/cgu-gm'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
