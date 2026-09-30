@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:42.260Z",
+    "serviceName": "Steam",
+    "sourceDocuments": [
+      {
+        "id": "privacy_agreement",
+        "fetch": "https://store.steampowered.com/privacy_agreement/",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          ".breadcrumbs",
+          "#languages",
+          "#pageTitle img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f59b4984ec59858b6f3620296c95b77407333a44"
+      }
+    ]
+  }
+}
