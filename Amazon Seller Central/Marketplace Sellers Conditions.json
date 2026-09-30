@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:35.063Z",
+    "serviceName": "Amazon Seller Central",
+    "sourceDocuments": [
+      {
+        "id": "help-hub-reference-external-G1791",
+        "fetch": "https://sellercentral.amazon.com/help/hub/reference/external/G1791",
+        "select": [
+          "#full-help-page"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2f7c8fe5e1ee1f778192a96b35bb17ac9ab8639a"
+      }
+    ]
+  }
+}
