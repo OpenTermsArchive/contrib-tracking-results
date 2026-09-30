@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:38.155Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-203313410-Roblox-Community-Rules",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Rules",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".article-footer",
+          ".article-relatives"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a8176848dd0ecade54f6ee90f281f78966258d59"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Rules'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
