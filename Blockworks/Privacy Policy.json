@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:06.039Z",
+    "serviceName": "Blockworks",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://blockworks.co/privacy-policy",
+        "select": [
+          "article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "71c404ddb2be76284967207fab1c08ac60b50b18"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"article\"]\" has no match in the web page at 'https://blockworks.co/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
