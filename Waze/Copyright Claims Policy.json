@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:19.519Z",
+    "serviceName": "Waze",
+    "sourceDocuments": [
+      {
+        "id": "waze-answer-12075342",
+        "fetch": "https://support.google.com/waze/answer/12075342?hl=en",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "11fdee07e154661a8af8ff0f3ab4c7d920567fa9"
+      }
+    ]
+  }
+}
