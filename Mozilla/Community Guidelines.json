@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:36.132Z",
+    "serviceName": "Mozilla",
+    "sourceDocuments": [
+      {
+        "id": "en-GB-about-governance-policies-participation",
+        "fetch": "https://www.mozilla.org/en-GB/about/governance/policies/participation/",
+        "select": "article.mzp-c-article",
+        "mimeType": "text/html",
+        "snapshotId": "7e5d145e5d5c3eb6db30811ec25079f19b6828f6"
+      }
+    ]
+  }
+}
