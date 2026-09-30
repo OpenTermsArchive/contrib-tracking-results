@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:27.388Z",
+    "serviceName": "Solana",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://solana.com/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "img[aria-hidden=\"true\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f91dc680fa027c776ab34454a2cbfd90ba26e962"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://solana.com/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
