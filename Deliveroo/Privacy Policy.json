@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:27.497Z",
+    "serviceName": "Deliveroo",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://deliveroo.ie/privacy",
+        "select": [
+          ".StaticPage-39f477ca75232b6b"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5ce911f9096bc48cfd1b950f29f1879f7ff2f621"
+      }
+    ]
+  }
+}
