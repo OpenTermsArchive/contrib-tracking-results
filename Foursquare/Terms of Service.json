@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:39:43.551Z",
+    "serviceName": "Foursquare",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://foursquare.com/legal/terms",
+        "select": "#blankPage",
+        "mimeType": "text/html",
+        "snapshotId": "ba98a7ef8f8a18948bcbbf8708d748122dd46e4a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#blankPage\" has no match in the web page at 'https://foursquare.com/legal/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
