@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:26.816Z",
+    "serviceName": "NordVPN",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "footer"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f1036425ddbb6c3f9b090f3c3d32357a2ba23e1e"
+      }
+    ]
+  }
+}
