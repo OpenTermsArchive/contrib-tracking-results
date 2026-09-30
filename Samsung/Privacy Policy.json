@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:42.822Z",
+    "serviceName": "Samsung",
+    "sourceDocuments": [
+      {
+        "id": "ie-info-privacy",
+        "fetch": "https://www.samsung.com/ie/info/privacy/",
+        "select": "#content",
+        "mimeType": "text/html",
+        "snapshotId": "c6446375ec1a31ebcf02e50d76d9fc24ad2473ae"
+      }
+    ]
+  }
+}
