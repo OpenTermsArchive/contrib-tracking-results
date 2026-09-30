@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:05:01.558Z",
+    "serviceName": "UrbanDictionary.com",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://about.urbandictionary.com/tos",
+        "select": [
+          ".content.section .container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cdf215b7beadd0e581d53b0510819cce024ae152"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".content.section .container\"]\" has no match in the web page at 'https://about.urbandictionary.com/tos'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
