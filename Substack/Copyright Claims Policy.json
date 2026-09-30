@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:47.886Z",
+    "serviceName": "Substack",
+    "sourceDocuments": [
+      {
+        "id": "dispute",
+        "fetch": "https://substack.com/dispute",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": ".footer-wrap"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "6a200abb0d52bb450ea0d2200bdbf71e08043c23"
+      },
+      {
+        "id": "repeat_infringer",
+        "fetch": "https://substack.com/repeat_infringer",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": ".footer-wrap"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "82fb8fe2b62cfc8667f27e0ed62941ee68e8f266"
+      }
+    ]
+  }
+}
