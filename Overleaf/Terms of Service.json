@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:23.411Z",
+    "serviceName": "Overleaf",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://www.overleaf.com/legal",
+        "select": "#Terms",
+        "mimeType": "text/html",
+        "snapshotId": "c7afed1ff44caf5ccdd05e9fc023930ca3f1ddad"
+      }
+    ]
+  }
+}
