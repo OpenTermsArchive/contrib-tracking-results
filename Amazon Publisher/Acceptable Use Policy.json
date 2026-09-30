@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:32.204Z",
+    "serviceName": "Amazon Publisher",
+    "sourceDocuments": [
+      {
+        "id": "webpublisher-apsmanaged-apsprogrampolicy",
+        "fetch": "https://ams.amazon.com/webpublisher/apsmanaged/apsprogrampolicy.html",
+        "select": "#legalPage",
+        "mimeType": "text/html",
+        "snapshotId": "b418368325c18aeceb506b712e4f0bf07635b635"
+      }
+    ]
+  }
+}
