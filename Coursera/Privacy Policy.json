@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:07.173Z",
+    "serviceName": "Coursera",
+    "sourceDocuments": [
+      {
+        "id": "about-privacy",
+        "fetch": "https://www.coursera.org/about/privacy",
+        "select": "div.coursera-tos",
+        "remove": "ul:first-of-type",
+        "mimeType": "text/html",
+        "snapshotId": "629c1a0fecc440457078545b570dba2bf6b40a6d"
+      }
+    ]
+  }
+}
