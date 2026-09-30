@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:30.832Z",
+    "serviceName": "Discord",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://discord.com/terms",
+        "select": [
+          ".section-rich"
+        ],
+        "remove": [
+          ".archived-link",
+          ".link-terms"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "03b359b3361c959c719bc496a57777a067644c71"
+      }
+    ]
+  }
+}
