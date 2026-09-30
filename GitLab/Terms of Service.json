@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:35.840Z",
+    "serviceName": "GitLab",
+    "sourceDocuments": [
+      {
+        "id": "handbook-legal-policies-website-terms-of-use",
+        "fetch": "https://about.gitlab.com/handbook/legal/policies/website-terms-of-use/",
+        "select": "main .td-content",
+        "remove": ".text-muted",
+        "mimeType": "text/html",
+        "snapshotId": "5668944d38b9c5af38c21dbcb5d77b7b03d4e7b5"
+      }
+    ]
+  }
+}
