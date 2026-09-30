@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:55.686Z",
+    "serviceName": "Binance",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://www.binance.com/en/privacy",
+        "select": [
+          ".richtext-container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f76cb43866b3de319085334363e491f09d3cc0ce"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".richtext-container\"]\" has no match in the web page at 'https://www.binance.com/en/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
