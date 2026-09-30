@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:22.645Z",
+    "serviceName": "Nissan",
+    "sourceDocuments": [
+      {
+        "id": "EN-PRIVACY",
+        "fetch": "https://www.nissan-global.com/EN/PRIVACY/",
+        "select": "#area0",
+        "remove": ".c_breadcrumbs",
+        "mimeType": "text/html",
+        "snapshotId": "b5b94bc4e2b757f31bfc788c6330e9f1ee08dd1b"
+      }
+    ]
+  }
+}
