@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:05.327Z",
+    "serviceName": "Uschovna.cz",
+    "sourceDocuments": [
+      {
+        "id": "en-vseobecne_podminky_uschovna",
+        "fetch": "https://www.uschovna.cz/en/vseobecne_podminky_uschovna",
+        "select": [
+          "#podminky"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a21f047963de997dcd2c7ef9299c6b8bd52cb239"
+      }
+    ]
+  }
+}
