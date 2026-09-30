@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:30.417Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://www.linkedin.com/legal/privacy-policy",
+        "select": [
+          "#component-container"
+        ],
+        "remove": [
+          ".callout > svg",
+          ".expandable-section__header",
+          ".banner__image-container "
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7578d3833d4e2723395de5e414256efdb236ba21"
+      }
+    ]
+  }
+}
