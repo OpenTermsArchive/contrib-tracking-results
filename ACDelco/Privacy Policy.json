@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:19.575Z",
+    "serviceName": "ACDelco",
+    "sourceDocuments": [
+      {
+        "id": "privacy-statement",
+        "fetch": "https://www.gm.com/privacy-statement.html",
+        "select": ".gbs-page-body",
+        "mimeType": "text/html",
+        "snapshotId": "6dc41f9a79ee00876f5bc64cdcaf87276b9fec07"
+      }
+    ]
+  }
+}
