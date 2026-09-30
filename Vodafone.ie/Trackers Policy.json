@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:02.657Z",
+    "serviceName": "Vodafone.ie",
+    "sourceDocuments": [
+      {
+        "id": "privacy-cookie-policy",
+        "fetch": "https://n.vodafone.ie/privacy/cookie-policy.html",
+        "select": [
+          "#content"
+        ],
+        "remove": [
+          ".breadcrumbs__component",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e4d93c35eb0372e40901ec8a7111ed109bbc3839"
+      }
+    ]
+  }
+}
