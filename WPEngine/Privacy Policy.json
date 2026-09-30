@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:32.852Z",
+    "serviceName": "WPEngine",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://wpengine.com/legal/privacy/",
+        "select": "article",
+        "mimeType": "text/html",
+        "snapshotId": "fd8e9958380ebf2c7d9d91bf15537ae290cd1144"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"article\" has no match in the web page at 'https://wpengine.com/legal/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
