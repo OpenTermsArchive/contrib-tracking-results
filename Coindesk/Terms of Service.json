@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:00.353Z",
+    "serviceName": "Coindesk",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.coindesk.com/terms/",
+        "select": [
+          "[data-module-name=\"page\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7f8d21a86a9c3fdab989df7779e8f6f662924709"
+      }
+    ]
+  }
+}
