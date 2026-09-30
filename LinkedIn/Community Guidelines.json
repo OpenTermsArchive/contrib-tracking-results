@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:35.777Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-professional-community-policies",
+        "fetch": "https://www.linkedin.com/legal/professional-community-policies",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".banner__image-container",
+          ".component-standaloneImage"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "22d5d92031c6c08b796668bbb48848c6a65537dc"
+      }
+    ]
+  }
+}
