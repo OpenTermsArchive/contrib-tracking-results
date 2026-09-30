@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:31.735Z",
+    "serviceName": "GitHub",
+    "sourceDocuments": [
+      {
+        "id": "en-free-pro-team@latest-github-site-policy-dmca-takedown-policy",
+        "fetch": "https://docs.github.com/en/free-pro-team@latest/github/site-policy/dmca-takedown-policy",
+        "select": "div#article-contents",
+        "mimeType": "text/html",
+        "snapshotId": "218cf304ead34035981b20a7b58ef0efcdd409f6"
+      }
+    ]
+  }
+}
