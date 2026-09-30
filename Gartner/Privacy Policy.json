@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:26.347Z",
+    "serviceName": "Gartner",
+    "sourceDocuments": [
+      {
+        "id": "en-about-policies-privacy",
+        "fetch": "https://www.gartner.com/en/about/policies/privacy",
+        "select": ".col-lg-9.col-md-9.col-sm-12.col-xs-12",
+        "mimeType": "text/html",
+        "snapshotId": "f30b8de4c3d89b86bf61541f6ba4c8c75ef15385"
+      }
+    ]
+  }
+}
