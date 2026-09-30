@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:04.479Z",
+    "serviceName": "ASKfm",
+    "sourceDocuments": [
+      {
+        "id": "docs-privacy_policy",
+        "fetch": "https://ask.fm/docs/privacy_policy/?lang=en",
+        "select": "section.container",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://ask.fm/docs/privacy_policy/?lang=en'"
+    ]
+  }
+}
