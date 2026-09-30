@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:02.546Z",
+    "serviceName": "Blizzard Entertainment",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-legal-8c41e7e6-0b61-42c4-a674-c91d8e8d68d3-blizzard-entertainment-privacy-policy",
+        "fetch": "https://www.blizzard.com/en-gb/legal/8c41e7e6-0b61-42c4-a674-c91d8e8d68d3/blizzard-entertainment-privacy-policy",
+        "select": "div.legalDocContent",
+        "mimeType": "text/html",
+        "snapshotId": "8448a29ce8ab75147624cabdce0433930ece1e03"
+      }
+    ]
+  }
+}
