@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:20.128Z",
+    "serviceName": "We Heart It",
+    "sourceDocuments": [
+      {
+        "id": "about-terms-of-service",
+        "fetch": "https://weheartit.com/about/terms-of-service",
+        "select": "div.cel:nth-child(2)",
+        "mimeType": "text/html",
+        "snapshotId": "04c22cf710dc885c61303029e256f288f1328193"
+      }
+    ]
+  }
+}
