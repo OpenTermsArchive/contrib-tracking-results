@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:58.132Z",
+    "serviceName": "ArtStation",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://www.artstation.com/tos",
+        "select": [
+          ".container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "89f83b3d7482445efc8297542cefdeb5c8e49557"
+      }
+    ]
+  }
+}
