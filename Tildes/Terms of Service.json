@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:08.325Z",
+    "serviceName": "Tildes",
+    "sourceDocuments": [
+      {
+        "id": "policies-terms-of-use",
+        "fetch": "https://docs.tildes.net/policies/terms-of-use",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".breadcrumb",
+          ".date-info > a",
+          ".toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "db2e2e8177c8ced9979d8e67b966e9cf7eace6b3"
+      }
+    ]
+  }
+}
