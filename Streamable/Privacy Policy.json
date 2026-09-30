@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:56:42.577Z",
+    "serviceName": "Streamable",
+    "sourceDocuments": [
+      {
+        "id": "",
+        "fetch": "https://privacy.streamable.com/",
+        "select": [
+          ".jumbotron",
+          ".main"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ERR_TLS_CERT_ALTNAME_INVALID occurred when trying to fetch 'https://privacy.streamable.com/'"
+    ]
+  }
+}
