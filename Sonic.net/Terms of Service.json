@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:30.471Z",
+    "serviceName": "Sonic.net",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-235963988-Sonic-net-Policies",
+        "fetch": "https://help.sonic.com/hc/en-us/articles/235963988-Sonic-net-Policies",
+        "select": ".article-header, .article-content",
+        "remove": ".article-author, .article-subscribe",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ab0fc5b4a0268ffb170bcd7514f042494df26c08"
+      }
+    ]
+  }
+}
