@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:13.234Z",
+    "serviceName": "Freja eID",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-and-conditions",
+        "fetch": "https://frejaeid.com/en/terms-and-conditions/",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cfa7700afed691d8166dec3192478024c3942faf"
+      }
+    ]
+  }
+}
