@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:40.044Z",
+    "serviceName": "AdSense",
+    "sourceDocuments": [
+      {
+        "id": "adsense-tc-2018-UnitedKingdom",
+        "fetch": "https://www.google.com/adsense/tc/2018/UnitedKingdom.html",
+        "select": "body",
+        "mimeType": "text/html",
+        "snapshotId": "39729257a42bb078d501d56e9eb134f433babc30"
+      }
+    ]
+  }
+}
