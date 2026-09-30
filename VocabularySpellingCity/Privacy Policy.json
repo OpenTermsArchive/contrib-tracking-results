@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:07:40.635Z",
+    "serviceName": "VocabularySpellingCity",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.spellingcity.com/privacy-policy.html",
+        "select": [
+          "#wp-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e5a3fd8d2aa444290a9d888a5aba7cdcd53fffbb"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#wp-main\"]\" has no match in the web page at 'https://www.spellingcity.com/privacy-policy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
