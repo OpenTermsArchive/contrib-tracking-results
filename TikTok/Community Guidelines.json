@@ -1,0 +1,167 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:56.750Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "community-guidelines",
+        "fetch": "https://www.tiktok.com/community-guidelines?lang=en",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2c704ce2f3448c71bd7d2036d2ec713efac3315e"
+      },
+      {
+        "id": "community-guidelines-en-community-principles",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/community-principles/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "667718575a1c9a2d23c1a59c5705474d1692a008"
+      },
+      {
+        "id": "community-guidelines-en-youth-safety",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/youth-safety/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "08197157d161f991506d8b4028383aeb12dc1cbf"
+      },
+      {
+        "id": "community-guidelines-en-safety-civility",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/safety-civility/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "118d209c4a43d60455e2246b743f02884ed1c8e9"
+      },
+      {
+        "id": "community-guidelines-en-mental-behavioral-health",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e5602f456fbe8cc417556eb71275cbb6e86e5f68"
+      },
+      {
+        "id": "community-guidelines-en-sensitive-mature-themes",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "402c0fd66fbcd478633f3080b889e96af15b1e83"
+      },
+      {
+        "id": "community-guidelines-en-integrity-authenticity",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/integrity-authenticity/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8a0a4c6aaa7fe18684c959de37f1bae18d68e350"
+      },
+      {
+        "id": "community-guidelines-en-regulated-commercial-activities",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7f87481021e9c70c1ca6688a7b058c95994830b6"
+      },
+      {
+        "id": "community-guidelines-en-privacy-security",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/privacy-security/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9d4c5371f3aa9728694baa04fd188c3113c0b43e"
+      },
+      {
+        "id": "community-guidelines-en-fyf-standards",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/fyf-standards/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5b369eea2d4bafcebd276593116b9c81f472c64e"
+      },
+      {
+        "id": "community-guidelines-en-accounts-features",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/accounts-features/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5bdc58bf7503479b11250e4f9f49e5b892657854"
+      },
+      {
+        "id": "community-guidelines-en-enforcement",
+        "fetch": "https://www.tiktok.com/community-guidelines/en/enforcement/",
+        "select": [
+          "#community-guidelines"
+        ],
+        "remove": [
+          ".icon"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a34cde3a9d5dd19c691f6755ee9db192231c9003"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines?lang=en'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/community-principles/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/youth-safety/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/safety-civility/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/mental-behavioral-health/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/sensitive-mature-themes/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/integrity-authenticity/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/regulated-commercial-activities/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/privacy-security/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/fyf-standards/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/accounts-features/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"#community-guidelines\"]\" has no match in the web page at 'https://www.tiktok.com/community-guidelines/en/enforcement/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
