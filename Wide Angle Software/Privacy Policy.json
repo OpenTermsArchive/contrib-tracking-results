@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:08:58.666Z",
+    "serviceName": "Wide Angle Software",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.wideanglesoftware.com/privacy/",
+        "select": [
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8902e38f5f43b952e9391039d919f5b8743d214d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".content\"]\" has no match in the web page at 'https://www.wideanglesoftware.com/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
