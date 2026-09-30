@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:13.722Z",
+    "serviceName": "Facebook Payments",
+    "sourceDocuments": [
+      {
+        "id": "policy-credits",
+        "fetch": "https://developers.facebook.com/policy/credits",
+        "select": "._4bl7, ._4bl9",
+        "filter": [
+          "cleanUrls",
+          "numberListCorrectly",
+          "correctTitleIndentation"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a9ff5d28b9d8f469ec0f03d6b9a71e825598c757"
+      }
+    ]
+  }
+}
