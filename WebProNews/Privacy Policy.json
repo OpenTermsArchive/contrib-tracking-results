@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:23.910Z",
+    "serviceName": "WebProNews",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.webpronews.com/privacy-policy/",
+        "select": "body.page",
+        "remove": [
+          ".header-top",
+          ".header",
+          ".overlay-menu",
+          ".home-nl-bar",
+          ".pop-media-kit",
+          ".chat-bubble",
+          ".footer",
+          "#mediakit",
+          "#mymodal"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "04ea5a07c37c9aea7d04813fd78385203dbdd9e6"
+      }
+    ]
+  }
+}
