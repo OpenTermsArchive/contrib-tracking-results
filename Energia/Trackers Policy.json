@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:53.603Z",
+    "serviceName": "Energia",
+    "sourceDocuments": [
+      {
+        "id": "home-cookie-policy",
+        "fetch": "https://www.energia.ie/home/cookie-policy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8e50753d5110e855e99a30a3c2cf94f62b52c32b"
+      }
+    ]
+  }
+}
