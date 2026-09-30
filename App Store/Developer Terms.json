@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:33:44.764Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "support-downloads-terms-apple-developer-agreement-Apple-Developer-Agreement-20240610-English",
+        "fetch": "https://developer.apple.com/support/downloads/terms/apple-developer-agreement/Apple-Developer-Agreement-20240610-English.pdf",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://developer.apple.com/support/downloads/terms/apple-developer-agreement/Apple-Developer-Agreement-20240610-English.pdf'"
+    ]
+  }
+}
