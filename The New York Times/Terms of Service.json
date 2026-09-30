@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:04.210Z",
+    "serviceName": "The New York Times",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-115014893428-Terms-of-service",
+        "fetch": "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service",
+        "select": "div.article-body",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4a6de91a726b64c57f0db40fd8608bff411fe4c3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div.article-body\" has no match in the web page at 'https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-service'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
