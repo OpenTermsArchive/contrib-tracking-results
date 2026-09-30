@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:47.054Z",
+    "serviceName": "AdSense",
+    "sourceDocuments": [
+      {
+        "id": "technologies-ads",
+        "fetch": "https://policies.google.com/technologies/ads",
+        "select": "div[role=article]",
+        "mimeType": "text/html",
+        "snapshotId": "81df1c43512b353c998e8ef04e7e3b2acb727b8d"
+      }
+    ]
+  }
+}
