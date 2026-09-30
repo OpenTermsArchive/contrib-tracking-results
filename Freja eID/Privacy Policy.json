@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:17.883Z",
+    "serviceName": "Freja eID",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://frejaeid.com/en/privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6e5dbda559a753f7a927a2bb4adb89b9c6394e9d"
+      }
+    ]
+  }
+}
