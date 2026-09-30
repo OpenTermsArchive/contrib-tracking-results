@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:33.246Z",
+    "serviceName": "Disqus",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-1717103-disqus-privacy-policy",
+        "fetch": "https://help.disqus.com/en/articles/1717103-disqus-privacy-policy",
+        "select": ".article",
+        "remove": [
+          ".article__meta",
+          ".avatar__photo"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "expires",
+              "req",
+              "signature"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "75e4d9c07f1b0d5c4c1b1317440b0a61525b7c95"
+      }
+    ]
+  }
+}
