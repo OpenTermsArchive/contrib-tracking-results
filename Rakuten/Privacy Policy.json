@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:50:59.068Z",
+    "serviceName": "Rakuten",
+    "sourceDocuments": [
+      {
+        "id": "newhelp-vie-privee-et-cookies",
+        "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
+        "select": "#post-2785",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a2e8c03894abc4da9dfb77e38132aa211d3160db"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#post-2785\" has no match in the web page at 'https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
