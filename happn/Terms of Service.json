@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:17.612Z",
+    "serviceName": "happn",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-p-terms",
+        "fetch": "https://support.happn.fr/hc/en-us/p/terms",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5b3a3c95ac474a32233265255d0eaa83ef284253"
+      }
+    ]
+  }
+}
