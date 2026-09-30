@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:20.416Z",
+    "serviceName": "happn",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-p-cookies",
+        "fetch": "https://support.happn.fr/hc/en-us/p/cookies",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6aa8b0c90240b41d588194ef82eea3a744e7e74f"
+      }
+    ]
+  }
+}
