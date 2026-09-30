@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:45.983Z",
+    "serviceName": "Rakuten",
+    "sourceDocuments": [
+      {
+        "id": "newhelp-conditions-generales",
+        "fetch": "https://fr.shopping.rakuten.com/newhelp/conditions-generales/",
+        "select": [
+          "#main-content .article-title",
+          "#main-content .article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "51f2f256e3ed68a5e4d0dbf0f1dbb06787c2cd0a"
+      }
+    ]
+  }
+}
