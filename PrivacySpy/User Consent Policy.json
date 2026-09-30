@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:07.561Z",
+    "serviceName": "PrivacySpy",
+    "sourceDocuments": [
+      {
+        "id": "conduct",
+        "fetch": "https://privacyspy.org/conduct/",
+        "select": [
+          ".max-w-2xl"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "93a520be5e321ccd9bebb59882b86d65869bc6ab"
+      }
+    ]
+  }
+}
