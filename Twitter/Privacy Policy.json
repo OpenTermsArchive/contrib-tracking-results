@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:37.319Z",
+    "serviceName": "Twitter",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://twitter.com/en/privacy",
+        "select": [
+          "#twtr-main"
+        ],
+        "remove": [
+          ".ct01__background-img",
+          ".twtr-hidden--lg",
+          ".ct07__dropdown-item",
+          ".ct07__side-nav",
+          "[aria-hidden=\"true\"]",
+          ".b04__image",
+          ".ct17-banner-container"
+        ],
+        "filter": [
+          "removeEmptyLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "35790dafc764fec1c84e91c0c6b18540eed3dca4"
+      }
+    ]
+  }
+}
