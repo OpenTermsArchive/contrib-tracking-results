@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:12.085Z",
+    "serviceName": "Kick",
+    "sourceDocuments": [
+      {
+        "id": "community-guidelines",
+        "fetch": "https://kick.com/community-guidelines",
+        "select": ".markdown-policy-page",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b33bc658fd48a94d49277c4252378a5855536dde"
+      }
+    ]
+  }
+}
