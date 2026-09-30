@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:03.997Z",
+    "serviceName": "VR",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://www.vr.fi/en/privacy",
+        "select": "#maincontent",
+        "remove": [
+          "[class^=\"ContentfulFullwidthImageHeader\"]",
+          "[class^=\"ContentfulTwoColumnInfo\"]",
+          "[class^=\"ContentfulRichTextWithImage\"] > img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b25e222473ceba8a2e1b5373705bb6abf44ea707"
+      }
+    ]
+  }
+}
