@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:22.184Z",
+    "serviceName": "Scalingo",
+    "sourceDocuments": [
+      {
+        "id": "data-processing-agreement",
+        "fetch": "https://scalingo.com/data-processing-agreement",
+        "select": [
+          "h1",
+          ".markdown-legal"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cf2c4b94fab40963c12de0acf86bf80dc2234351"
+      }
+    ]
+  }
+}
