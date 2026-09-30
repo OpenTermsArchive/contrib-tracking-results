@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:33.379Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "api-terms-of-use",
+        "fetch": "https://legal.linkedin.com/api-terms-of-use",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2e48d614b445176a6366363317c23d0239c0144d"
+      }
+    ]
+  }
+}
