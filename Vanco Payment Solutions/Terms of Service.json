@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:25.644Z",
+    "serviceName": "Vanco Payment Solutions",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://www.vancopayments.com/terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".expanders",
+          ".module--padding-top-small"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "39ff2630d7716c5ff83ac11a8ec65ae88a391156"
+      }
+    ]
+  }
+}
