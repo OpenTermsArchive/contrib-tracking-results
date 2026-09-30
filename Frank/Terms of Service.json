@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:07.452Z",
+    "serviceName": "Frank",
+    "sourceDocuments": [
+      {
+        "id": "en-terms",
+        "fetch": "https://www.frank.fi/en/terms/",
+        "select": [
+          {
+            "startBefore": "hr ~ p",
+            "endBefore": "hr:nth-of-type(2)"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "886b0f5006ffd7ab4ba0ea0d26d8cda86742ba9b"
+      }
+    ]
+  }
+}
