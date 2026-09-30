@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:25.391Z",
+    "serviceName": "Amazon Maps",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201544030",
+        "select": "div.help-content",
+        "mimeType": "text/html",
+        "snapshotId": "3e5e14bba0be97aa065a7f5e574b647502b140fc"
+      }
+    ]
+  }
+}
