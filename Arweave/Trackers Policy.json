@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:02.926Z",
+    "serviceName": "Arweave",
+    "sourceDocuments": [
+      {
+        "id": "legal-policies",
+        "fetch": "https://www.arweave.org/legal-policies",
+        "select": [
+          "#legal .my-6.mb-16:nth-of-type(2)"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9f344b61dd2a4d521be35219f2260023b4622e8f"
+      }
+    ]
+  }
+}
