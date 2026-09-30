@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:24.309Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://telegram.org/tos",
+        "select": ".tl_page_container",
+        "mimeType": "text/html",
+        "snapshotId": "282c67bed2953584069d1a37848cab9548ea3b7b"
+      },
+      {
+        "id": "faq",
+        "fetch": "https://telegram.org/faq?setln=en",
+        "select": ".tl_page_container",
+        "remove": [
+          "img",
+          "video"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "dba46104ea7125de8dcedf363697654ddd6d0a1b"
+      }
+    ]
+  }
+}
