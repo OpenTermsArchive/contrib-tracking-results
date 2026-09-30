@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:38:02.009Z",
+    "serviceName": "Evernote",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://evernote.com/legal/terms-of-service",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1d35d91e551850ec167ca44dd1ed65c36d77d256"
+      }
+    ]
+  }
+}
