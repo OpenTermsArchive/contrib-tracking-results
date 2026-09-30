@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:32:44.351Z",
+    "serviceName": "Allrecipes",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.meredith.com/legal/terms",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "14f64160c26a3642162289547cd23b310cd91fdd"
+      }
+    ]
+  }
+}
