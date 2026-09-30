@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:28.294Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "faq",
+        "fetch": "https://telegram.org/faq?setln=en",
+        "select": [
+          {
+            "startBefore": "[name=q-a-bot-or-channel-is-infringing-on-my-copyright-what-do-i-do]",
+            "endBefore": "[name=q-do-you-process-take-down-requests-from-third-parties]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e1186abb600b785142cbd94d228bc5a9995a663f"
+      }
+    ]
+  }
+}
