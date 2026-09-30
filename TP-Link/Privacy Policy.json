@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:23.578Z",
+    "serviceName": "TP-Link",
+    "sourceDocuments": [
+      {
+        "id": "en-about-us-privacy",
+        "fetch": "https://www.tp-link.com/en/about-us/privacy/",
+        "select": [
+          {
+            "startBefore": "[name=sec_a]",
+            "endBefore": "[name=sec_b]"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3032e208fc1bb991f9660e12ce877d223164effa"
+      }
+    ]
+  }
+}
