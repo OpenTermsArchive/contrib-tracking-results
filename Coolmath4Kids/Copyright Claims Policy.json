@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:37:04.782Z",
+    "serviceName": "Coolmath4Kids",
+    "sourceDocuments": [
+      {
+        "id": "fairuse",
+        "fetch": "https://www.coolmath4kids.com/fairuse",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5f6af8f019b06d076a692cebce541cafc32d21bc"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#content\"]\" has no match in the web page at 'https://www.coolmath4kids.com/fairuse'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
