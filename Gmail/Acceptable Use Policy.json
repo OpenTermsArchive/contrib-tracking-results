@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:40:41.545Z",
+    "serviceName": "Gmail",
+    "sourceDocuments": [
+      {
+        "id": "gmail-about-policy",
+        "fetch": "https://www.google.com/gmail/about/policy/?hl=en_GB",
+        "select": ".policy__content",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.google.com/gmail/about/policy/?hl=en_GB'"
+    ]
+  }
+}
