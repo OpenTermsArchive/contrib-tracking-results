@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:48.344Z",
+    "serviceName": "WeTransfer",
+    "sourceDocuments": [
+      {
+        "id": "explore-legal-takedown",
+        "fetch": "https://wetransfer.com/explore/legal/takedown",
+        "select": [
+          ".ui-legal__content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d35a4a4bf67498e6620ce93c3eaae958a0cac820"
+      }
+    ]
+  }
+}
