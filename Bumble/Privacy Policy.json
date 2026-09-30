@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:18.206Z",
+    "serviceName": "Bumble",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://bumble.com/en/privacy",
+        "select": [
+          ".formatted-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "722b447fb030a63a6f3a7549166197d650ced3d3"
+      }
+    ]
+  }
+}
