@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:20.525Z",
+    "serviceName": "Google Analytics",
+    "sourceDocuments": [
+      {
+        "id": "analytics-answer-9012600",
+        "fetch": "https://support.google.com/analytics/answer/9012600",
+        "select": ".article-container",
+        "mimeType": "text/html",
+        "snapshotId": "c96be547c86b6d4351bb05965df3f8bac0827f9f"
+      }
+    ]
+  }
+}
