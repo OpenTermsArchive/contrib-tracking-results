@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:16.796Z",
+    "serviceName": "Crunchyroll",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://intl.sonypictures.com/en/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".print-pdf-link"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a02a1b796f223265ef897841af86bec009b904f8"
+      }
+    ]
+  }
+}
