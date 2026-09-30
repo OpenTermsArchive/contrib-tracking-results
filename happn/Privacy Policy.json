@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:18.993Z",
+    "serviceName": "happn",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-p-privacy",
+        "fetch": "https://support.happn.fr/hc/en-us/p/privacy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "62c241a62b64a4de0ed83dd59f8226846eea86c5"
+      }
+    ]
+  }
+}
