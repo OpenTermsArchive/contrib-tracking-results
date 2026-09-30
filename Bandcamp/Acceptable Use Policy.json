@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:15.126Z",
+    "serviceName": "Bandcamp",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-23005947027991-Bandcamp-s-Acceptable-Use-and-Moderation-policy",
+        "fetch": "https://get.bandcamp.help/hc/en-us/articles/23005947027991-Bandcamp-s-Acceptable-Use-and-Moderation-policy",
+        "select": ".article",
+        "remove": [
+          ".article footer",
+          ".article-relatives"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0fa4dcdd3c1f2deb4ebbe2c7ef24f7affbc515b6"
+      }
+    ]
+  }
+}
