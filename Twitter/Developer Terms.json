@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:00:38.252Z",
+    "serviceName": "Twitter",
+    "sourceDocuments": [
+      {
+        "id": "en-developer-terms-agreement",
+        "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
+        "select": [
+          "#twtr-main"
+        ],
+        "remove": [
+          ".u07"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7bb1cf11f973257c8fcc815a63a484f34a9c3952"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#twtr-main\"]\" has no match in the web page at 'https://developer.twitter.com/en/developer-terms/agreement'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
