@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:28.460Z",
+    "serviceName": "Google Cloud Platform",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://cloud.google.com/terms/",
+        "select": [
+          ".devsite-article"
+        ],
+        "remove": [
+          ".cws-breadcrumb"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "153074ea8653a6e5ae57ec313d303e7463d28556"
+      }
+    ]
+  }
+}
