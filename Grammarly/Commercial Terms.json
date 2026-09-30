@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:02.836Z",
+    "serviceName": "Grammarly",
+    "sourceDocuments": [
+      {
+        "id": "terms-customer-business-agreement",
+        "fetch": "https://www.grammarly.com/terms/customer-business-agreement",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "h2 br"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5ff12dc51a20adfaca5b2aae1896a841b15c79ff"
+      }
+    ]
+  }
+}
