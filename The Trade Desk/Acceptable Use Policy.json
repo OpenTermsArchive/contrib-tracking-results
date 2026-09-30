@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:14.594Z",
+    "serviceName": "The Trade Desk",
+    "sourceDocuments": [
+      {
+        "id": "us-inventory-supplier-agreement",
+        "fetch": "https://www.thetradedesk.com/us/inventory-supplier-agreement",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e205fb351f0c8b0d7f67bf2aab4168dac0ce85ca"
+      }
+    ]
+  }
+}
