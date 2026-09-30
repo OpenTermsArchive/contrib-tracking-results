@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:39:42.650Z",
+    "serviceName": "Forbes",
+    "sourceDocuments": [
+      {
+        "id": "privacy-english",
+        "fetch": "https://www.forbes.com/privacy/english/#1a05e1630610",
+        "select": "#row-2",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "35eb9cebdb8c312a974b2e8fac059a1b588d5c78"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#row-2\" has no match in the web page at 'https://www.forbes.com/privacy/english/#1a05e1630610'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
