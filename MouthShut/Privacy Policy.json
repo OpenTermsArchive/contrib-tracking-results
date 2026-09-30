@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:13:44.651Z",
+    "serviceName": "MouthShut",
+    "sourceDocuments": [
+      {
+        "id": "help-privacy",
+        "fetch": "https://www.mouthshut.com/help/privacy.php",
+        "select": [
+          ".box-module"
+        ],
+        "remove": [
+          ".breadcrumb"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.mouthshut.com/help/privacy.php'"
+    ]
+  }
+}
