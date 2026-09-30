@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:48.303Z",
+    "serviceName": "AdSupply",
+    "sourceDocuments": [
+      {
+        "id": "advertiser-publisher-terms",
+        "fetch": "https://www.adsupply.com/advertiser-publisher-terms/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "77e6726a7a449a20ea17badab9d840d3935fa926"
+      }
+    ]
+  }
+}
