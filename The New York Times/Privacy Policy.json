@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:51.321Z",
+    "serviceName": "The New York Times",
+    "sourceDocuments": [
+      {
+        "id": "privacy-privacy-policy",
+        "fetch": "https://www.nytimes.com/privacy/privacy-policy",
+        "select": "div.css-15slb7",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "051f83c74feb88dcc2db6cb274dd1d8713d9b430"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div.css-15slb7\" has no match in the web page at 'https://www.nytimes.com/privacy/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
