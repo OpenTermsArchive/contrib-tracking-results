@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:16.182Z",
+    "serviceName": "Crunchyroll",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://www.crunchyroll.com/tos/",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9b955cc13133624150fe36c7b787b654b1a1b772"
+      }
+    ]
+  }
+}
