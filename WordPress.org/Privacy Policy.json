@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:05.437Z",
+    "serviceName": "WordPress.org",
+    "sourceDocuments": [
+      {
+        "id": "about-privacy",
+        "fetch": "https://wordpress.org/about/privacy/",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "8d14d499a0cc25d8876e403ef997d1e03e5c4516"
+      }
+    ]
+  }
+}
