@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:34.329Z",
+    "serviceName": "WPEngine",
+    "sourceDocuments": [
+      {
+        "id": "legal-dpa",
+        "fetch": "https://wpengine.com/legal/dpa/",
+        "select": "article",
+        "mimeType": "text/html",
+        "snapshotId": "73124fb810aba6f8fd5242aefeca7c410f5abae7"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"article\" has no match in the web page at 'https://wpengine.com/legal/dpa/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
