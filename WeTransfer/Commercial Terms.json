@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:45.600Z",
+    "serviceName": "WeTransfer",
+    "sourceDocuments": [
+      {
+        "id": "explore-legal-advertising",
+        "fetch": "https://wetransfer.com/explore/legal/advertising",
+        "select": [
+          ".ui-legal__content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "77092c48a34434552d118c824c10e8dbd4116d6f"
+      }
+    ]
+  }
+}
