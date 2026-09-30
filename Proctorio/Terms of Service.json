@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:50:21.341Z",
+    "serviceName": "Proctorio",
+    "sourceDocuments": [
+      {
+        "id": "policies",
+        "fetch": "https://proctorio.com/policies#all&all&tos&section-termsofservice",
+        "select": [
+          "#content #section-termsofservice"
+        ],
+        "remove": [
+          ".section-summary-illustration"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "304426ccb3cb324ff059b6315fbc22699b6d0a4e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#content #section-termsofservice\"]\" has no match in the web page at 'https://proctorio.com/policies#all&all&tos&section-termsofservice'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
