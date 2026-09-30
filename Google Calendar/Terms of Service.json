@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:24.689Z",
+    "serviceName": "Google Calendar",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://policies.google.com/terms?hl=en-GB",
+        "select": "div[role=article]",
+        "remove": "img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          },
+          "removeCountryVersion"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8df28de15151c41a75898967290037ffebd96478"
+      }
+    ]
+  }
+}
