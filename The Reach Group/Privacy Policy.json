@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:07.199Z",
+    "serviceName": "The Reach Group",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-statement",
+        "fetch": "https://trg.de/en/privacy-statement/",
+        "select": [
+          ".elementor-element-b031a73"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d563ce8160b25074d32ef727dcc87bb7620f51ee"
+      }
+    ]
+  }
+}
