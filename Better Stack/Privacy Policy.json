@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:33.234Z",
+    "serviceName": "Better Stack",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://betterstack.com/privacy",
+        "select": "section.container",
+        "mimeType": "text/html",
+        "snapshotId": "d209bd4b9d847fde8d59f061ff46a43f7df03abd"
+      }
+    ]
+  }
+}
