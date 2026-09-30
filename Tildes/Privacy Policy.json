@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:03.990Z",
+    "serviceName": "Tildes",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy-policy",
+        "fetch": "https://docs.tildes.net/policies/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".breadcrumb",
+          ".toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b027f1c47d04c2ae0b04c5fe471123c3a5fec24f"
+      }
+    ]
+  }
+}
