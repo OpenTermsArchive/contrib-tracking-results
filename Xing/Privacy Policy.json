@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:49.657Z",
+    "serviceName": "Xing",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy-printable-version",
+        "fetch": "https://privacy.xing.com/en/privacy-policy/printable-version",
+        "select": ".data-protection-longversion-h1, .data-protection-long-version-content",
+        "mimeType": "text/html",
+        "snapshotId": "f1cf0e2177bfab798cec9a19c21eb1cbaa4d0a79"
+      }
+    ]
+  }
+}
