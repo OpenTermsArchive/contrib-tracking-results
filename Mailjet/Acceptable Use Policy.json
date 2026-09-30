@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:45.338Z",
+    "serviceName": "Mailjet",
+    "sourceDocuments": [
+      {
+        "id": "legal-sending-policy",
+        "fetch": "https://www.mailjet.com/legal/sending-policy/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "656adedd393fa66f5ac9201760a755a92d6ee104"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.mailjet.com/legal/sending-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
