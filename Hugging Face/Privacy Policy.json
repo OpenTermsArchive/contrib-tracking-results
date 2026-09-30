@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:41.064Z",
+    "serviceName": "Hugging Face",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://huggingface.co/privacy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3b2986ecfecff7c320043adfa2c57a8d74446b1b"
+      }
+    ]
+  }
+}
