@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:34.918Z",
+    "serviceName": "Mozilla",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-websites",
+        "fetch": "https://www.mozilla.org/en-US/privacy/websites/",
+        "select": "main",
+        "remove": ".privacy-logo",
+        "mimeType": "text/html",
+        "snapshotId": "e067331c25e0354ee4a283f6fa0d9623a2f00d16"
+      }
+    ]
+  }
+}
