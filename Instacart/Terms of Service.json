@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:05.778Z",
+    "serviceName": "Instacart",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.instacart.com/terms",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bb52bf3e0a71948b8c6633ff54672a44fedb8784"
+      }
+    ]
+  }
+}
