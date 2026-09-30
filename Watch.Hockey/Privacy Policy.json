@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:15:44.959Z",
+    "serviceName": "Watch.Hockey",
+    "sourceDocuments": [
+      {
+        "id": "Privacy_Notice",
+        "fetch": "https://fih-vpc-images-fih-nagra.s3.amazonaws.com/Privacy_Notice.htm",
+        "select": [
+          ".WordSection1"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://fih-vpc-images-fih-nagra.s3.amazonaws.com/Privacy_Notice.htm'"
+    ]
+  }
+}
