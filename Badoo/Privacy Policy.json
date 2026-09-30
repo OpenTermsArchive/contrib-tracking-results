@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:12.110Z",
+    "serviceName": "Badoo",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://badoo.com/privacy/",
+        "select": [
+          ".terms-view"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c00959e6d52cf01fea3d131da257e191bc8b5af1"
+      }
+    ]
+  }
+}
