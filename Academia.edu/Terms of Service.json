@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:15.080Z",
+    "serviceName": "Academia.edu",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.academia.edu/terms",
+        "select": "div.static-page-padded-content.no-reset",
+        "mimeType": "text/html",
+        "snapshotId": "2ba3a361d097f982f9807d97a13a2a8a37bb7372"
+      }
+    ]
+  }
+}
