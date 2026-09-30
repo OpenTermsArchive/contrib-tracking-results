@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:06.871Z",
+    "serviceName": "123Greetings",
+    "sourceDocuments": [
+      {
+        "id": "company-privacy_policy",
+        "fetch": "http://info.123greetings.com/company/privacy_policy.html",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          ".breadcrumb"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b47afe5588ecc964018599b5326c15b971aa5037"
+      }
+    ]
+  }
+}
