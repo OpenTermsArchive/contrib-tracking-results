@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:56.470Z",
+    "serviceName": "MediaFire",
+    "sourceDocuments": [
+      {
+        "id": "policies-terms_of_service",
+        "fetch": "https://www.mediafire.com/policies/terms_of_service.php",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3aa0cd15f8f5b2a27c620105b3b8b5a40b573be5"
+      }
+    ]
+  }
+}
