@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:07.787Z",
+    "serviceName": "The Register",
+    "sourceDocuments": [
+      {
+        "id": "Profile-terms_and_conditions_of_use",
+        "fetch": "https://www.theregister.com/Profile/terms_and_conditions_of_use/",
+        "select": [
+          "#article-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6bd594d8ebb2a5f5d2e2392eb10feae3e0c93400"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#article-wrapper\"]\" has no match in the web page at 'https://www.theregister.com/Profile/terms_and_conditions_of_use/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
