@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:45:01.308Z",
+    "serviceName": "Last.fm",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.last.fm/legal/terms",
+        "select": [
+          "#mantle_skin"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ae6080b5c8bc63d9c6e7ee4d8b2b8508dbd20bb0"
+      }
+    ]
+  }
+}
