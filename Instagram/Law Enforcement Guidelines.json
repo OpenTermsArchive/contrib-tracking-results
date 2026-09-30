@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:53.206Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "494561080557017",
+        "fetch": "https://help.instagram.com/494561080557017",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "div[aria-label=\"Copy Link\"]",
+          "[id='Related Articles']",
+          "fieldset"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "022bcfd2d1a3d624495b83dd1388ede6b64887cc"
+      }
+    ]
+  }
+}
