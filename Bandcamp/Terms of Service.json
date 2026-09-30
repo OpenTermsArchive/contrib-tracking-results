@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:13.383Z",
+    "serviceName": "Bandcamp",
+    "sourceDocuments": [
+      {
+        "id": "terms_of_use",
+        "fetch": "https://bandcamp.com/terms_of_use",
+        "select": [
+          "main.page-wrapper.app"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0fba0dfa271a4ab0c91141285075cec1f502a83b"
+      }
+    ]
+  }
+}
