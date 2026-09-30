@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:55.564Z",
+    "serviceName": "Arc",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://start.arc.net/terms-of-use",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".notion-navbar"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b763150cb718995063ccd38aa449ccd00aaf741b"
+      }
+    ]
+  }
+}
