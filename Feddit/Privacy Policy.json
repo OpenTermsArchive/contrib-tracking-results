@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:39:13.962Z",
+    "serviceName": "Feddit",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://feddit.de/legal",
+        "select": [
+          {
+            "endAfter": "#app .container-lg .md-div",
+            "startBefore": "#app .container-lg .md-div h2:nth-of-type(2)"
+          }
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://feddit.de/legal'"
+    ]
+  }
+}
