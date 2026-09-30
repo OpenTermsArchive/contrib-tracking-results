@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:59.106Z",
+    "serviceName": "Google Tag Manager",
+    "sourceDocuments": [
+      {
+        "id": "about-analytics-tag-manager-use-policy",
+        "fetch": "https://marketingplatform.google.com/about/analytics/tag-manager/use-policy/?hl=en_GB",
+        "select": ".terms-section",
+        "mimeType": "text/html",
+        "snapshotId": "10b9cd27acf93a41db2ccbf44bf392a2208d19b8"
+      }
+    ]
+  }
+}
