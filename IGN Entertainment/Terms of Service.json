@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:46.110Z",
+    "serviceName": "IGN Entertainment",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.ziffdavis.com/terms-of-use",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "02fa477de55cb11d1745da34f830faa8fa693eec"
+      }
+    ]
+  }
+}
