@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:15:45.724Z",
+    "serviceName": "Watch.Hockey",
+    "sourceDocuments": [
+      {
+        "id": "Terms_of_use",
+        "fetch": "https://fih-vpc-images-fih-nagra.s3.amazonaws.com/Terms_of_use.htm",
+        "select": [
+          ".WordSection1"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://fih-vpc-images-fih-nagra.s3.amazonaws.com/Terms_of_use.htm'"
+    ]
+  }
+}
