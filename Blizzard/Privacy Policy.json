@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:00.154Z",
+    "serviceName": "Blizzard",
+    "sourceDocuments": [
+      {
+        "id": "en-us-privacy",
+        "fetch": "https://www.blizzard.com/en-us/privacy",
+        "select": [
+          ".aadc-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3f08c80bf272454591740d082f539721518484a6"
+      }
+    ]
+  }
+}
