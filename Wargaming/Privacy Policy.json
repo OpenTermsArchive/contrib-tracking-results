@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:08:10.000Z",
+    "serviceName": "Wargaming",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://legal.eu.wargaming.net/en/privacy-policy/",
+        "select": [
+          ".docs-popup-wrapper"
+        ],
+        "remove": [
+          ".close-btn"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d5e7edfbe0610afccc359b97ee0f53933101f11c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".docs-popup-wrapper\"]\" has no match in the web page at 'https://legal.eu.wargaming.net/en/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
