@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:25.571Z",
+    "serviceName": "Firefox",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-firefox",
+        "fetch": "https://www.mozilla.org/en-US/privacy/firefox/",
+        "select": [
+          ".mzp-l-main"
+        ],
+        "remove": [
+          ".section2:last-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cfe93d2694bad140aeec773c934de987bd0114ba"
+      }
+    ]
+  }
+}
