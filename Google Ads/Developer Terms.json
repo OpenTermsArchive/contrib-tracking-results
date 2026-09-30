@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:13.756Z",
+    "serviceName": "Google Ads",
+    "sourceDocuments": [
+      {
+        "id": "adwords-api-docs-terms",
+        "fetch": "https://developers.google.com/adwords/api/docs/terms",
+        "select": ".devsite-article-body",
+        "remove": "style",
+        "mimeType": "text/html",
+        "snapshotId": "69c82444abff11a4889c1083a7e49e85b950f490"
+      }
+    ]
+  }
+}
