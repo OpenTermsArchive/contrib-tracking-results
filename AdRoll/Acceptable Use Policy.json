@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:31:38.649Z",
+    "serviceName": "AdRoll",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360031225371-Prohibited-Content-and-Practices-Inappropriate-Content",
+        "fetch": "https://help.adroll.com/hc/en-us/articles/360031225371-Prohibited-Content-and-Practices-Inappropriate-Content",
+        "select": [
+          ".hero-unit__title",
+          ".article__body"
+        ],
+        "remove": "img[src=\"/hc/article_attachments/360034521231/Ex.png\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3bdb320028213efde62da04d71ee8d87cbedb271"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".hero-unit__title\",\".article__body\"]\" has no match in the web page at 'https://help.adroll.com/hc/en-us/articles/360031225371-Prohibited-Content-and-Practices-Inappropriate-Content'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
