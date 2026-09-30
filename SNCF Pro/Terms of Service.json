@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:26.238Z",
+    "serviceName": "Contrat Pro SNCF",
+    "sourceDocuments": [
+      {
+        "id": "sncfcom-pdf-pro-CGU_Contrat-pro",
+        "fetch": "https://medias.sncf.com/sncfcom/pdf/pro/CGU_Contrat-pro.pdf",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://medias.sncf.com/sncfcom/pdf/pro/CGU_Contrat-pro.pdf'"
+    ]
+  }
+}
