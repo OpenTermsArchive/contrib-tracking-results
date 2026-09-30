@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:22.177Z",
+    "serviceName": "AdMob",
+    "sourceDocuments": [
+      {
+        "id": "technologies-ads",
+        "fetch": "https://policies.google.com/technologies/ads",
+        "select": "div[role=article]",
+        "mimeType": "text/html",
+        "snapshotId": "e27a4a9ccfefd76a932d158bb3be4c00758f913a"
+      }
+    ]
+  }
+}
