@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:33.120Z",
+    "serviceName": "Tencent",
+    "sourceDocuments": [
+      {
+        "id": "en-us-privacy-policy",
+        "fetch": "https://www.tencent.com/en-us/privacy-policy.html",
+        "select": ".page-content",
+        "mimeType": "text/html",
+        "snapshotId": "cd7a7c72a1fcb1d69a15b12d98f6e92074fd0946"
+      }
+    ]
+  }
+}
