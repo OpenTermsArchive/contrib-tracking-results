@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:50.246Z",
+    "serviceName": "Google One",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://one.google.com/terms-of-service",
+        "select": ".vcGo8",
+        "mimeType": "text/html",
+        "snapshotId": "4e3989a6a5d9e6eda19e4b04eacd2bd459f9667e"
+      }
+    ]
+  }
+}
