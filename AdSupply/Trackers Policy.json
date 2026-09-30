@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:49.763Z",
+    "serviceName": "AdSupply",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy",
+        "fetch": "https://www.adsupply.com/cookie-policy/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e70a5baafb7f0470358ba7152e7bd2a91ec965e1"
+      }
+    ]
+  }
+}
