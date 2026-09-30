@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:32.965Z",
+    "serviceName": "Zora",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-6171073",
+        "fetch": "https://support.zora.co/en/articles/6171073",
+        "select": [
+          ".page-content"
+        ],
+        "remove": [
+          ".kb-breadcrumb-wrapper",
+          "#article-edited"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0d4a2bce752eaa85f7dd5ba0fb125f4ec965f422"
+      }
+    ]
+  }
+}
