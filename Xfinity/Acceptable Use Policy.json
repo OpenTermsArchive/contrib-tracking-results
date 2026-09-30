@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:45.554Z",
+    "serviceName": "Xfinity",
+    "sourceDocuments": [
+      {
+        "id": "Corporate-Customers-Policies-HighSpeedInternetAUP",
+        "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e29b45a95b7a15aa26560ea59fe9fd23be346ef8"
+      }
+    ]
+  }
+}
