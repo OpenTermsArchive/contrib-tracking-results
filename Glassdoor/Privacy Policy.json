@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:37.241Z",
+    "serviceName": "Glassdoor",
+    "sourceDocuments": [
+      {
+        "id": "brands-glassdoor",
+        "fetch": "https://hrtechprivacy.com/brands/glassdoor",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".ipc-Page-contentLogos"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1298413974f69e5b20fdfe2d384612a270ad8f81"
+      }
+    ]
+  }
+}
