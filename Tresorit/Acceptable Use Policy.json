@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:27.434Z",
+    "serviceName": "Tresorit",
+    "sourceDocuments": [
+      {
+        "id": "acceptable-use-policy",
+        "fetch": "https://tresorit.com/acceptable-use-policy",
+        "select": [
+          "h1",
+          ".main > .container",
+          ".container > p:nth-child(2)"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4da47b4d32a70bb3f975b275e19bd2f22111266a"
+      }
+    ]
+  }
+}
