@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:24.829Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "api-terms",
+        "fetch": "https://core.telegram.org/api/terms",
+        "select": "#dev_page_content_wrap",
+        "remove": ".breadcrumb",
+        "mimeType": "text/html",
+        "snapshotId": "359500271cbf1e1b608f8872064bfec24643cd60"
+      }
+    ]
+  }
+}
