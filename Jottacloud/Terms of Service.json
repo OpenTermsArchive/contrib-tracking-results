@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:07.725Z",
+    "serviceName": "Jottacloud",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-conditions",
+        "fetch": "https://jottacloud.com/en/terms-conditions",
+        "select": [
+          ".module-articleRichText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6efa16f2e355bd1960477f25f73ddc47d3a91479"
+      }
+    ]
+  }
+}
