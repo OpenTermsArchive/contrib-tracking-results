@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:31:21.366Z",
+    "serviceName": "AdMob",
+    "sourceDocuments": [
+      {
+        "id": "businesses-controllerterms",
+        "fetch": "https://privacy.google.com/businesses/controllerterms/",
+        "select": [
+          ".terms-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5d356d76a60a9a53be4edd39623779b94bda74f1"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".terms-page\"]\" has no match in the web page at 'https://privacy.google.com/businesses/controllerterms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
