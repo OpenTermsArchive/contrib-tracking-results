@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:39.548Z",
+    "serviceName": "Rubicon Project",
+    "sourceDocuments": [
+      {
+        "id": "legal-ad-quality-guidelines",
+        "fetch": "https://www.magnite.com/legal/ad-quality-guidelines/",
+        "select": [
+          ".page-header",
+          ".content-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8144b53ffc08c21eb824d2acf1b5fbedba9731c3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-header\",\".content-wrapper\"]\" has no match in the web page at 'https://www.magnite.com/legal/ad-quality-guidelines/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
