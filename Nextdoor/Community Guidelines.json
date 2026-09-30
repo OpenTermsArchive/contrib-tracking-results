@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:18.439Z",
+    "serviceName": "Nextdoor",
+    "sourceDocuments": [
+      {
+        "id": "s-article-community-guidelines",
+        "fetch": "https://help.nextdoor.com/s/article/community-guidelines?language=en_GB",
+        "select": [
+          ".article-head",
+          "#articlecontent"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: net::ERR_CERT_AUTHORITY_INVALID at https://help.nextdoor.com/s/article/community-guidelines?language=en_GB"
+    ]
+  }
+}
