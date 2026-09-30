@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:22.465Z",
+    "serviceName": "WebCrawler",
+    "sourceDocuments": [
+      {
+        "id": "terms-privacy-policy",
+        "fetch": "https://system1.com/terms/privacy-policy",
+        "select": ".post",
+        "mimeType": "text/html",
+        "snapshotId": "08b730877cc1be33d2a1a5cb4e1510cf976d1748"
+      }
+    ]
+  }
+}
