@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:35.676Z",
+    "serviceName": "The Mirror",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.themirror.space/privacy",
+        "select": [
+          "section.section"
+        ],
+        "remove": [
+          ".image-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "fe22e21585562465bb067b887cf3bfd95e127a9e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"section.section\"]\" has no match in the web page at 'https://www.themirror.space/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
