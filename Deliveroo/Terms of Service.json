@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:26.920Z",
+    "serviceName": "Deliveroo",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://deliveroo.ie/legal",
+        "select": [
+          {
+            "startBefore": "#deliveroo-terms-of-service",
+            "endBefore": "#page-footer"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "85d78c9883801cfdf91657e960324ee9073cd041"
+      }
+    ]
+  }
+}
