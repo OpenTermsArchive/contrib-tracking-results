@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:38:56.722Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "policies-live",
+        "fetch": "https://en-gb.facebook.com/policies/live",
+        "select": [
+          "div[role=main]"
+        ],
+        "remove": [
+          {
+            "startBefore": "[role=\"separator\"]",
+            "endAfter": "body"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "59de102cbdafe03c89c9b2d29c22d229ee868fe5"
+      }
+    ]
+  }
+}
