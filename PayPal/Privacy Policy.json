@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:49:48.609Z",
+    "serviceName": "PayPal",
+    "sourceDocuments": [
+      {
+        "id": "cz-webapps-mpp-ua-privacy-full",
+        "fetch": "https://www.paypal.com/cz/webapps/mpp/ua/privacy-full?locale.x=en_CZ",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "footer"
+          }
+        ],
+        "remove": [
+          "#ua_skinny_view"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "67c958638ad9facc19dfca0382a1be51e3835f30"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\"h1\",\"endBefore\":\"footer\"}"
+    ]
+  }
+}
