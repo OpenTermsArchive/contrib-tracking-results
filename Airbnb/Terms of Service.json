@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:32:03.650Z",
+    "serviceName": "Airbnb",
+    "sourceDocuments": [
+      {
+        "id": "help-article-2908-terms-of-service",
+        "fetch": "https://www.airbnb.co.uk/help/article/2908/terms-of-service",
+        "select": {
+          "startBefore": "#EUTOS",
+          "endBefore": "#TOS"
+        },
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://www.airbnb.co.uk/help/article/2908/terms-of-service'"
+    ]
+  }
+}
