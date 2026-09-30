@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:24.962Z",
+    "serviceName": "ValueImpression",
+    "sourceDocuments": [
+      {
+        "id": "term",
+        "fetch": "https://valueimpression.com/term.html",
+        "select": [
+          "article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "390de720749f2d5756d0d5b206c632bdfde1858a"
+      }
+    ]
+  }
+}
