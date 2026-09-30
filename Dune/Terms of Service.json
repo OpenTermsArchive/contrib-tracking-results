@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:39.976Z",
+    "serviceName": "Dune",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://dune.com/terms",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5204c975cefebcb5dbb267ebb20ab961005c7905"
+      }
+    ]
+  }
+}
