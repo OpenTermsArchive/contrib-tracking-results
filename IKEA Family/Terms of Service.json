@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:52.281Z",
+    "serviceName": "IKEA Family",
+    "sourceDocuments": [
+      {
+        "id": "fr-fr-customer-service-terms-conditions-conditions-utilisation-ikea-family-pub57b6f181",
+        "fetch": "https://www.ikea.com/fr/fr/customer-service/terms-conditions/conditions-utilisation-ikea-family-pub57b6f181/",
+        "select": [
+          "article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a099e8fe7f18536844c5b4e5118b32c31fcced75"
+      }
+    ]
+  }
+}
