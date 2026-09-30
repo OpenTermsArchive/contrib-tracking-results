@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:54.651Z",
+    "serviceName": "Mattermost beta.gouv.fr",
+    "sourceDocuments": [
+      {
+        "id": "s-SzOhdvBiJ",
+        "fetch": "https://pad.numerique.gouv.fr/s/SzOhdvBiJ",
+        "select": [
+          "#doc"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "568bb7b4b1ae25b93be4b7f3751af2cfa5f130ce"
+      }
+    ]
+  }
+}
