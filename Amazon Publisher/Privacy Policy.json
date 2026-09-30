@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:31.540Z",
+    "serviceName": "Amazon Publisher",
+    "sourceDocuments": [
+      {
+        "id": "aps-privacy-policy",
+        "fetch": "https://aps.amazon.com/aps/privacy-policy/",
+        "select": [
+          ".et_pb_text_inner"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3c9e039e2e01272d0b70ee7833f0603432f6cc7c"
+      }
+    ]
+  }
+}
