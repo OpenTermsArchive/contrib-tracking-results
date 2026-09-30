@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:21.828Z",
+    "serviceName": "Teads",
+    "sourceDocuments": [
+      {
+        "id": "teads-website-privacy-policy",
+        "fetch": "https://www.teads.com/teads-website-privacy-policy/",
+        "select": [
+          "main header",
+          ".ct-container-full"
+        ],
+        "remove": [
+          ".wp-block-buttons"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8181e6ad39246fb0b3368808e051f5df8ea6ebea"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main header\",\".ct-container-full\"]\" has no match in the web page at 'https://www.teads.com/teads-website-privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
