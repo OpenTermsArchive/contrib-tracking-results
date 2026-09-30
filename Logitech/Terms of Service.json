@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:41.585Z",
+    "serviceName": "Logitech",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-tos-terms",
+        "fetch": "https://www.logitech.com/en-gb/tos/terms.html",
+        "select": [
+          "main .section-container-wrapper"
+        ],
+        "remove": [
+          ".cta-anchor"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c9e4564b7f41fc22cd0c1344654723310127cef1"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main .section-container-wrapper\"]\" has no match in the web page at 'https://www.logitech.com/en-gb/tos/terms.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
