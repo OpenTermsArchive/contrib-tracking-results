@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:43.326Z",
+    "serviceName": "Myspace",
+    "sourceDocuments": [
+      {
+        "id": "pages-terms",
+        "fetch": "https://myspace.com/pages/terms",
+        "select": "#nms_legal",
+        "remove": "ol > *:not(li)",
+        "mimeType": "text/html",
+        "snapshotId": "c92f54876763d644008be4a793f334c3cd4c356a"
+      }
+    ]
+  }
+}
