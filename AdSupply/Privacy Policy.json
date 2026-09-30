@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:49.003Z",
+    "serviceName": "AdSupply",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.adsupply.com/privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4bd8be79c2252a33867fcb46a87d96fb11b69f3b"
+      }
+    ]
+  }
+}
