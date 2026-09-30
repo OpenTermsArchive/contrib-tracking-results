@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:14.156Z",
+    "serviceName": "ŌURA",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy",
+        "fetch": "https://ouraring.com/cookie-policy",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "8a6f9bdd1be177f9f98525036356c3cdc08b9c9e"
+      }
+    ]
+  }
+}
