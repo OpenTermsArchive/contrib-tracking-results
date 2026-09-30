@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:27.771Z",
+    "serviceName": "Lingualeo",
+    "sourceDocuments": [
+      {
+        "id": "en-blog-privacy-policy-en",
+        "fetch": "https://lingualeo.com/en/blog/privacy-policy-en/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".wp-block-post-title"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3179c1a3a42d8b3ffe21895bcbbd2f129e30c262"
+      }
+    ]
+  }
+}
