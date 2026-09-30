@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:28.889Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "faq",
+        "fetch": "https://telegram.org/faq?setln=en",
+        "select": [
+          {
+            "startBefore": "[name=passport]",
+            "endBefore": "[name=troubleshooting]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ac4583e80dea1531793ed2c642d910b77b93960a"
+      }
+    ]
+  }
+}
