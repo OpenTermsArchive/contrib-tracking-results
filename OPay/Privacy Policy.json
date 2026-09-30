@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:41.141Z",
+    "serviceName": "OPay",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.opayweb.com/privacy-policy/",
+        "select": [
+          "#gatsby-focus-wrapper"
+        ],
+        "remove": [
+          ".bmusAl",
+          ".style__Nav-sc-w04utx-1"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "29d7ee2f7374544ef43df56a9562da18fb6e04a8"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#gatsby-focus-wrapper\"]\" has no match in the web page at 'https://www.opayweb.com/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
