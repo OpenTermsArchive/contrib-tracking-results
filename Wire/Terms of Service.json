@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:30.359Z",
+    "serviceName": "Wire",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-terms-of-use-personal",
+        "fetch": "https://wire.com/en/legal/terms-of-use-personal/",
+        "select": [
+          ".legalbody"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8f02c92ed45a03b8d591b5d5a37a957dd3ae0b47"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".legalbody\"]\" has no match in the web page at 'https://wire.com/en/legal/terms-of-use-personal/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
