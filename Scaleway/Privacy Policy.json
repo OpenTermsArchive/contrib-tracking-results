@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:45.011Z",
+    "serviceName": "Scaleway",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://www.scaleway.com/en/privacy-policy/",
+        "select": [
+          "main h1",
+          "main section"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f18e617458e6af3a2e7d1063f555ca5b342ef2a7"
+      }
+    ]
+  }
+}
