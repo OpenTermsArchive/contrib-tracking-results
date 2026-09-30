@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:37.678Z",
+    "serviceName": "WeChat Open Platform",
+    "sourceDocuments": [
+      {
+        "id": "cgi-bin-frame",
+        "fetch": "https://open.weixin.qq.com/cgi-bin/frame?t=news/protocol_developer_tmpl",
+        "select": "#en_US_tpl",
+        "filter": [
+          "convertScriptToDiv"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "11b09d7438de00a4878ecedb8c6e3d24c8e2552f"
+      }
+    ]
+  }
+}
