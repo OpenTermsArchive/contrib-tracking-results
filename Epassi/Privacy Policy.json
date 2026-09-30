@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:56.143Z",
+    "serviceName": "Epassi",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.epassi.fi/privacy-policy",
+        "select": {
+          "startAfter": "#EN",
+          "endBefore": "#SE"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "d7f51b85040ec24cdecc224d9126c79090312a9f"
+      }
+    ]
+  }
+}
