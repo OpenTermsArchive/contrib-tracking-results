@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:02.440Z",
+    "serviceName": "WordPress Foundation",
+    "sourceDocuments": [
+      {
+        "id": "trademark-policy",
+        "fetch": "https://wordpressfoundation.org/trademark-policy/",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "c73a2420c0982b6e151d2c5b0864767add3fdcb7"
+      }
+    ]
+  }
+}
