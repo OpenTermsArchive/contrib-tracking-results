@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:09.477Z",
+    "serviceName": "Bluesky",
+    "sourceDocuments": [
+      {
+        "id": "about-support-tos",
+        "fetch": "https://bsky.social/about/support/tos",
+        "select": [
+          ".support-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "befbbce57621f0847a06bca82eaa65f17235b6b7"
+      }
+    ]
+  }
+}
