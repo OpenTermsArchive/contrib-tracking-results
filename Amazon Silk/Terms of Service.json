@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:35.927Z",
+    "serviceName": "Amazon Silk",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=200775270",
+        "select": [
+          ".help-service-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3649b8fa5d0eed04256f4ff43d49c559b2e49ca5"
+      }
+    ]
+  }
+}
