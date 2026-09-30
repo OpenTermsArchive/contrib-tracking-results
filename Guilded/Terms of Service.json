@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:12.667Z",
+    "serviceName": "Guilded",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360039728313-Terms-of-Use",
+        "fetch": "https://support.guilded.gg/hc/en-us/articles/360039728313-Terms-of-Use",
+        "select": [
+          ".main-article-content .article-title",
+          ".main-article-content .article-body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "933743d4116a6977067418e4c587a78f91c621c3"
+      }
+    ]
+  }
+}
