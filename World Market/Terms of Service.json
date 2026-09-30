@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:21.829Z",
+    "serviceName": "World Market",
+    "sourceDocuments": [
+      {
+        "id": "category-customer-service-terms-of-use.do",
+        "fetch": "https://www.worldmarket.com/category/customer-service/terms-of-use.do",
+        "select": ".helpdesk",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a4d9edf7cc392d3af831473373ae1c514907014b"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".helpdesk\" has no match in the web page at 'https://www.worldmarket.com/category/customer-service/terms-of-use.do'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
