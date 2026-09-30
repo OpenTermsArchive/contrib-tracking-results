@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:01.565Z",
+    "serviceName": "Wikimedia Foundation",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Terms_of_Use",
+        "fetch": "https://foundation.wikimedia.org/wiki/Terms_of_Use",
+        "select": "#content",
+        "remove": ".nmbox, #toc",
+        "mimeType": "text/html",
+        "snapshotId": "ed621b61cbfad7c574f54c6075bac39d744998fd"
+      }
+    ]
+  }
+}
