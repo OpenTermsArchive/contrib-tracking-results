@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:54.695Z",
+    "serviceName": "Starbucks",
+    "sourceDocuments": [
+      {
+        "id": "terms-privacy-policy",
+        "fetch": "https://www.starbucks.com/terms/privacy-policy/",
+        "select": [
+          ".sb-contentColumn"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "67d26844b2e8fc31493b0a29b32ed4fd6ea7942e"
+      }
+    ]
+  }
+}
