@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:43:55.028Z",
+    "serviceName": "Interstellar Lab",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://interstellarlab.com/legal/privacy-policy",
+        "select": [
+          "#content"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://interstellarlab.com/legal/privacy-policy'"
+    ]
+  }
+}
