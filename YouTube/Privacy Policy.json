@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:09.280Z",
+    "serviceName": "YouTube",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy",
+        "select": "div[role=\"article\"]",
+        "remove": "img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "mimeType": "text/html",
+        "snapshotId": "203e5d3185784a271eb6caa7c360914bfb32f172"
+      }
+    ]
+  }
+}
