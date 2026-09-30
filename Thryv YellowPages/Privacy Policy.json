@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:25.251Z",
+    "serviceName": "YellowPages",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://corporate.thryv.com/privacy/",
+        "select": [
+          ".col-lg-11",
+          ".mx-auto"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "83df283c90a32d22fb00cb1a5e035e0353d0c126"
+      }
+    ]
+  }
+}
