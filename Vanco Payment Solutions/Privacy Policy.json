@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:26.240Z",
+    "serviceName": "Vanco Payment Solutions",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.vancopayments.com/privacy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ee1f48dce1f05097ae4d74e3bf4c576b874f766e"
+      }
+    ]
+  }
+}
