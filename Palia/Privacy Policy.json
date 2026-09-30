@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:43.421Z",
+    "serviceName": "Palia",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://palia.com/privacy",
+        "select": [
+          "main section"
+        ],
+        "remove": [
+          "main section h4 > span"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "58b38ee18a1a0bb4600238dbdcf006abb0798008"
+      }
+    ]
+  }
+}
