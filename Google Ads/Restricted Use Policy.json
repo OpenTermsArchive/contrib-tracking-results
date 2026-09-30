@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:16.406Z",
+    "serviceName": "Google Ads",
+    "sourceDocuments": [
+      {
+        "id": "adspolicy-answer-6008942",
+        "fetch": "https://support.google.com/adspolicy/answer/6008942",
+        "select": ".article-container",
+        "mimeType": "text/html",
+        "snapshotId": "83d194a289d44ba60e9d9e9919ebe14e55101813"
+      }
+    ]
+  }
+}
