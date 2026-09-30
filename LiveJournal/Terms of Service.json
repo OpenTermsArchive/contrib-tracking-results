@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:37.025Z",
+    "serviceName": "LiveJournal",
+    "sourceDocuments": [
+      {
+        "id": "legal-tos-en.bml",
+        "fetch": "https://www.livejournal.com/legal/tos-en.bml",
+        "select": ".s-main",
+        "mimeType": "text/html",
+        "snapshotId": "6d294aabd820297499d7fd0e22caf9e3c904cedd"
+      }
+    ]
+  }
+}
