@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:06.910Z",
+    "serviceName": "WinEveryGame",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "http://www.wineverygame.com/privacy.php",
+        "select": "#content",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'http://www.wineverygame.com/privacy.php'"
+    ]
+  }
+}
