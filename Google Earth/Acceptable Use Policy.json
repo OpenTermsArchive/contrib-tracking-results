@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:41:36.344Z",
+    "serviceName": "Google Earth",
+    "sourceDocuments": [
+      {
+        "id": "earth-answer-9477965",
+        "fetch": "https://support.google.com/earth/answer/9477965?hl=en-GB",
+        "select": "section[class=article-container]",
+        "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "8e5d37c7e0d280e9695a1905aceab0abee0d1c7d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"section[class=article-container]\" has no match in the web page at 'https://support.google.com/earth/answer/9477965?hl=en-GB'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
