@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:27.514Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "tos-eu-dsa",
+        "fetch": "https://telegram.org/tos/eu-dsa?setln=en",
+        "select": [
+          {
+            "startBefore": "[name=contact-points-for-competent-authorities-in-eu-countries]",
+            "endBefore": "[name=average-monthly-active-recipients-of-service-in-the-eu]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b2f41501b53378121ef7e9dbaf5619e98ab61655"
+      },
+      {
+        "id": "faq",
+        "fetch": "https://telegram.org/faq?setln=en",
+        "select": [
+          {
+            "startBefore": "[name=q-do-you-process-data-requests]",
+            "endBefore": "[name=telegram-basics]"
+          }
+        ],
+        "remove": "blockquote",
+        "mimeType": "text/html",
+        "snapshotId": "45f9c946959ccf1d1ea341d9dfdb0e024ef21b26"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"[name=contact-points-for-competent-authorities-in-eu-countries]\",\"endBefore\":\"[name=average-monthly-active-recipients-of-service-in-the-eu]\"}"
+    ]
+  }
+}
