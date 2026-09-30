@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:38:07.758Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "privacy-explanation",
+        "fetch": "https://fr-fr.facebook.com/privacy/explanation/",
+        "select": [
+          "hr+div"
+        ],
+        "filter": [
+          "removeEmptyAnchorsLinks",
+          {
+            "removeQueryParams": [
+              "h",
+              "locale2"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "24af5cb9e1e08bb6ebf755ad8056a925f7fcf81e"
+      }
+    ]
+  }
+}
