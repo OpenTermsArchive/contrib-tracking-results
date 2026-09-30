@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:00.903Z",
+    "serviceName": "Wikimedia Foundation",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Privacy_policy",
+        "fetch": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+        "select": "#firstHeading, #mw-content-text",
+        "remove": ".divlang, table.collapsible.collapsed, #catlinks, .nomobile",
+        "mimeType": "text/html",
+        "snapshotId": "a0454585c78eee8ce9070623756bd20d0375c3c9"
+      }
+    ]
+  }
+}
