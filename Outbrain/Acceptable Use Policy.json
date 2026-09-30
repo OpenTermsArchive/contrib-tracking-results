@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:21.393Z",
+    "serviceName": "Outbrain",
+    "sourceDocuments": [
+      {
+        "id": "advertisers-guidelines",
+        "fetch": "https://www.outbrain.com/advertisers/guidelines/",
+        "select": [
+          "#main"
+        ],
+        "remove": ".image",
+        "mimeType": "text/html",
+        "snapshotId": "da78734417a55d2eb56c661f15c49edad7be114b"
+      }
+    ]
+  }
+}
