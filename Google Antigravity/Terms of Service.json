@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:21.757Z",
+    "serviceName": "Google Antigravity",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://antigravity.google/terms",
+        "select": [
+          ".terms-and-conditions"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "073d7b5f60e2f3524c42a0d22627d8f58781817a"
+      }
+    ]
+  }
+}
