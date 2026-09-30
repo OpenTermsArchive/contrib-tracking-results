@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:26.253Z",
+    "serviceName": "Google Chat",
+    "sourceDocuments": [
+      {
+        "id": "chat-answer-9257382",
+        "fetch": "https://support.google.com/chat/answer/9257382?hl=en-GB",
+        "select": "section[class=article-container]",
+        "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "b04544da2303f6f3f00271a3f966f1b7fa0bd75c"
+      }
+    ]
+  }
+}
