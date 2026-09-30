@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:53.434Z",
+    "serviceName": "Stack Overflow",
+    "sourceDocuments": [
+      {
+        "id": "legal-trademark-guidance",
+        "fetch": "https://stackoverflow.com/legal/trademark-guidance",
+        "select": [
+          "article"
+        ],
+        "remove": [
+          "nav",
+          "a[title=\"Permalink to this heading\"][aria-hidden=\"true\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "62398695837b5d3f43b17d1bb96c7e023f6bd5df"
+      }
+    ]
+  }
+}
