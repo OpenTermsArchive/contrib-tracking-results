@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:14:14.971Z",
+    "serviceName": "sony.com",
+    "sourceDocuments": [
+      {
+        "id": "en_us-SCA-privacy-policy",
+        "fetch": "https://www.sony.com/en_us/SCA/privacy-policy.html",
+        "select": ".ly_contents2col",
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.sony.com/en_us/SCA/privacy-policy.html'"
+    ]
+  }
+}
