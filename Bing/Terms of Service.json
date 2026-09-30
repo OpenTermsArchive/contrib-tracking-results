@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:57.805Z",
+    "serviceName": "Bing",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-servicesagreement",
+        "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".print",
+          ".tr_Right_Nav_Header_OnePSTemplate",
+          ".back-to-top-button"
+        ],
+        "filter": [
+          "removeIrrelevantModulesFromTos",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3718f2321b00f1ce1293b4f7afd3085ed49c50bd"
+      }
+    ]
+  }
+}
