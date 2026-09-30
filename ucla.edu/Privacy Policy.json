@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:04:58.255Z",
+    "serviceName": "ucla.edu",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://alb.www.ucla.edu/terms-of-use",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          ".breadcrumb",
+          ".section-wrapper:nth-child(11) > .ucla"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://alb.www.ucla.edu/terms-of-use'"
+    ]
+  }
+}
