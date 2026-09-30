@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:29.075Z",
+    "serviceName": "Amazon Prime",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=13819201",
+        "select": "article.help-content",
+        "mimeType": "text/html",
+        "snapshotId": "10429e090699ecbae90402f3b7ff9923ae1a23fd"
+      }
+    ]
+  }
+}
