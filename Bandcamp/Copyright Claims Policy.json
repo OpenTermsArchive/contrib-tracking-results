@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:13.890Z",
+    "serviceName": "Bandcamp",
+    "sourceDocuments": [
+      {
+        "id": "copyright",
+        "fetch": "https://bandcamp.com/copyright",
+        "select": [
+          "#pgBd"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2f3f86cfb9e5778ef20d14ca89bcc04cf67a12f5"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#pgBd\"]\" has no match in the web page at 'https://bandcamp.com/copyright'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
