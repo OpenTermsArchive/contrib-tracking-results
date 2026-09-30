@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:49:05.667Z",
+    "serviceName": "OpenSea",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://opensea.io/privacy",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "nav",
+          "#install"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c8af8e1240302cd369fe67b56a6dfcbf856f55e4"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#root\"]\" has no match in the web page at 'https://opensea.io/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
