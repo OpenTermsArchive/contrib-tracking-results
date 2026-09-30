@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:21.831Z",
+    "serviceName": "Kivra",
+    "sourceDocuments": [
+      {
+        "id": "en-about-kivra-cookies",
+        "fetch": "https://kivra.se/en/about-kivra/cookies/",
+        "select": [
+          "#mainContent"
+        ],
+        "remove": [
+          "div[data-component=breadcrumbs]",
+          "aside"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8e5d25c005c0a61e27c26fc2368298402b9f2777"
+      }
+    ]
+  }
+}
