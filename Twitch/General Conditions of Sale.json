@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:35.064Z",
+    "serviceName": "Twitch",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-terms-of-sale",
+        "fetch": "https://legal.twitch.com/en/legal/terms-of-sale/",
+        "select": "#main-content",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6cec85dc52a26467f96be1ade2c594e7f379f1a2"
+      }
+    ]
+  }
+}
