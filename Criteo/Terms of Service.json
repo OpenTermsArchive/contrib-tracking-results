@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:11.565Z",
+    "serviceName": "Criteo",
+    "sourceDocuments": [
+      {
+        "id": "wp-content-uploads-2021-06-Criteo-Terms_Display_Jun21_EN",
+        "fetch": "https://www.criteo.com/wp-content/uploads/2021/06/Criteo-Terms_Display_Jun21_EN.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "a86543433dfa5031baad035873c81235efbe2304"
+      }
+    ]
+  }
+}
