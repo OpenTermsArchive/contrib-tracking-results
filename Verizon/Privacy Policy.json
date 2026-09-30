@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:31.055Z",
+    "serviceName": "Verizon",
+    "sourceDocuments": [
+      {
+        "id": "about-privacy-full-privacy-policy",
+        "fetch": "https://www.verizon.com/about/privacy/full-privacy-policy",
+        "select": "#block-mainpagecontent",
+        "mimeType": "text/html",
+        "snapshotId": "dac34411da30f0adaba32ce1f4df81c9361c0794"
+      }
+    ]
+  }
+}
