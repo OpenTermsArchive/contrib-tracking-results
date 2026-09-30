@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:30.085Z",
+    "serviceName": "Base",
+    "sourceDocuments": [
+      {
+        "id": "docs-cookie-policy",
+        "fetch": "https://docs.base.org/docs/cookie-policy/",
+        "select": "article",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://docs.base.org/docs/cookie-policy/'"
+    ]
+  }
+}
