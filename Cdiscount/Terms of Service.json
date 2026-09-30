@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:40.251Z",
+    "serviceName": "Cdiscount",
+    "sourceDocuments": [
+      {
+        "id": "resources-imagesok-cgu-mkp-cgu_acheteurs_mp_cdiscount",
+        "fetch": "https://i2.cdscdn.com/resources/imagesok/cgu/mkp/cgu_acheteurs_mp_cdiscount.pdf",
+        "mimeType": "image/gif",
+        "snapshotId": "1e919c154882bf5a7500cf835bd8a08e133048c9"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"undefined\" has no match in the web page at 'https://i2.cdscdn.com/resources/imagesok/cgu/mkp/cgu_acheteurs_mp_cdiscount.pdf'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
