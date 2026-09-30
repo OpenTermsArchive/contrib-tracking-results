@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:32:04.119Z",
+    "serviceName": "Airbnb",
+    "sourceDocuments": [
+      {
+        "id": "help-article-2866-airbnb-cookie-policy",
+        "fetch": "https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy",
+        "select": [
+          "#site-content"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://www.airbnb.co.uk/help/article/2866/airbnb-cookie-policy'"
+    ]
+  }
+}
