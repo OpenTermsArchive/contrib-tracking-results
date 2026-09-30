@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:37.977Z",
+    "serviceName": "Amazon Web Services",
+    "sourceDocuments": [
+      {
+        "id": "aup",
+        "fetch": "https://aws.amazon.com/aup/",
+        "select": [
+          "#aws-page-content-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "53683d8703a772d6a0c07c7452b26abd72241def"
+      }
+    ]
+  }
+}
