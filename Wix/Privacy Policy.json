@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:45.256Z",
+    "serviceName": "Wix",
+    "sourceDocuments": [
+      {
+        "id": "about-privacy",
+        "fetch": "http://www.wix.com/about/privacy",
+        "select": "#ContainermainPage",
+        "mimeType": "text/html",
+        "snapshotId": "960f3fd809589d31b872f2441cba09be39fe9862"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#ContainermainPage\" has no match in the web page at 'http://www.wix.com/about/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
