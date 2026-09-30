@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:20.553Z",
+    "serviceName": "Kivra",
+    "sourceDocuments": [
+      {
+        "id": "en-private-privacy-notice",
+        "fetch": "https://kivra.se/en/private/privacy-notice/",
+        "select": [
+          "#mainContent"
+        ],
+        "remove": [
+          "div[data-component=breadcrumbs]",
+          "aside"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "57a977fd1a91f9dd645953affaaf2199f330bda4"
+      }
+    ]
+  }
+}
