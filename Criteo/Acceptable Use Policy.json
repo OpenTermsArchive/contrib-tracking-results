@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:12.547Z",
+    "serviceName": "Criteo",
+    "sourceDocuments": [
+      {
+        "id": "advertising-guidelines",
+        "fetch": "https://www.criteo.com/advertising-guidelines/",
+        "select": [
+          "#basic-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e3c148067c2292685bcd3d41f95b57e841bcd505"
+      }
+    ]
+  }
+}
