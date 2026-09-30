@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:55.645Z",
+    "serviceName": "IPinfo",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://ipinfo.io/privacy-policy",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "d9c225896dd92bc53a5ebbc139e7b62b26c0008f"
+      }
+    ]
+  }
+}
