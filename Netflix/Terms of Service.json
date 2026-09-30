@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:17.347Z",
+    "serviceName": "Netflix",
+    "sourceDocuments": [
+      {
+        "id": "legal-termsofuse",
+        "fetch": "https://help.netflix.com/legal/termsofuse",
+        "select": [
+          ".kb-title",
+          ".kb-article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "89c865afdbbd3a6842e98aab8c1b8448d80cdd0c"
+      }
+    ]
+  }
+}
