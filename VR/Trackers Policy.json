@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:05.146Z",
+    "serviceName": "VR",
+    "sourceDocuments": [
+      {
+        "id": "en-cookie-information",
+        "fetch": "https://www.vr.fi/en/cookie-information",
+        "select": "#maincontent",
+        "remove": [
+          "[class^=\"ContentfulFullwidthImageHeader\"]",
+          "[class^=\"ContentfulTwoColumnInfo\"]",
+          "[class^=\"ContentfulRichTextWithImage\"] > img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a8d878ff49832a62987b6df2c9691001f55b33c2"
+      }
+    ]
+  }
+}
