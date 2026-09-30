@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:06.282Z",
+    "serviceName": "WordPress.org",
+    "sourceDocuments": [
+      {
+        "id": "about-accessibility",
+        "fetch": "https://wordpress.org/about/accessibility/",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "c5d91d137e1e4575f617987415a808bde62f877d"
+      }
+    ]
+  }
+}
