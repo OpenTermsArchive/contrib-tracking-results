@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:30:20.774Z",
+    "serviceName": "AcuityAds",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://illumin.com/legal/privacy/",
+        "select": [
+          ".default-banner-text",
+          ".default-content-section"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d83c051f9b2e12c725516fb3db6a3eb3630ebc8e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".default-banner-text\",\".default-content-section\"]\" has no match in the web page at 'https://illumin.com/legal/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
