@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:08.264Z",
+    "serviceName": "The Register",
+    "sourceDocuments": [
+      {
+        "id": "Profile-privacy",
+        "fetch": "https://www.theregister.com/Profile/privacy/",
+        "select": [
+          "#article-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f0820db1eaaad65aee7ac33cc0d5edeffc67fca5"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#article-wrapper\"]\" has no match in the web page at 'https://www.theregister.com/Profile/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
