@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:29.152Z",
+    "serviceName": "NordVPN",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "footer"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d7049b3eb519b9ff55647e3cf401b504ebb4610a"
+      }
+    ]
+  }
+}
