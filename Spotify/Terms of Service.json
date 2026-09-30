@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:48.620Z",
+    "serviceName": "Spotify",
+    "sourceDocuments": [
+      {
+        "id": "us-legal-end-user-agreement",
+        "fetch": "https://www.spotify.com/us/legal/end-user-agreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".subnav-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "261d4cf46ea803cf23be4811f0bd074378e6bf3c"
+      }
+    ]
+  }
+}
