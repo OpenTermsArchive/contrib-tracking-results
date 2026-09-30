@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:46.524Z",
+    "serviceName": "Google My Business",
+    "sourceDocuments": [
+      {
+        "id": "business-answer-9292476",
+        "fetch": "https://support.google.com/business/answer/9292476?hl=en-GB",
+        "select": "section[class=article-container]",
+        "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "d07d45579a18f6550c6e0151121d25abdf1f93e7"
+      }
+    ]
+  }
+}
