@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:07:25.053Z",
+    "serviceName": "Visible",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://www.visible.com/legal/privacy",
+        "select": "#privacypolicy",
+        "mimeType": "text/html",
+        "snapshotId": "811c26762fa5bcdd291aa083f47bd4873db7eba3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#privacypolicy\" has no match in the web page at 'https://www.visible.com/legal/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
