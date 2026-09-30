@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:02.225Z",
+    "serviceName": "Jeeng",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.jeeng.com/terms-of-use/",
+        "select": [
+          ".container--small"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e34e2725462e0f9c1c899ed74a74efc2af2c2817"
+      }
+    ]
+  }
+}
