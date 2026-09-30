@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:31.315Z",
+    "serviceName": "Discord",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://discord.com/privacy",
+        "select": [
+          ".section-rich"
+        ],
+        "remove": [
+          ".archived-link",
+          ".link-terms"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "972cc3f95ef5c7be385fdc409e951fe10193632e"
+      }
+    ]
+  }
+}
