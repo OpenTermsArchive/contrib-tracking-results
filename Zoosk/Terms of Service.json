@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:25.687Z",
+    "serviceName": "Zoosk",
+    "sourceDocuments": [
+      {
+        "id": "legal-tos-en_eu",
+        "fetch": "https://docviewer.zoosk.com/legal-tos-en_eu.html",
+        "select": ".flex-frame",
+        "remove": ".frame-header > a",
+        "mimeType": "text/html",
+        "snapshotId": "b48a342a0e9bb0f90c0bcf7cbb8bd1901a3d2487"
+      }
+    ]
+  }
+}
