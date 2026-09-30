@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:29.777Z",
+    "serviceName": "NOYB",
+    "sourceDocuments": [
+      {
+        "id": "en-legal",
+        "fetch": "https://noyb.eu/en/legal",
+        "select": {
+          "startBefore": "#privacy",
+          "endBefore": "#copyright"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "d6db39d3b0187f1cb917a0d2c9b3a0170f0eb82d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"#privacy\",\"endBefore\":\"#copyright\"}"
+    ]
+  }
+}
