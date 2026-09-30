@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:33.460Z",
+    "serviceName": "Google Drive",
+    "sourceDocuments": [
+      {
+        "id": "drive-terms-of-service",
+        "fetch": "https://www.google.com/drive/terms-of-service/?hl=en_GB",
+        "select": ".tos",
+        "mimeType": "text/html",
+        "snapshotId": "c90d9f125caf1788c5fe850f7cf85a602db5003d"
+      }
+    ]
+  }
+}
