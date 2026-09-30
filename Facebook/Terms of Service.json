@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:38:19.052Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-plain_text_terms",
+        "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          {
+            "startBefore": "[role=\"separator\"]",
+            "endAfter": "body"
+          }
+        ],
+        "filter": [
+          "removeEmptyAnchorsLinks",
+          {
+            "removeQueryParams": [
+              "h",
+              "locale2"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "917dd26cf4866d392778327b587d604d401ec035"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"[role=\\\"separator\\\"]\",\"endAfter\":\"body\"}"
+    ]
+  }
+}
