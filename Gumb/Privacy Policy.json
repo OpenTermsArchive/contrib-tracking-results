@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:13.946Z",
+    "serviceName": "Gumb",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://gumb.app/en/privacy-policy/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "h1"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5b9fdfe99b88ca4fafdfe09023c0329b004a94fe"
+      }
+    ]
+  }
+}
