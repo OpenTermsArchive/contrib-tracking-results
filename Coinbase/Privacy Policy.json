@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:36:32.074Z",
+    "serviceName": "Coinbase",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://www.coinbase.com/legal/privacy",
+        "select": [
+          "#main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "459cebdffea22c77c610f8644066822d273c0ccb"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#main\"]\" has no match in the web page at 'https://www.coinbase.com/legal/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
