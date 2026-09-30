@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:40.067Z",
+    "serviceName": "Spam.org",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.spam.org/privacy",
+        "select": [
+          "main .content"
+        ],
+        "remove": [
+          ".breadcrumb-small",
+          "hr"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "43f2ed89bf1f201b0b15dedb824e3904312fa474"
+      }
+    ]
+  }
+}
