@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:55.012Z",
+    "serviceName": "Sketchfab",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://sketchfab.com/terms",
+        "select": [
+          "#terms"
+        ],
+        "remove": [
+          "#toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4a65401a1c2c0760ffed4b7cc607e1ec005cf403"
+      }
+    ]
+  }
+}
