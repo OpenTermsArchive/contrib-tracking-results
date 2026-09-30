@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:40:32.436Z",
+    "serviceName": "GitLab",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://about.gitlab.com/privacy/",
+        "select": "main .content",
+        "remove": [
+          "#collapsible-sidebar",
+          ".header-anchor"
+        ],
+        "filter": [
+          {
+            "removeCloudflareEmailProtection": "DPO@gitlab.com"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e5e6e24be42a38b58c80a4dd90ade31d05912f8a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"main .content\" has no match in the web page at 'https://about.gitlab.com/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
