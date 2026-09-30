@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:56:26.764Z",
+    "serviceName": "Starlink",
+    "sourceDocuments": [
+      {
+        "id": "legal-documents-DOC-1729-34307-72",
+        "fetch": "https://starlink.com/legal/documents/DOC-1729-34307-72?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "676f705764d3664a3e08f3d8c048a4d629fd2a2a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1729-34307-72?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
