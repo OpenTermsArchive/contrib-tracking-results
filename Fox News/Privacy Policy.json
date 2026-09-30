@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:02.183Z",
+    "serviceName": "Fox News",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.foxnews.com/privacy-policy",
+        "select": ".privacy-policy",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f5ed43b22accc61d137a93bee53a9e6bff83a153"
+      }
+    ]
+  }
+}
