@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:52.821Z",
+    "serviceName": "Simpli.fi",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://simpli.fi/terms/",
+        "select": [
+          ".col-md-10"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "04b865e45ec4f50e6624f6d82ec19d6572566cad"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".col-md-10\"]\" has no match in the web page at 'https://simpli.fi/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
