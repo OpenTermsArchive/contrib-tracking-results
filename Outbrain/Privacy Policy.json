@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:17.570Z",
+    "serviceName": "Outbrain",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://www.outbrain.com/legal/privacy#privacy-policy",
+        "select": [
+          ".summary",
+          ".sections-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2cc75797cdb1b2806e2a39ed7e7541bcdc291aeb"
+      }
+    ]
+  }
+}
