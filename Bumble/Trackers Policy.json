@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:18.695Z",
+    "serviceName": "Bumble",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy",
+        "fetch": "https://bumble.com/cookie-policy",
+        "select": [
+          ".formatted-text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "87cf96338e92dd160dc933c1a1e3759422aaad94"
+      }
+    ]
+  }
+}
