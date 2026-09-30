@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:41.401Z",
+    "serviceName": "Gmail",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://policies.google.com/terms?hl=en-GB",
+        "select": "div[role=article]",
+        "remove": ".bVzSHe + p, .RwC1f, img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          },
+          "removeCountryVersion"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1f110e82bf865065293a5a16adf0c5dab99c59ce"
+      }
+    ]
+  }
+}
