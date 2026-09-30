@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:04:53.561Z",
+    "serviceName": "Ubiquiti",
+    "sourceDocuments": [
+      {
+        "id": "legal-services-terms",
+        "fetch": "https://www.ui.com/legal/services-terms/",
+        "select": ".comContent",
+        "remove": ".comPageSidebar",
+        "mimeType": "text/html",
+        "snapshotId": "5b89e08a9b886929c37fd781333205e98fbcb5be"
+      }
+    ]
+  }
+}
