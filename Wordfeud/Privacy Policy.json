@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:58.583Z",
+    "serviceName": "Wordfeud",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "http://wordfeud.com/privacy/",
+        "select": "body",
+        "mimeType": "text/html",
+        "snapshotId": "66a979dbbb23c9e774fe4a8bdc2e0df7161f2e46"
+      }
+    ]
+  }
+}
