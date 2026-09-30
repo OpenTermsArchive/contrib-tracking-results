@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:57.431Z",
+    "serviceName": "Philip Morris International",
+    "sourceDocuments": [
+      {
+        "id": "en-consumer",
+        "fetch": "https://pmiprivacy.com/en/consumer",
+        "select": [
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "24e06984f082041bb2a9be614f20acc3d6251e5e"
+      }
+    ]
+  }
+}
