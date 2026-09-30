@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:32:25.969Z",
+    "serviceName": "Alibaba.com",
+    "sourceDocuments": [
+      {
+        "id": "rule-detail-6391",
+        "fetch": "https://rule.alibaba.com/rule/detail/6391.htm",
+        "select": [
+          ".prompt",
+          ".answer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8cd90da9c18010dd6d781bdf24c353a8eed8d8b9"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".prompt\",\".answer\"]\" has no match in the web page at 'https://rule.alibaba.com/rule/detail/6391.htm'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
