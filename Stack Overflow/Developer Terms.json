@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:51.816Z",
+    "serviceName": "Stack Overflow",
+    "sourceDocuments": [
+      {
+        "id": "legal-api-terms-of-use",
+        "fetch": "https://stackoverflow.com/legal/api-terms-of-use",
+        "select": [
+          ".gsy"
+        ],
+        "remove": [
+          ".fc-green-400",
+          ".fc-red-400 "
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d001de253a408173074a6b3c6e1aa8e63bcbb967"
+      }
+    ]
+  }
+}
