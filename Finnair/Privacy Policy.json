@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:23.686Z",
+    "serviceName": "Finnair",
+    "sourceDocuments": [
+      {
+        "id": "en-info-finnair-privacy-policy",
+        "fetch": "https://www.finnair.com/en/info/finnair-privacy-policy",
+        "select": [
+          ".main-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "34720adeeb2038f02809abc86719992533f4b23a"
+      }
+    ]
+  }
+}
