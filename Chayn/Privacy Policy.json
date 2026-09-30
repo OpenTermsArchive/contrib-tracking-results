@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:53.932Z",
+    "serviceName": "Chayn",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy-policy",
+        "fetch": "https://www.chayn.co/policies/privacy-policy",
+        "select": [
+          ".section"
+        ],
+        "remove": [
+          "a[href$=--espanol]",
+          ".section_illustration"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d175fb41e2d9248cd85763a61cb707b21c3fbb9d"
+      }
+    ]
+  }
+}
