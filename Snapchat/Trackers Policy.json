@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:23.102Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "en-GB-cookie-policy",
+        "fetch": "https://www.snap.com/en-GB/cookie-policy/",
+        "select": ".TermContainer-sc-1eyc2w4",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5b10d41c1a77fe5c5ce7eb0c21b355bdc7066df4"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".TermContainer-sc-1eyc2w4\" has no match in the web page at 'https://www.snap.com/en-GB/cookie-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
