@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:54.099Z",
+    "serviceName": "Simpli.fi",
+    "sourceDocuments": [
+      {
+        "id": "simpli-fi-cookie-policy",
+        "fetch": "https://simpli.fi/simpli-fi-cookie-policy/",
+        "select": [
+          ".default_template_content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c743697644f87b667931a205d2cda361ab0de43f"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".default_template_content\"]\" has no match in the web page at 'https://simpli.fi/simpli-fi-cookie-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
