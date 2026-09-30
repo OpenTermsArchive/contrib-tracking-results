@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:23.793Z",
+    "serviceName": "Google APIs",
+    "sourceDocuments": [
+      {
+        "id": "terms-api-services-user-data-policy",
+        "fetch": "https://developers.google.com/terms/api-services-user-data-policy",
+        "select": "article.devsite-article",
+        "remove": ".devsite-article-meta, .devsite-thumb-rating",
+        "mimeType": "text/html",
+        "snapshotId": "eb3e050e24a2e5590f09504ea23260914aed3060"
+      }
+    ]
+  }
+}
