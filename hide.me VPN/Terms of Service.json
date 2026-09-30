@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:28.141Z",
+    "serviceName": "hide.me VPN",
+    "sourceDocuments": [
+      {
+        "id": "en-legal",
+        "fetch": "https://hide.me/en/legal?embed=1",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "505bd0360e439567aae288c3fd16874f4524f617"
+      }
+    ]
+  }
+}
