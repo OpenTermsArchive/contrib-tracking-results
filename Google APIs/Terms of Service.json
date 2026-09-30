@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:23.011Z",
+    "serviceName": "Google APIs",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://developers.google.com/terms",
+        "select": "article.devsite-article",
+        "remove": ".devsite-article-meta, .devsite-thumb-rating",
+        "mimeType": "text/html",
+        "snapshotId": "baf8306d28d5063b8370b72ac943dab391e6356b"
+      }
+    ]
+  }
+}
