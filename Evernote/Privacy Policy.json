@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:59.954Z",
+    "serviceName": "Evernote",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://evernote.com/privacy/policy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c0414915c87f4467dd193d071a589f94e45c8525"
+      }
+    ]
+  }
+}
