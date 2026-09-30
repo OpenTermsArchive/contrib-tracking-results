@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:36.355Z",
+    "serviceName": "DuckDuckGo",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://duckduckgo.com/privacy",
+        "select": [
+          "main section"
+        ],
+        "remove": [
+          "main header",
+          "main footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ad542f7be3f8898cba7d8137fe10822a359b6039"
+      }
+    ]
+  }
+}
