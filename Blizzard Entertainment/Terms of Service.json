@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:05.325Z",
+    "serviceName": "Blizzard Entertainment",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-legal-511dbf9e-2b2d-4047-8243-4c5c65e0ebf1-terms-of-use-for-blizzards-websites",
+        "fetch": "https://www.blizzard.com/en-gb/legal/511dbf9e-2b2d-4047-8243-4c5c65e0ebf1/terms-of-use-for-blizzards-websites",
+        "select": "div.legalDocContent",
+        "mimeType": "text/html",
+        "snapshotId": "f845eaf574c40f7608c2be6caadfa3b46e3de9a1"
+      }
+    ]
+  }
+}
