@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:50:24.726Z",
+    "serviceName": "ProtonVPN",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://protonvpn.com/terms-and-conditions",
+        "select": [
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c16a1a8e3b18e29a784487d31909442d2c55741a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".content\"]\" has no match in the web page at 'https://protonvpn.com/terms-and-conditions'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
