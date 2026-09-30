@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:01.674Z",
+    "serviceName": "Infolinks",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.infolinks.com/privacy-policy/",
+        "select": [
+          "#legal-docs .col"
+        ],
+        "remove": [
+          ".print"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "220e16149a354924fc268186af5d32cbcaf25725"
+      }
+    ]
+  }
+}
