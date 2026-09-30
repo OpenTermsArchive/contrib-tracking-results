@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:36.127Z",
+    "serviceName": "sourcehut",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://man.sr.ht/terms.md",
+        "select": [
+          ".header-tabbed h2",
+          ".content"
+        ],
+        "remove": [
+          "h5 a[href^=\"#\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e26fd41098402325fea285e8acc6fa2d44da68d6"
+      }
+    ]
+  }
+}
