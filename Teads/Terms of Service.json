@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:22.232Z",
+    "serviceName": "Teads",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.teads.com/terms-of-use/",
+        "select": [
+          ".elementor-element-a2738eb",
+          ".elementor-element-d23a554"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ac555948fd91f72ea0226e71fed98f69e8be0f32"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".elementor-element-a2738eb\",\".elementor-element-d23a554\"]\" has no match in the web page at 'https://www.teads.com/terms-of-use/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
