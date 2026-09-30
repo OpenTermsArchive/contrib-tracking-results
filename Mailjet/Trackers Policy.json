@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:46.703Z",
+    "serviceName": "Mailjet",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy-cookies",
+        "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "main"
+          }
+        ],
+        "remove": [
+          "button"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.mailjet.com/legal/privacy-policy/cookies/'"
+    ]
+  }
+}
