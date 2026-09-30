@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:56.640Z",
+    "serviceName": "Bing",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-privacystatement",
+        "fetch": "https://privacy.microsoft.com/en-gb/privacystatement",
+        "select": "h1, #psp_last_updated, .header_content .Description, .div_content",
+        "filter": [
+          "removeIrrelevantModulesFromPrivacyPolicy",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e977fbc2d47cd083472bf47995d55705e3b7b8b3"
+      }
+    ]
+  }
+}
