@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:47.014Z",
+    "serviceName": "SponsorBlock",
+    "sourceDocuments": [
+      {
+        "id": "ajayyy-aa9f8ded2b573d4f73a3ffa0ef74f796",
+        "fetch": "https://gist.github.com/ajayyy/aa9f8ded2b573d4f73a3ffa0ef74f796",
+        "select": [
+          "#file-sponsorblock-privacy-policy-md-readme"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b2df46e5ce145243cb203ba7ea020d58c4de7688"
+      }
+    ]
+  }
+}
