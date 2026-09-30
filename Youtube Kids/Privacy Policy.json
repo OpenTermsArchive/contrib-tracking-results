@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:12.688Z",
+    "serviceName": "YouTube Kids",
+    "sourceDocuments": [
+      {
+        "id": "t-privacynotice",
+        "fetch": "https://kids.youtube.com/t/privacynotice",
+        "select": "#yts-article",
+        "mimeType": "text/html",
+        "snapshotId": "eaf012c07bff615cfe99bb88e677301466462179"
+      }
+    ]
+  }
+}
