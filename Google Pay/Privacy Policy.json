@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:52.956Z",
+    "serviceName": "Google Pay",
+    "sourceDocuments": [
+      {
+        "id": "payments-apis-secure-get_legal_document",
+        "fetch": "https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice&ldl=en",
+        "select": "body",
+        "mimeType": "text/html",
+        "snapshotId": "048d43b92433773643b0aabaebe0c365c0296e94"
+      }
+    ]
+  }
+}
