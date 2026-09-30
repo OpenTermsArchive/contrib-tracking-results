@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:23.828Z",
+    "serviceName": "Daily Mail",
+    "sourceDocuments": [
+      {
+        "id": "home-article-1388146-Terms",
+        "fetch": "https://www.dailymail.co.uk/home/article-1388146/Terms.html",
+        "select": "div[itemprop=articleBody]",
+        "remove": "[itemprop=articleBody] > h2:nth-of-type(2), ol.mol-bullets-with-font",
+        "mimeType": "text/html",
+        "snapshotId": "9a91b7ce9e016d900a317b1eae44d94bd233cca5"
+      }
+    ]
+  }
+}
