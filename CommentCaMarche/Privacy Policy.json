@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:03.523Z",
+    "serviceName": "CommentÇaMarche",
+    "sourceDocuments": [
+      {
+        "id": "contents-957-processing-of-personal-data-ccm",
+        "fetch": "https://ccm.net/contents/957-processing-of-personal-data-ccm",
+        "select": [
+          "h1",
+          ".app_author_box",
+          ".layout_main"
+        ],
+        "remove": [
+          ".ccmsummary",
+          ".app_author_box picture",
+          ".view-more__box",
+          "#jSNSPreview"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "61a7d8140fb14c237293307f31f4d6ed5f5a60fb"
+      }
+    ]
+  }
+}
