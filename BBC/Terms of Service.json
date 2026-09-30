@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:32.242Z",
+    "serviceName": "BBC",
+    "sourceDocuments": [
+      {
+        "id": "usingthebbc-terms-of-use",
+        "fetch": "https://www.bbc.co.uk/usingthebbc/terms-of-use/",
+        "select": [
+          ".ipagesHero-title",
+          "main"
+        ],
+        "remove": [
+          ".stickysidenav",
+          "a[href$=\"#top\"]",
+          ".languageList"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cafae97ad218c8720d1a208afc891f073ffe92b9"
+      }
+    ]
+  }
+}
