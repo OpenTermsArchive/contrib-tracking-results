@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:30.083Z",
+    "serviceName": "Miro",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://miro.com/legal/terms-of-service/",
+        "select": [
+          {
+            "startBefore": "h2",
+            "endBefore": "footer"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5320a2517bb450572199ee7e7e484340bc085734"
+      }
+    ]
+  }
+}
