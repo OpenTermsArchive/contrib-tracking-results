@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:42:52.873Z",
+    "serviceName": "IMDb",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "http://www.imdb.com/privacy",
+        "select": "div#main",
+        "mimeType": "text/html",
+        "snapshotId": "9a6dc44caeb688bb01a84288c417d4675a457424"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div#main\" has no match in the web page at 'http://www.imdb.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
