@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:47:11.738Z",
+    "serviceName": "Meetup",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360027447252",
+        "fetch": "https://help.meetup.com/hc/en-us/articles/360027447252",
+        "select": ".article",
+        "remove": [
+          "footer",
+          ".article-subscribe"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "704e4b03d15b86e3ae5fbe8a96f7aa1fe70dae8e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".article\" has no match in the web page at 'https://help.meetup.com/hc/en-us/articles/360027447252'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
