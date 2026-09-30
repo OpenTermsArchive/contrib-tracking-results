@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:29.411Z",
+    "serviceName": "Microsoft Store",
+    "sourceDocuments": [
+      {
+        "id": "en-us-legal-terms-of-use",
+        "fetch": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".socialfollow"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f35a949eb160ec33bc99fa636f99e8e962b0aecb"
+      }
+    ]
+  }
+}
