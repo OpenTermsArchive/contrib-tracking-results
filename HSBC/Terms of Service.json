@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:39.878Z",
+    "serviceName": "HSBC",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://www.hsbc.com/terms-and-conditions",
+        "select": ".sublayout.article-sublayout",
+        "mimeType": "text/html",
+        "snapshotId": "48e05c34b50690ab931781c05ae1da729b468989"
+      }
+    ]
+  }
+}
