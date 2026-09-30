@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:11.864Z",
+    "serviceName": "Facebook Payments",
+    "sourceDocuments": [
+      {
+        "id": "payments_terms",
+        "fetch": "https://www.facebook.com/payments_terms",
+        "select": "#content",
+        "filter": [
+          "removeHelpButtons",
+          "cleanUrls"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "045fe68fbeda704952723e88d2029c60e71e85c6"
+      }
+    ]
+  }
+}
