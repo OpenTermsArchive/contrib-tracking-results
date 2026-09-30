@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:20.512Z",
+    "serviceName": "Financial Times",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-privacy-policy",
+        "fetch": "https://help.ft.com/legal-privacy/privacy-policy/",
+        "select": ".c-article__content",
+        "mimeType": "text/html",
+        "snapshotId": "45b57bca94d7c736221bf5e45b36121e9b36e522"
+      }
+    ]
+  }
+}
