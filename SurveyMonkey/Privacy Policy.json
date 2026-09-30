@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:56:52.468Z",
+    "serviceName": "SurveyMonkey",
+    "sourceDocuments": [
+      {
+        "id": "mp-legal-privacy",
+        "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
+        "select": [
+          ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
+        ],
+        "remove": [
+          {
+            "startBefore": ".asset-dropdown-versions-label",
+            "endAfter": "[class*=\"assetDropdownContainer\"]"
+          },
+          "[data-hidechapternav=\"true\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e4b5fe36937146aedccf7e6a0ed9ec3b1975edae"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\".asset-dropdown-versions-label\",\"endAfter\":\"[class*=\\\"assetDropdownContainer\\\"]\"}"
+    ]
+  }
+}
