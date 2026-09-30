@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:44.266Z",
+    "serviceName": "Xfinity",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.xfinity.com/privacy/policy",
+        "select": [
+          ".xpc-sticky-main-content"
+        ],
+        "remove": [
+          "[data-component=Accordion] button"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4df7c6e4a84a68c3bc474290c630fe411b2a8e6d"
+      }
+    ]
+  }
+}
