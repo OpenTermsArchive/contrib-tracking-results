@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:13.603Z",
+    "serviceName": "Booking.com",
+    "sourceDocuments": [
+      {
+        "id": "content-terms.en-gb",
+        "fetch": "https://www.booking.com/content/terms.en-gb.html",
+        "select": [
+          "[role=\"main\"]"
+        ],
+        "remove": [
+          "[role=\"main\"] button"
+        ],
+        "filter": [
+          "removeLabelAndSidFromUrls"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f6d8d88277b9b0b1826d536d2543025cb9e8071e"
+      }
+    ]
+  }
+}
