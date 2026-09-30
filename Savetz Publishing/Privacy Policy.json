@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:44.009Z",
+    "serviceName": "Savetz Publishing",
+    "sourceDocuments": [
+      {
+        "id": "privacy_policy",
+        "fetch": "https://www.savetzpublishing.com/privacy_policy.php",
+        "select": [
+          ".box"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "de009c8ed9221f107d5cc71575d810866bbdb869"
+      }
+    ]
+  }
+}
