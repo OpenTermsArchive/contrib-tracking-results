@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:26.619Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "tos-eu-dsa",
+        "fetch": "https://telegram.org/tos/eu-dsa?setln=en",
+        "select": ".tl_page_container",
+        "mimeType": "text/html",
+        "snapshotId": "7a936cedb0bb25a6d56fa07172929c1531d58601"
+      }
+    ]
+  }
+}
