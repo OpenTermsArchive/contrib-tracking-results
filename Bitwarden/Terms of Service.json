@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:58.317Z",
+    "serviceName": "Bitwarden",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://bitwarden.com/terms/",
+        "select": [
+          "main"
+        ],
+        "filter": [
+          "removeEmptySVGLinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "34dd2490bb2e34eeba005ece214937c4e4e34da1"
+      }
+    ]
+  }
+}
