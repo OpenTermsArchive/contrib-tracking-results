@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:02.880Z",
+    "serviceName": "Coindesk",
+    "sourceDocuments": [
+      {
+        "id": "ethics",
+        "fetch": "https://www.coindesk.com/ethics/",
+        "select": [
+          "[data-module-name=\"page\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "69b84a59928fc19395fc8221019fb691ad3e3027"
+      }
+    ]
+  }
+}
