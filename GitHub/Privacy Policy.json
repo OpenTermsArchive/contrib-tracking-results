@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:30.399Z",
+    "serviceName": "GitHub",
+    "sourceDocuments": [
+      {
+        "id": "en-free-pro-team@latest-github-site-policy-github-privacy-statement",
+        "fetch": "https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement",
+        "select": "div#article-contents",
+        "mimeType": "text/html",
+        "snapshotId": "302a9e12f2c391b24567eb7510340492112d73da"
+      }
+    ]
+  }
+}
