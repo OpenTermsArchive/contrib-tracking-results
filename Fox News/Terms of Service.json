@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:06.476Z",
+    "serviceName": "Fox News",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.foxnews.com/terms-of-use",
+        "select": ".terms-of-use",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "816705951f296dfe3e213e0226afb4bba45e8311"
+      }
+    ]
+  }
+}
