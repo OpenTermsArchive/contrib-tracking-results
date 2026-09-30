@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:07.507Z",
+    "serviceName": "Google",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en-GB&gl=IE",
+        "select": "div[role=article]",
+        "remove": ".KMMDve, .TL2alc, img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "31a7c19b006832f31d3c58068bb2559d58c53d66"
+      }
+    ]
+  }
+}
