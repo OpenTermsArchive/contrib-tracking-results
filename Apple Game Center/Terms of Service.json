@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:54.647Z",
+    "serviceName": "Apple Game Center",
+    "sourceDocuments": [
+      {
+        "id": "legal-internet-services-itunes-gamecenter-uk-terms",
+        "fetch": "https://www.apple.com/legal/internet-services/itunes/gamecenter/uk/terms.html",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "e98344565c354f69c4af59599adc2f76b7c1b3e3"
+      }
+    ]
+  }
+}
