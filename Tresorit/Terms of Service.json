@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:00:26.765Z",
+    "serviceName": "Tresorit",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://tresorit.com/terms-of-use",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c398da664ffd468d6dd36ace1e6403e375b29317"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://tresorit.com/terms-of-use'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
