@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:33.103Z",
+    "serviceName": "OKX",
+    "sourceDocuments": [
+      {
+        "id": "help-privacy-policy-statement-eea",
+        "fetch": "https://www.okx.com/help/privacy-policy-statement-eea",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "[class^=\"index_mdShareList\"]",
+          "[class^=\"index_articleSidebarContainer\"]",
+          ".okui-breadcrumbs"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "df7b539675025c13460b1c81b4678ee80ab4a8c0"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.okx.com/help/privacy-policy-statement-eea'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
