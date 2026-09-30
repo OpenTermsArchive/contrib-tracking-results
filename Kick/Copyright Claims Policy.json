@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:13.959Z",
+    "serviceName": "Kick",
+    "sourceDocuments": [
+      {
+        "id": "dmca-policy",
+        "fetch": "https://kick.com/dmca-policy",
+        "select": ".markdown-policy-page",
+        "mimeType": "text/html",
+        "snapshotId": "4bdb8c0b653d22c95d1af1da0aa64cf366820139"
+      }
+    ]
+  }
+}
