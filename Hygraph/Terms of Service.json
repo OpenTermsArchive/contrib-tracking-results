@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:42.390Z",
+    "serviceName": "Hygraph",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://hygraph.com/terms",
+        "select": [
+          "main section"
+        ],
+        "remove": [
+          "main section:last-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ceb8d56125593759f69271a42e25d6209f2ec8ca"
+      }
+    ]
+  }
+}
