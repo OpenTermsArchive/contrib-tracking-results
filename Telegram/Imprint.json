@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:25.681Z",
+    "serviceName": "Telegram",
+    "sourceDocuments": [
+      {
+        "id": "faq",
+        "fetch": "https://telegram.org/faq?setln=en",
+        "select": [
+          {
+            "startBefore": "[name=q-who-are-the-people-behind-telegram]",
+            "endBefore": "[name=q-will-you-have-ads-in-my-private-chats-and-groups-or-sell-my-da]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3cf1bd73eb4d7f9bdcd964d96d55c9c328e541cf"
+      }
+    ]
+  }
+}
