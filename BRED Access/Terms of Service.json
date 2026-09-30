@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:16.144Z",
+    "serviceName": "BRED Access",
+    "sourceDocuments": [
+      {
+        "id": "medias-pdf-informations-reglementaires-convention-bredacces",
+        "fetch": "https://www.bred.fr/medias/pdf/informations-reglementaires/convention-bredacces.pdf",
+        "mimeType": "text/html",
+        "snapshotId": "29f6d8f40a0651812b52b4e0db597f42edb18b4c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"undefined\" has no match in the web page at 'https://www.bred.fr/medias/pdf/informations-reglementaires/convention-bredacces.pdf'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
