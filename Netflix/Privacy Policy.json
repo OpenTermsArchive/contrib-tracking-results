@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:16.818Z",
+    "serviceName": "Netflix",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-privacy",
+        "fetch": "https://help.netflix.com/en/legal/privacy",
+        "select": [
+          ".kb-title",
+          ".kb-article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ae1fa942054e6a89485a6ae05392b05f5f5ec0c4"
+      }
+    ]
+  }
+}
