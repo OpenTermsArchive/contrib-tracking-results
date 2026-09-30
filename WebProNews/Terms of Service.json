@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:23.257Z",
+    "serviceName": "WebProNews",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.webpronews.com/terms-of-service/",
+        "select": "body.page",
+        "remove": [
+          ".header-top",
+          ".header",
+          ".overlay-menu",
+          ".home-nl-bar",
+          ".pop-media-kit",
+          ".chat-bubble",
+          ".footer",
+          "#mediakit",
+          "#mymodal"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3d351cdd75b499c6348c0339e44a2685cc4aa186"
+      }
+    ]
+  }
+}
