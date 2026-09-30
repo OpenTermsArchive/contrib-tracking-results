@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:25.552Z",
+    "serviceName": "Roblox",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-115004647846-Roblox-Terms-of-Use",
+        "fetch": "https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".article-relatives",
+          ".article-footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4248cd11875f2c8cc7f6466749cfc77776e882da"
+      }
+    ]
+  }
+}
