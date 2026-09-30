@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:35.090Z",
+    "serviceName": "Google Earth",
+    "sourceDocuments": [
+      {
+        "id": "help-terms_maps",
+        "fetch": "https://www.google.com/help/terms_maps/?hl=en_GB",
+        "select": ".main-article",
+        "mimeType": "text/html",
+        "snapshotId": "f79395309721e0f369a26458b0da5d0e2a48f47e"
+      }
+    ]
+  }
+}
