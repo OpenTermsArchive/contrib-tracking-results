@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:37:54.166Z",
+    "serviceName": "Epassi",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.epassi.fi/terms-of-use",
+        "select": {
+          "startAfter": "#EN",
+          "endBefore": "#SE"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "4e00f08f8a3be09b82c16fe656f8783b58d8eba8"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startAfter\":\"#EN\",\"endBefore\":\"#SE\"}"
+    ]
+  }
+}
