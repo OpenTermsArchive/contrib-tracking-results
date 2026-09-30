@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:12.109Z",
+    "serviceName": "Criteo",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.criteo.com/privacy/",
+        "select": [
+          "#basic-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3338c202acdaaf603a8f3e1fb071a5b7e53e53fd"
+      }
+    ]
+  }
+}
