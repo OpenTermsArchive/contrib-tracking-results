@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:05.416Z",
+    "serviceName": "The Reach Group",
+    "sourceDocuments": [
+      {
+        "id": "en-general-terms-and-conditions-of-contract",
+        "fetch": "https://trg.de/en/general-terms-and-conditions-of-contract/",
+        "select": [
+          ".gr--push-1\\@l"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://trg.de/en/general-terms-and-conditions-of-contract/'"
+    ]
+  }
+}
