@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:05.432Z",
+    "serviceName": "Grammarly",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.grammarly.com/terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "h2 br"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "955a9fe6541016b4e6999d8738bb005e36bc413c"
+      }
+    ]
+  }
+}
