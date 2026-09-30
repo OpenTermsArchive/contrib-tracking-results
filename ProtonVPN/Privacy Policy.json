@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:50:25.253Z",
+    "serviceName": "ProtonVPN",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://protonvpn.com/privacy-policy",
+        "select": [
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7ca341140f320ca63f8caf2df5effdce08f0ebe8"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".content\"]\" has no match in the web page at 'https://protonvpn.com/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
