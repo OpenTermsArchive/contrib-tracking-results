@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:55.390Z",
+    "serviceName": "MDN Plus",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-mdn-plus",
+        "fetch": "https://www.mozilla.org/en-US/privacy/mdn-plus/",
+        "select": [
+          ".mzp-l-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cfd56a3bcae49b0d478dab4a176e8926b2a41428"
+      }
+    ]
+  }
+}
