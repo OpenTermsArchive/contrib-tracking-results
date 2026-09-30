@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:14:12.660Z",
+    "serviceName": "Qiwi.gg",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy",
+        "fetch": "https://qiwi.gg/legal/privacy",
+        "select": [
+          ".page_Heading___MmYE",
+          ".page_Content__xcMoz"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://qiwi.gg/legal/privacy'"
+    ]
+  }
+}
