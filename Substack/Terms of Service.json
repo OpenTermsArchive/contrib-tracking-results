@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:43.965Z",
+    "serviceName": "Substack",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://substack.com/tos",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": ".footer-wrap"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "0eb4df3dce5e69c087b06c812fffb02208448c33"
+      },
+      {
+        "id": "chatbot-tos",
+        "fetch": "https://substack.com/chatbot-tos",
+        "select": {
+          "startBefore": "h1",
+          "endBefore": ".footer-wrap"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "3b4cb761ed8aa93acd9951d5d2a4ee5c42859b3c"
+      }
+    ]
+  }
+}
