@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:30.656Z",
+    "serviceName": "Miro",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://miro.com/legal/privacy-policy/",
+        "select": [
+          {
+            "startBefore": "h2",
+            "endBefore": "footer"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d100cca7d1d25e72677ffc7adf9651a160e12b4b"
+      }
+    ]
+  }
+}
