@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:00.824Z",
+    "serviceName": "Google Voice",
+    "sourceDocuments": [
+      {
+        "id": "voice-answer-9230450",
+        "fetch": "https://support.google.com/voice/answer/9230450?hl=en-GB",
+        "select": ".article-container",
+        "mimeType": "text/html",
+        "snapshotId": "19ddcbeac015dd58864af63410996a1633ac3340"
+      }
+    ]
+  }
+}
