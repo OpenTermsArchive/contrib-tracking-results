@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:22.509Z",
+    "serviceName": "Zoom",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://zoom.us/terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".fdn-breadcrumb__list"
+        ],
+        "filter": [
+          "removeAmpDeviceId"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9c030c453f54a77ca7bc790eef4ee4a93a15ca28"
+      }
+    ]
+  }
+}
