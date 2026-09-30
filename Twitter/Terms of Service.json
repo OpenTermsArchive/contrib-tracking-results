@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:36.381Z",
+    "serviceName": "Twitter",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://twitter.com/tos",
+        "select": [
+          "#twtr-main"
+        ],
+        "remove": [
+          ".ct07__sidebar",
+          ".ct07__dropdown-wrapper"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d64c7be283274549e55732e0e60c214b5cd43ecb"
+      }
+    ]
+  }
+}
