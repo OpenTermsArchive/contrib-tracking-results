@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:47.408Z",
+    "serviceName": "Mailjet",
+    "sourceDocuments": [
+      {
+        "id": "legal-dpa",
+        "fetch": "https://www.mailjet.com/legal/dpa/",
+        "select": [
+          {
+            "endAfter": "main",
+            "startBefore": "h1"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d06a0d917cd340392beb9514ff0676c595f046ef"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"endAfter\":\"main\",\"startBefore\":\"h1\"}"
+    ]
+  }
+}
