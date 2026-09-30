@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:04.657Z",
+    "serviceName": "Grammarly",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.grammarly.com/privacy-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "h2 br"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6701ec9410a77f3e9ebffe7b570fb892d7475b01"
+      }
+    ]
+  }
+}
