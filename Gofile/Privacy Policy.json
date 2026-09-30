@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:41:03.779Z",
+    "serviceName": "Gofile",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://gofile.io/privacy",
+        "select": [
+          "#index_main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ca71d673ee7cd8603ed481765b71c91eaab21293"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#index_main\"]\" has no match in the web page at 'https://gofile.io/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
