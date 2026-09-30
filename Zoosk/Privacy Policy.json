@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:29.438Z",
+    "serviceName": "Zoosk",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-en_eu",
+        "fetch": "https://docviewer.zoosk.com/legal-privacy-en_eu.html",
+        "select": ".legal__inner",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1fa3475571be65dcb85d01f392610013689db22e"
+      }
+    ]
+  }
+}
