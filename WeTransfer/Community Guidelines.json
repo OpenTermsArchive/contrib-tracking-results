@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:42.724Z",
+    "serviceName": "WeTransfer",
+    "sourceDocuments": [
+      {
+        "id": "explore-legal-content-moderation-policy",
+        "fetch": "https://wetransfer.com/explore/legal/content-moderation-policy",
+        "select": [
+          ".ui-legal__content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a1b889e689dd68d8e74dd88397c9f5191889671c"
+      }
+    ]
+  }
+}
