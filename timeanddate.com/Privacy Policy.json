@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:14:30.481Z",
+    "serviceName": "timeanddate.com",
+    "sourceDocuments": [
+      {
+        "id": "information-privacy",
+        "fetch": "https://www.timeanddate.com/information/privacy.html",
+        "select": ".layout-grid__main",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.timeanddate.com/information/privacy.html'"
+    ]
+  }
+}
