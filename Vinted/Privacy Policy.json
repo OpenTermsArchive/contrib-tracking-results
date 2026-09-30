@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:15:44.026Z",
+    "serviceName": "Vinted",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.vinted.com/privacy-policy",
+        "select": [
+          "section#content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "94cd58e62ebaacf5047104ea90d2a8a3ef6a8437"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"section#content\"]\" has no match in the web page at 'https://www.vinted.com/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
