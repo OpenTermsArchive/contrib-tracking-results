@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:45:44.261Z",
+    "serviceName": "Limitless",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.limitless.ai/terms",
+        "select": [
+          ".prose"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "585e232c78e227d4e0d6b1f884ba15d24016487e"
+      }
+    ]
+  }
+}
