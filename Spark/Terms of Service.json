@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:45.742Z",
+    "serviceName": "Spark",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://sparkmailapp.com/legal/terms",
+        "select": [
+          ".legal-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a812ae3b7723700ecc2821d427880216899bcfea"
+      }
+    ]
+  }
+}
