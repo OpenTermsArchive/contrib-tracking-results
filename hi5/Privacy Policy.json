@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:42:27.125Z",
+    "serviceName": "hi5",
+    "sourceDocuments": [
+      {
+        "id": "terms_of_service",
+        "fetch": "http://www.hi5.com/terms_of_service.html",
+        "select": "#privacy_policy",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'http://www.hi5.com/terms_of_service.html'"
+    ]
+  }
+}
