@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:53.284Z",
+    "serviceName": "Match",
+    "sourceDocuments": [
+      {
+        "id": "pages-misc-privacy",
+        "fetch": "https://uk.match.com/pages/misc/privacy",
+        "select": "#article_content",
+        "mimeType": "text/html",
+        "snapshotId": "f7ebe32e54453c5bd985efcb7e11e41452b4a486"
+      }
+    ]
+  }
+}
