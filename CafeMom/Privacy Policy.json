@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:23.274Z",
+    "serviceName": "CafeMom",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.wildskymedia.com/privacy-policy/",
+        "select": ".privacy-policy__PrivacyPolicyWrapper-sc-o94py9-0",
+        "mimeType": "text/html",
+        "snapshotId": "23f0e3d63991a3c045729e1d4742c3272b3ff1c1"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".privacy-policy__PrivacyPolicyWrapper-sc-o94py9-0\" has no match in the web page at 'https://www.wildskymedia.com/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
