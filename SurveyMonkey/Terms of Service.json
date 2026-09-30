@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:56:50.453Z",
+    "serviceName": "SurveyMonkey",
+    "sourceDocuments": [
+      {
+        "id": "mp-legal-terms-of-use",
+        "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+        "select": [
+          ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
+        ],
+        "remove": [
+          {
+            "startBefore": ".asset-dropdown-versions-label",
+            "endAfter": "[class*=\"assetDropdownContainer\"]"
+          },
+          "[data-hidechapternav=\"true\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c723ea6ed77fffaa928c2a4d3d9111c3ee42302d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\".asset-dropdown-versions-label\",\"endAfter\":\"[class*=\\\"assetDropdownContainer\\\"]\"}"
+    ]
+  }
+}
