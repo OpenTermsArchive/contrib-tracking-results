@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:15.606Z",
+    "serviceName": "Tinder",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy-intl-en",
+        "fetch": "https://policies.tinder.com/cookie-policy/intl/en",
+        "select": [
+          "[class^=TextContent]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a3943c5aef113652a379a9a8f8ac90fd57cfd080"
+      }
+    ]
+  }
+}
