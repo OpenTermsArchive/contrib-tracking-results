@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:34.382Z",
+    "serviceName": "Qobuz",
+    "sourceDocuments": [
+      {
+        "id": "us-en-page-charte_cookies",
+        "fetch": "https://www.qobuz.com/us-en/page/charte_cookies",
+        "select": "#main",
+        "mimeType": "text/html",
+        "snapshotId": "16ffe08ffc2c27013f103c22f5b6ca8197ffba5a"
+      }
+    ]
+  }
+}
