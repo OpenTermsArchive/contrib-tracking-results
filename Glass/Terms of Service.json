@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:40:35.989Z",
+    "serviceName": "Glass",
+    "sourceDocuments": [
+      {
+        "id": "glass-termsofuse",
+        "fetch": "https://www.google.com/glass/termsofuse/",
+        "select": ".main-content",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.google.com/glass/termsofuse/'"
+    ]
+  }
+}
