@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:41:32.913Z",
+    "serviceName": "Google Data Studio",
+    "sourceDocuments": [
+      {
+        "id": "datastudio-answer-7020012",
+        "fetch": "https://support.google.com/datastudio/answer/7020012?hl=en&ref_topic=7156687?hl=en-GB",
+        "select": "section[class=article-container]",
+        "mimeType": "text/html",
+        "snapshotId": "548e7917be5c5e642b09426871996c99f32116ab"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"section[class=article-container]\" has no match in the web page at 'https://support.google.com/datastudio/answer/7020012?hl=en&ref_topic=7156687?hl=en-GB'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
