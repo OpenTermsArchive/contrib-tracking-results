@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:16.443Z",
+    "serviceName": "HackerOne",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.hackerone.com/terms",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a58c1dea6546b521eb38e566c6810810768d8800"
+      }
+    ]
+  }
+}
