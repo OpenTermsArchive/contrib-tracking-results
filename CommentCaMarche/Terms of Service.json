@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:04.097Z",
+    "serviceName": "CommentÇaMarche",
+    "sourceDocuments": [
+      {
+        "id": "contents-953-general-terms-and-conditions-of-use",
+        "fetch": "https://ccm.net/contents/953-general-terms-and-conditions-of-use",
+        "select": [
+          "h1",
+          ".app_author_box",
+          ".layout_main"
+        ],
+        "remove": [
+          ".ccmsummary",
+          ".app_author_box picture",
+          ".view-more__box",
+          "#jSNSPreview"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b9524da160df1d601c42eea1b8da99ddf7c32d24"
+      }
+    ]
+  }
+}
