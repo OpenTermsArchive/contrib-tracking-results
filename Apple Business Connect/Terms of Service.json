@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:53.286Z",
+    "serviceName": "Apple Business Connect",
+    "sourceDocuments": [
+      {
+        "id": "legal-internet-services-maps-business-connect-apple-business-connect-business-terms-english",
+        "fetch": "https://www.apple.com/legal/internet-services/maps/business-connect/apple-business-connect-business-terms-english.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "30feedce7f6ce9894e5740f6bcf9e81d16171d75"
+      }
+    ]
+  }
+}
