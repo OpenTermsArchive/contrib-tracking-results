@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:08.296Z",
+    "serviceName": "Jottacloud",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://jottacloud.com/en/privacy",
+        "select": [
+          ".module-articleRichText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "de6dd6851684aafc6f4e9b26541d0e1216ab7d8c"
+      }
+    ]
+  }
+}
