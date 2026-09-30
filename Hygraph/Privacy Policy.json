@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:41.769Z",
+    "serviceName": "Hygraph",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://hygraph.com/privacy",
+        "select": [
+          "main section"
+        ],
+        "remove": [
+          "main section:last-child"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "caff4e8c2e9eed5e23b9ee27099525e5e30a99f5"
+      }
+    ]
+  }
+}
