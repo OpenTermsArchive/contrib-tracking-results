@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:35.241Z",
+    "serviceName": "Palantir",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions",
+        "fetch": "https://www.palantir.com/terms-and-conditions/",
+        "select": [
+          "main section"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cb2acbb2c27d9e9ea8a5bb26105de465eb9ce3e0"
+      }
+    ]
+  }
+}
