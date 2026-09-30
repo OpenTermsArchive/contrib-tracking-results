@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:32:22.071Z",
+    "serviceName": "Alibaba.com",
+    "sourceDocuments": [
+      {
+        "id": "icbu",
+        "fetch": "https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2034&cId=1306#/rule/detail?cId=1306&ruleId=2034",
+        "select": [
+          ".rule-detail-text"
+        ],
+        "remove": [
+          ".evalutaion",
+          ".rule-text-explain"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "38e5d9d414538d778cdec20c3b4af0c266b14d8f"
+      }
+    ]
+  }
+}
