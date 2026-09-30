@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:39.061Z",
+    "serviceName": "Amazon Web Services",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://aws.amazon.com/privacy/",
+        "select": [
+          "#aws-page-content-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2d91d0995ec33ed4ff7910774925a45329798560"
+      }
+    ]
+  }
+}
