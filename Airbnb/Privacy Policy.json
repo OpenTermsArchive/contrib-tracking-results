@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:32:03.030Z",
+    "serviceName": "Airbnb",
+    "sourceDocuments": [
+      {
+        "id": "help-article-3175",
+        "fetch": "https://www.airbnb.co.uk/help/article/3175",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".t15kpzrz",
+          ".l94quoy"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6826badcb00667bbae16a9af6fb1f99aed689041"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.airbnb.co.uk/help/article/3175'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
