@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:41.746Z",
+    "serviceName": "Thunderbird",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-thunderbird",
+        "fetch": "https://www.mozilla.org/en-US/privacy/thunderbird/",
+        "select": [
+          ".mzp-l-main"
+        ],
+        "remove": [
+          ".privacy-logo"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c0249a3faca81a287446e3bde9da8b941e47d430"
+      }
+    ]
+  }
+}
