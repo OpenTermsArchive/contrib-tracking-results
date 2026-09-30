@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:07.247Z",
+    "serviceName": "Revcontent",
+    "sourceDocuments": [
+      {
+        "id": "knowledge-publisher-terms",
+        "fetch": "https://help.revcontent.com/knowledge/publisher-terms",
+        "select": [
+          ".kb-article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e25b8e8b30af0916da1764f6665af72c7f511a18"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".kb-article\"]\" has no match in the web page at 'https://help.revcontent.com/knowledge/publisher-terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
