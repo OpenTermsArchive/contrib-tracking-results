@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:17.672Z",
+    "serviceName": "Nextdoor",
+    "sourceDocuments": [
+      {
+        "id": "gb-privacy-policy-2021",
+        "fetch": "https://legal.nextdoor.com/gb-privacy-policy-2021/",
+        "select": [
+          ".post-wrapper"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error UNABLE_TO_VERIFY_LEAF_SIGNATURE occurred when trying to fetch 'https://legal.nextdoor.com/gb-privacy-policy-2021/'"
+    ]
+  }
+}
