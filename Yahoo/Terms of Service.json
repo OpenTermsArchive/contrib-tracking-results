@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:00.010Z",
+    "serviceName": "Yahoo",
+    "sourceDocuments": [
+      {
+        "id": "ie-en-yahoo-terms-utos-index",
+        "fetch": "https://policies.yahoo.com/ie/en/yahoo/terms/utos/index.htm?redirect=no",
+        "select": ".l-content-well-content",
+        "mimeType": "text/html",
+        "snapshotId": "4d2ebb4afc1058f420b98c712dc3c14fdb8a8a27"
+      }
+    ]
+  }
+}
