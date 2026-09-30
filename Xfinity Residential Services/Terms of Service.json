@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:46.406Z",
+    "serviceName": "Xfinity Residential Services",
+    "sourceDocuments": [
+      {
+        "id": "Corporate-Customers-Policies-SubscriberAgreement",
+        "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/SubscriberAgreement",
+        "select": ".x-section",
+        "remove": ".x-section > .x-content:first-child a",
+        "mimeType": "text/html",
+        "snapshotId": "a49b0ae27e85a87eabc4483bdf588d1691d2c951"
+      }
+    ]
+  }
+}
