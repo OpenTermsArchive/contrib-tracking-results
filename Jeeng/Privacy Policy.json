@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:00.504Z",
+    "serviceName": "Jeeng",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.jeeng.com/privacy-policy/",
+        "select": [
+          ".container--small"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a8f1bd92d8e8b73cdbef080d9c96932dd558a7ce"
+      }
+    ]
+  }
+}
