@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:39:10.865Z",
+    "serviceName": "Facebook Ads",
+    "sourceDocuments": [
+      {
+        "id": "legal-self_service_ads_terms",
+        "fetch": "https://www.facebook.com/legal/self_service_ads_terms",
+        "select": [
+          ".ad2k81qe"
+        ],
+        "remove": [
+          ".tr9rh885"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1f67543f691b21471d2cf006726069b5a6712573"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".ad2k81qe\"]\" has no match in the web page at 'https://www.facebook.com/legal/self_service_ads_terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
