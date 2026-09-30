@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:27.517Z",
+    "serviceName": "Firefox Private Network",
+    "sourceDocuments": [
+      {
+        "id": "en-US-privacy-firefox-private-network",
+        "fetch": "https://www.mozilla.org/en-US/privacy/firefox-private-network/",
+        "select": [
+          ".mzp-l-main"
+        ],
+        "remove": [
+          ".privacy-logo",
+          ".privacy-footnote"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "efdb8a67cc0563faa9a293d490e2222cb64c3401"
+      }
+    ]
+  }
+}
