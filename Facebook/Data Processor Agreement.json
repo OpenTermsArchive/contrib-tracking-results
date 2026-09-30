@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:38:44.994Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-EU_data_transfer_addendum",
+        "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
+        "select": [
+          "div[role=main]"
+        ],
+        "remove": [
+          {
+            "startBefore": "[role=\"separator\"]",
+            "endAfter": "body"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a1801bb2baf5f02e6521989c788a08931239e482"
+      }
+    ]
+  }
+}
