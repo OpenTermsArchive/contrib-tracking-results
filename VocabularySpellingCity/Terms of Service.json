@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:07:53.713Z",
+    "serviceName": "VocabularySpellingCity",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.spellingcity.com/terms-of-service.html",
+        "select": [
+          "#wp-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "16bb8af1446f0e2917ff25120fce9bbae5d07152"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#wp-main\"]\" has no match in the web page at 'https://www.spellingcity.com/terms-of-service.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
