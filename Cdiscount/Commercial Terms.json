@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:36.492Z",
+    "serviceName": "Cdiscount",
+    "sourceDocuments": [
+      {
+        "id": "simple-cgv.aspx",
+        "fetch": "https://clients.cdiscount.com/simple/cgv.aspx",
+        "select": ".acDes",
+        "filter": [
+          "recoverReplacementCharacters"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "63fcdff2fe9454dd77952618018200524c5c7d66"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".acDes\" has no match in the web page at 'https://clients.cdiscount.com/simple/cgv.aspx'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
