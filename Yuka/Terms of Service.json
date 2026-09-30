@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:13.660Z",
+    "serviceName": "Yuka",
+    "sourceDocuments": [
+      {
+        "id": "l-en-article-2a12869y56",
+        "fetch": "https://help.yuka.io/l/en/article/2a12869y56",
+        "select": [
+          ".max-w-3xl",
+          ".justify-start"
+        ],
+        "remove": [
+          "#feedback"
+        ],
+        "filter": [
+          "replaceDaysAgo"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "30fdc28acc659bfa0f7b5806d4e840879df85d64"
+      }
+    ]
+  }
+}
