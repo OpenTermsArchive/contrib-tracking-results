@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:39.812Z",
+    "serviceName": "Mullvad",
+    "sourceDocuments": [
+      {
+        "id": "en-help-terms-service",
+        "fetch": "https://mullvad.net/en/help/terms-service",
+        "select": [
+          "article"
+        ],
+        "remove": ".tag",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9213bc5188dcf2503c6503da2811315e17c48ece"
+      }
+    ]
+  }
+}
