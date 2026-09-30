@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:23.166Z",
+    "serviceName": "Hearst.com",
+    "sourceDocuments": [
+      {
+        "id": "--hearst-com-terms-of-use",
+        "fetch": "https://www.hearst.com/-/hearst-com-terms-of-use",
+        "select": ".body-content",
+        "mimeType": "text/html",
+        "snapshotId": "2245acb0c8be25da902ca8bd18e49c01b8c6c990"
+      }
+    ]
+  }
+}
