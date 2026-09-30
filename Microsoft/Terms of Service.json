@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:26.667Z",
+    "serviceName": "Microsoft",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-servicesagreement",
+        "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".print",
+          ".tr_Right_Nav_Header_OnePSTemplate",
+          ".back-to-top-button"
+        ],
+        "filter": [
+          "removeIrrelevantModulesFromTos",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "12a851582d54c490b1b279c832d9f4deb8e1a6e9"
+      }
+    ]
+  }
+}
