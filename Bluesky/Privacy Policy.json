@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:10.030Z",
+    "serviceName": "Bluesky",
+    "sourceDocuments": [
+      {
+        "id": "about-support-privacy-policy",
+        "fetch": "https://bsky.social/about/support/privacy-policy",
+        "select": [
+          ".support-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "75d9db53e8939e477f11de8ee90b749c96a855d9"
+      }
+    ]
+  }
+}
