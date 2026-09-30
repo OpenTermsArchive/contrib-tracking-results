@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:51.880Z",
+    "serviceName": "Energia",
+    "sourceDocuments": [
+      {
+        "id": "home-privacy-statement",
+        "fetch": "https://www.energia.ie/home/privacy-statement",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "27c6e7b6704a3f37871209c586456d4bfcdbef6d"
+      }
+    ]
+  }
+}
