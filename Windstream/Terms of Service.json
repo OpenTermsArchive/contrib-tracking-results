@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:04.679Z",
+    "serviceName": "Windstream",
+    "sourceDocuments": [
+      {
+        "id": "about-legal-Terms-and-Conditions",
+        "fetch": "https://www.windstream.com/about/legal/Terms-and-Conditions",
+        "select": ".support-container",
+        "mimeType": "text/html",
+        "snapshotId": "cb2f4f3b130f9a9b7f8eaca9ef396432dfa25078"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".support-container\" has no match in the web page at 'https://www.windstream.com/about/legal/Terms-and-Conditions'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
