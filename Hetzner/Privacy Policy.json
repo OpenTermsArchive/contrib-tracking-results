@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:26.293Z",
+    "serviceName": "Hetzner",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://www.hetzner.com/legal/privacy-policy/",
+        "select": [
+          ".border-card"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c431d17850090e1dbd6e71e5779a1cefddaf4b6b"
+      }
+    ]
+  }
+}
