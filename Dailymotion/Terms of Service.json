@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:26.082Z",
+    "serviceName": "Dailymotion",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
+        "select": [
+          "main .tocpage-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1a4fae6a04d5271339144cb924cfe7558d254fa3"
+      }
+    ]
+  }
+}
