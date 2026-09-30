@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:01:28.539Z",
+    "serviceName": "Twitter",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-data-processing-legal-bases",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+        "select": [
+          ".aem-Grid"
+        ],
+        "remove": [
+          ".u11__breadcrumbs-mobile-modal",
+          ".twtr-type--roman-100r",
+          ".twtr-type--headline-md",
+          ".b24__wrapper",
+          ".b17"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3b8a92847e180851738b2dd6fb2661c43ee4765c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".aem-Grid\"]\" has no match in the web page at 'https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
