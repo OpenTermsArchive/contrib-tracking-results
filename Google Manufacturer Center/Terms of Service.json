@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:40.505Z",
+    "serviceName": "Google Manufacturer Center",
+    "sourceDocuments": [
+      {
+        "id": "files-tos-US-2017-04-18-tos",
+        "fetch": "https://manufacturers.google.com/files/tos/US/2017-04-18-tos.html",
+        "select": "body",
+        "mimeType": "text/html",
+        "snapshotId": "719e1fe972400368e7009891000c63f73c64086a"
+      }
+    ]
+  }
+}
