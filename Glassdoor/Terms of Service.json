@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:12:39.405Z",
+    "serviceName": "Glassdoor",
+    "sourceDocuments": [
+      {
+        "id": "about-terms",
+        "fetch": "https://www.glassdoor.com/about/terms/",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.glassdoor.com/about/terms/'"
+    ]
+  }
+}
