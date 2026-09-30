@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:45:00.553Z",
+    "serviceName": "Kraken",
+    "sourceDocuments": [
+      {
+        "id": "en-us-legal-cookies",
+        "fetch": "https://www.kraken.com/en-us/legal/cookies",
+        "select": [
+          ".kraken-article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "70de16bffb9a777a32f6b3934dd43bb75c1f3f61"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".kraken-article-body\"]\" has no match in the web page at 'https://www.kraken.com/en-us/legal/cookies'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
