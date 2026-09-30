@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:43.689Z",
+    "serviceName": "Lyft",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.lyft.com/privacy",
+        "select": [
+          "#privacy"
+        ],
+        "remove": [
+          ".table-of-contents"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "046fdcd9aeac0bb954b7847db0fec07a2bc5dd32"
+      }
+    ]
+  }
+}
