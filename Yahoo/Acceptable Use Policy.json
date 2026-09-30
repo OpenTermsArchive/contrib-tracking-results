@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:04.855Z",
+    "serviceName": "Yahoo",
+    "sourceDocuments": [
+      {
+        "id": "us-en-yahoo-terms-advertising-publisher-index",
+        "fetch": "https://policies.yahoo.com/us/en/yahoo/terms/advertising/publisher/index.htm",
+        "select": [
+          ".yui3-g:nth-child(2) > .yui3-u-2-3 > .yui3-by-content",
+          "h1"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ceedf2b3d68b5d3ed7ddd560445171b6103a07c4"
+      }
+    ]
+  }
+}
