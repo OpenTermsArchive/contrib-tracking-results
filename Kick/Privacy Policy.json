@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:15.051Z",
+    "serviceName": "Kick",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://kick.com/privacy-policy",
+        "select": ".markdown-policy-page",
+        "mimeType": "text/html",
+        "snapshotId": "1f16f5a3f56c4d90cc58376f7c3fd7e2abf15fb1"
+      }
+    ]
+  }
+}
