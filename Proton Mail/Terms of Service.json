@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:23.473Z",
+    "serviceName": "Proton Mail",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://proton.me/legal/terms",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "dbc81931d19f827b6df951738889a72789ee44cb"
+      }
+    ]
+  }
+}
