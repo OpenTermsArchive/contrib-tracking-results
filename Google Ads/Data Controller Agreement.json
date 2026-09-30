@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:41:11.334Z",
+    "serviceName": "Google Ads",
+    "sourceDocuments": [
+      {
+        "id": "businesses-controllerterms",
+        "fetch": "https://privacy.google.com/businesses/controllerterms/",
+        "select": [
+          ".terms-page"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "92884970fdd106d7864f02b4fb5eb49ac7c85e9c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".terms-page\"]\" has no match in the web page at 'https://privacy.google.com/businesses/controllerterms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
