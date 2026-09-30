@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:22.557Z",
+    "serviceName": "Project Gutenberg",
+    "sourceDocuments": [
+      {
+        "id": "policy-privacy_policy",
+        "fetch": "https://www.gutenberg.org/policy/privacy_policy.html",
+        "select": [
+          ".page_content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6e88706f82b6dd3ace1774cad9969518cee307fb"
+      }
+    ]
+  }
+}
