@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:50:21.815Z",
+    "serviceName": "Proctorio",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://proctorio.com/privacy",
+        "select": [
+          ".hero",
+          ".pt-20",
+          "#policy-container"
+        ],
+        "remove": [
+          ".policy-toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9def55f465c1431932d5242d0f10a3492d68f388"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".hero\",\".pt-20\",\"#policy-container\"]\" has no match in the web page at 'https://proctorio.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
