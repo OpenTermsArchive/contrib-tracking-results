@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:46.637Z",
+    "serviceName": "Paradox Interactive",
+    "sourceDocuments": [
+      {
+        "id": "eula",
+        "fetch": "https://legal.paradoxplaza.com/eula",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "aside"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1ef648ccbd34fd40e93861df68c3f4111cb5a238"
+      }
+    ]
+  }
+}
