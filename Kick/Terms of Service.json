@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:16.281Z",
+    "serviceName": "Kick",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://kick.com/terms-of-service",
+        "select": ".markdown-policy-page",
+        "mimeType": "text/html",
+        "snapshotId": "4e1d476565c7d1a52d34ab334af185810eca3d33"
+      }
+    ]
+  }
+}
