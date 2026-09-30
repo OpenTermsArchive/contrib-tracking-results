@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:44:47.783Z",
+    "serviceName": "Kraken",
+    "sourceDocuments": [
+      {
+        "id": "en-us-legal-privacy",
+        "fetch": "https://www.kraken.com/en-us/legal/privacy/",
+        "select": [
+          ".kraken-article-body"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e557177e9d75d1dc247ef00042a69ccd4c165205"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".kraken-article-body\"]\" has no match in the web page at 'https://www.kraken.com/en-us/legal/privacy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
