@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:29.521Z",
+    "serviceName": "Veepee",
+    "sourceDocuments": [
+      {
+        "id": "cgv-fr-FR-Conditions_Generales_de_Vente",
+        "fetch": "https://www.veepee.fr/cgv/fr-FR/Conditions_Generales_de_Vente.pdf?CountryCode=FR",
+        "mimeType": "application/pdf",
+        "snapshotId": "7334feaba43ac35fa2d99cc12b50e6f38fe971cb"
+      }
+    ]
+  }
+}
