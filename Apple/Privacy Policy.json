@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:45.368Z",
+    "serviceName": "Apple",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-en-ww",
+        "fetch": "https://www.apple.com/legal/privacy/en-ww/",
+        "select": [
+          ".section-hero > .section-content",
+          ".section-transparency-accordion"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "20d64a9a2d8ede136a1c03f601ec1988fc139b0f"
+      }
+    ]
+  }
+}
