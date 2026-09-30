@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:38.245Z",
+    "serviceName": "Olvid",
+    "sourceDocuments": [
+      {
+        "id": "privacy-en",
+        "fetch": "https://olvid.io/privacy/en/",
+        "select": [
+          ".container > .row > .col-12"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8ba95aab9408a215316a3a1739eacd474949a3c2"
+      }
+    ]
+  }
+}
