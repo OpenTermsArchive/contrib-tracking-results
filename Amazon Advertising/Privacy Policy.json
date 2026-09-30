@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:05.430Z",
+    "serviceName": "Amazon Advertising",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display.",
+        "fetch": "https://www.amazon.co.uk/gp/help/customer/display.html/?nodeId=201909010&ref_=a20m_us_fnav_l_prvcy_gb",
+        "select": [
+          ".help-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a4fc592e2041198fe3dc047dd6bfd24ee05bf531"
+      }
+    ]
+  }
+}
