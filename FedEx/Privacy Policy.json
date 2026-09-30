@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:16.698Z",
+    "serviceName": "FedEx",
+    "sourceDocuments": [
+      {
+        "id": "en-fr-privacy-policy",
+        "fetch": "https://www.fedex.com/en-fr/privacy-policy.html",
+        "select": [
+          ".cmp-container"
+        ],
+        "remove": [
+          "a[href=\"#top\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "15d2d979d3a8c204b09aea3c8a440a5247c23428"
+      }
+    ]
+  }
+}
