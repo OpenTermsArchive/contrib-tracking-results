@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:29.295Z",
+    "serviceName": "Base",
+    "sourceDocuments": [
+      {
+        "id": "docs-terms-of-service",
+        "fetch": "https://docs.base.org/docs/terms-of-service/",
+        "select": "article",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://docs.base.org/docs/terms-of-service/'"
+    ]
+  }
+}
