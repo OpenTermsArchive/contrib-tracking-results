@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:15:01.285Z",
+    "serviceName": "vidguard.to",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://vidguard.to/terms",
+        "select": [
+          {
+            "startAfter": "header",
+            "endBefore": "footer"
+          }
+        ],
+        "remove": ".d-none",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://vidguard.to/terms'"
+    ]
+  }
+}
