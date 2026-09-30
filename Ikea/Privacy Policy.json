@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:47.049Z",
+    "serviceName": "Ikea",
+    "sourceDocuments": [
+      {
+        "id": "ie-en-customer-service-privacy-policy",
+        "fetch": "https://www.ikea.com/ie/en/customer-service/privacy-policy/",
+        "select": [
+          "main#content"
+        ],
+        "remove": [
+          ".bc-breadcrumb__list",
+          ".hnf-mobile-vp"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "842cb4048189f6d44463ce3e24d1b986bd2585e5"
+      }
+    ]
+  }
+}
