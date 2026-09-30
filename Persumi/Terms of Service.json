@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:55.836Z",
+    "serviceName": "Persumi",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://persumi.com/terms",
+        "select": [
+          ".prose"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d5e4ceac93dab5e4ff426fd29e2156c73fbb1664"
+      }
+    ]
+  }
+}
