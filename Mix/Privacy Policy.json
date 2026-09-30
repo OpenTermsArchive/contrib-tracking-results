@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:32.222Z",
+    "serviceName": "Mix",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://mix.com/privacy",
+        "select": [
+          ".max-w-screen-md"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "49c1973a31df74db6b17581a1b533565c4ad8166"
+      }
+    ]
+  }
+}
