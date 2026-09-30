@@ -1,0 +1,101 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:55:28.383Z",
+    "serviceName": "Starlink",
+    "sourceDocuments": [
+      {
+        "id": "legal-documents-DOC-1039-91966-80",
+        "fetch": "https://starlink.com/legal/documents/DOC-1039-91966-80?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9adf2b15131ef698808f0d707ade332f9c003a47"
+      },
+      {
+        "id": "legal-documents-DOC-1884-25296-81",
+        "fetch": "https://starlink.com/legal/documents/DOC-1884-25296-81?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b3742b7ab86f35bcbc0ec091b8d884c840abf091"
+      },
+      {
+        "id": "legal-documents-DOC-1470-99699-90",
+        "fetch": "https://starlink.com/legal/documents/DOC-1470-99699-90?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "66d8ee1f5b6763fcbac9cdab868fee8344365c63"
+      },
+      {
+        "id": "legal-documents-DOC-1486-43578-82",
+        "fetch": "https://starlink.com/legal/documents/DOC-1486-43578-82?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a7f6057241e74acdda175c0fe2f9265630e9a8f8"
+      },
+      {
+        "id": "legal-documents-DOC-1728-44881-79",
+        "fetch": "https://starlink.com/legal/documents/DOC-1728-44881-79?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4793f396804823f21577945bcdae11be1baafeb9"
+      },
+      {
+        "id": "legal-documents-DOC-1075-86535-76",
+        "fetch": "https://starlink.com/legal/documents/DOC-1075-86535-76?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bbfcb1b427e792e6881aad85236dbcd93be7c1bd"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1039-91966-80?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1884-25296-81?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1470-99699-90?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1486-43578-82?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1728-44881-79?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1075-86535-76?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
