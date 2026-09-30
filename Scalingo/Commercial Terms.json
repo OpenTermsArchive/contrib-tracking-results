@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:10.383Z",
+    "serviceName": "Scalingo",
+    "sourceDocuments": [
+      {
+        "id": "general-terms-and-conditions",
+        "fetch": "https://scalingo.com/general-terms-and-conditions",
+        "select": [
+          "h1",
+          ".markdown-legal"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ce520a88bb022a4f1d622482cf7fcbdc600f4517"
+      }
+    ]
+  }
+}
