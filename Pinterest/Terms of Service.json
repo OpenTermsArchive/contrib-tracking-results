@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:58.113Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-of-service",
+        "fetch": "https://policy.pinterest.com/en/terms-of-service",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "ddcbed934a1c5b8d6242d52f4d13913bc262a224"
+      }
+    ]
+  }
+}
