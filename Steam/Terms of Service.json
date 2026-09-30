@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:41.479Z",
+    "serviceName": "Steam",
+    "sourceDocuments": [
+      {
+        "id": "subscriber_agreement",
+        "fetch": "https://store.steampowered.com/subscriber_agreement/",
+        "select": [
+          "#ssa_body"
+        ],
+        "remove": [
+          "a[href=\"#0\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e4cbb4704aa9f6a2200ac443da55b59c620d3590"
+      }
+    ]
+  }
+}
