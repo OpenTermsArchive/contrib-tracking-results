@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:15.216Z",
+    "serviceName": "Brave",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://brave.com/terms-of-use/",
+        "select": [
+          ".hero > .container",
+          ".py-12"
+        ],
+        "remove": [
+          ".toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "037ddab5f6008a52186a0f4df11d17b9795e5207"
+      }
+    ]
+  }
+}
