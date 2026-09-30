@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:40.869Z",
+    "serviceName": "Amazon.com",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display.html-ref=hp_left_v4_sib",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=201909000",
+        "select": ".cs-help-content",
+        "remove": [
+          ".cs-help-breadcrumb",
+          "#csg-search-cu",
+          "#hmd-FeedbackBox",
+          "#cf-div",
+          "#hmd-ReasonBox",
+          "#hmd-ConfirmYesBox",
+          "#hmd-ConfirmNoBox"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "eedc10dd36b480a70c7c246813af57c179d3408f"
+      }
+    ]
+  }
+}
