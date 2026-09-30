@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:05.473Z",
+    "serviceName": "Reserve with Google",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en-GB",
+        "select": "div[role=article]",
+        "remove": ".KMMDve, .TL2alc, img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1091d000eede704fa5aeb87464066030f63c1b75"
+      }
+    ]
+  }
+}
