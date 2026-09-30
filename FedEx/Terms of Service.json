@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:19.504Z",
+    "serviceName": "FedEx",
+    "sourceDocuments": [
+      {
+        "id": "en-fr-terms-of-use",
+        "fetch": "https://www.fedex.com/en-fr/terms-of-use.html",
+        "select": [
+          ".cmp-container"
+        ],
+        "remove": [
+          "a[href=\"#top\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4f8411c1f5b429fbb5d7d22ecbdc19ccfbaea41b"
+      }
+    ]
+  }
+}
