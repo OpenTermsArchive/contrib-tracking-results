@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:05:21.529Z",
+    "serviceName": "UserDrive.com",
+    "sourceDocuments": [
+      {
+        "id": "pages-privacy-policy",
+        "fetch": "https://usersdrive.com/pages/privacy-policy.html",
+        "select": ".tos",
+        "mimeType": "text/html",
+        "snapshotId": "09417bf93d8cc371c5ee083257e0fe8276fb0b93"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".tos\" has no match in the web page at 'https://usersdrive.com/pages/privacy-policy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
