@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:04:57.991Z",
+    "serviceName": "ubuntu.com",
+    "sourceDocuments": [
+      {
+        "id": "legal-data-privacy",
+        "fetch": "https://ubuntu.com/legal/data-privacy",
+        "select": ".p-strip",
+        "mimeType": "text/html",
+        "snapshotId": "d94d3939b81096fc542b8d20ae767393f956073a"
+      }
+    ]
+  }
+}
