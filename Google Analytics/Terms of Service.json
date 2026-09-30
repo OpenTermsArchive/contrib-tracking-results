@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:16.945Z",
+    "serviceName": "Google Analytics",
+    "sourceDocuments": [
+      {
+        "id": "about-analytics-terms-gb",
+        "fetch": "https://marketingplatform.google.com/about/analytics/terms/gb/",
+        "select": ".terms-section",
+        "mimeType": "text/html",
+        "snapshotId": "69d39e6b3e0a26a5ff7ae86d7f9b278344418b9f"
+      }
+    ]
+  }
+}
