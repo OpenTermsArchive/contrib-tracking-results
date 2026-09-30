@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:09.857Z",
+    "serviceName": "Guilded",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-360039235054-Privacy",
+        "fetch": "https://support.guilded.gg/hc/en-us/articles/360039235054-Privacy",
+        "select": [
+          ".main-article-content .article-title",
+          ".main-article-content .article-body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "723958e372c2bf52886cf67b1a92e3f28495d249"
+      }
+    ]
+  }
+}
