@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:49.791Z",
+    "serviceName": "Ikea",
+    "sourceDocuments": [
+      {
+        "id": "ie-en-customer-service-terms-conditions",
+        "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/",
+        "select": [
+          "main#content"
+        ],
+        "remove": [
+          ".bc-breadcrumb__list",
+          ".hnf-mobile-vp",
+          "pub-hide-empty-link"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "267baa931a24c72a3774ca8f3a189c57946854c5"
+      },
+      {
+        "id": "ie-en-customer-service-terms-conditions-terms-of-use-pub8262e11a",
+        "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/terms-of-use-pub8262e11a/",
+        "select": [
+          "main#content"
+        ],
+        "remove": [
+          ".bc-breadcrumb__list",
+          ".hnf-mobile-vp",
+          "pub-hide-empty-link"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "140f6ba5fb0f36e1fa0fbacdb2ea8c50861dccb6"
+      },
+      {
+        "id": "ie-en-customer-service-terms-conditions-general-terms-and-conditions-pubf0169731",
+        "fetch": "https://www.ikea.com/ie/en/customer-service/terms-conditions/general-terms-and-conditions-pubf0169731/",
+        "select": [
+          "main#content"
+        ],
+        "remove": [
+          ".bc-breadcrumb__list",
+          ".hnf-mobile-vp",
+          "pub-hide-empty-link"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0fcfe7f98a2f44ae08271061206482b46465a7ce"
+      }
+    ]
+  }
+}
