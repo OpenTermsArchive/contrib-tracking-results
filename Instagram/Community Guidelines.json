@@ -1,0 +1,34 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:43:36.470Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "477434105621119",
+        "fetch": "https://help.instagram.com/477434105621119",
+        "select": [
+          "div[role=\"main\"]"
+        ],
+        "remove": [
+          "div[aria-label=\"Copy Link\"]",
+          "[id='Related Articles']",
+          "fieldset"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ea172aa9e53de32e8ef1ec1201428828968b4966"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"div[role=\\\"main\\\"]\"]\" has no match in the web page at 'https://help.instagram.com/477434105621119'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
