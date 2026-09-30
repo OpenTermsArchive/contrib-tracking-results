@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:27.813Z",
+    "serviceName": "World Market",
+    "sourceDocuments": [
+      {
+        "id": "category-customer-service-privacy-and-security.do",
+        "fetch": "https://www.worldmarket.com/category/customer-service/privacy-and-security.do",
+        "select": [
+          "#privacy-policy"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b06dbaafd1182dbc9ba8c1a7f9b5dabc1e06bcf7"
+      }
+    ]
+  }
+}
