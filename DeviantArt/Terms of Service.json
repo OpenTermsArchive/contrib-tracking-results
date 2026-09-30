@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:12:36.226Z",
+    "serviceName": "DeviantArt",
+    "sourceDocuments": [
+      {
+        "id": "policy-service",
+        "fetch": "https://about.deviantart.com/policy/service/",
+        "select": [
+          {
+            "startAfter": "header",
+            "endBefore": "footer"
+          }
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://about.deviantart.com/policy/service/'"
+    ]
+  }
+}
