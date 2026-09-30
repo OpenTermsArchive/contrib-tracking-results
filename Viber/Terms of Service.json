@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:34.484Z",
+    "serviceName": "Viber",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-viber-terms-use",
+        "fetch": "https://www.viber.com/en/terms/viber-terms-use/",
+        "select": ".post-114",
+        "mimeType": "text/html",
+        "snapshotId": "1006dbb023eb621a763fb6007b03c9bb18979273"
+      }
+    ]
+  }
+}
