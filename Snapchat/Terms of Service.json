@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:09.795Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "en-GB-terms",
+        "fetch": "https://www.snap.com/en-GB/terms",
+        "select": "#terms-row",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dfef479e8027490d0182741d5f4feda56d590c51"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#terms-row\" has no match in the web page at 'https://www.snap.com/en-GB/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
