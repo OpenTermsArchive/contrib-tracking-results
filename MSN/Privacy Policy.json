@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:37.092Z",
+    "serviceName": "MSN",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-privacystatement",
+        "fetch": "https://privacy.microsoft.com/en-gb/privacystatement",
+        "select": "h1, #psp_last_updated, .header_content .Description, .div_content",
+        "filter": [
+          "removeIrrelevantModulesFromPrivacyPolicy",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c3eb753dfa5e79db10150fdc11cdbce2af0440f2"
+      }
+    ]
+  }
+}
