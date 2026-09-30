@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:23.332Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "policy",
+        "fetch": "https://privacycenter.instagram.com/policy/",
+        "select": [
+          ".xg6iff7"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4b480f1fb2b82906821339c2c72ec2e49b12036e"
+      }
+    ]
+  }
+}
