@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:32:45.138Z",
+    "serviceName": "Allrecipes",
+    "sourceDocuments": [
+      {
+        "id": "nmg-privacy",
+        "fetch": "https://www.meredith.com/nmg/privacy",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1a6510ae0398ba3f20283a804ddc169899cabd4a"
+      }
+    ]
+  }
+}
