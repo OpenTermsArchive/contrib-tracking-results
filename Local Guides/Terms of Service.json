@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:39.725Z",
+    "serviceName": "Local Guides",
+    "sourceDocuments": [
+      {
+        "id": "localguides-rules",
+        "fetch": "https://maps.google.com/localguides/rules?hl=en_GB",
+        "select": "section.article-container",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "be45ff9d8d977fd305626ca2c5c566994d7400ac"
+      }
+    ]
+  }
+}
