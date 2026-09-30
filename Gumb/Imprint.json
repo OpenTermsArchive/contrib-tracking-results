@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:15.750Z",
+    "serviceName": "Gumb",
+    "sourceDocuments": [
+      {
+        "id": "en-imprint",
+        "fetch": "https://gumb.app/en/imprint/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "h1"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e2ccfd42704da89491908f1fca1926d014fa2a98"
+      }
+    ]
+  }
+}
