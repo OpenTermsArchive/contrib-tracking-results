@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:38:03.636Z",
+    "serviceName": "Exponential",
+    "sourceDocuments": [
+      {
+        "id": "documents-publisher-code-of-conduct",
+        "fetch": "https://exponential.com/documents/publisher-code-of-conduct/?wpdmdl=17753",
+        "select": "necesary to bypass validation because url is not ending with .pdf",
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://exponential.com/documents/publisher-code-of-conduct/?wpdmdl=17753'"
+    ]
+  }
+}
