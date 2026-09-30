@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:33.952Z",
+    "serviceName": "Honkai: Star Rail",
+    "sourceDocuments": [
+      {
+        "id": "en-us-company-terms",
+        "fetch": "https://hsr.hoyoverse.com/en-us/company/terms",
+        "select": [
+          ".detail-content"
+        ],
+        "remove": [
+          ".nav-wrap",
+          ".footer-crm",
+          "#footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0caa8f0a3a4bf1a00699b05e78630c841fb2b1dc"
+      }
+    ]
+  }
+}
