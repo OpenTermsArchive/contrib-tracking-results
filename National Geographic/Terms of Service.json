@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:48:15.961Z",
+    "serviceName": "National Geographic",
+    "sourceDocuments": [
+      {
+        "id": "english-united-kingdom",
+        "fetch": "https://disneytermsofuse.com/english-united-kingdom/",
+        "select": [
+          ".entry"
+        ],
+        "remove": [
+          ".button_link"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0e210176f6b80043fdeac9fa6c801035a9b9eb78"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".entry\"]\" has no match in the web page at 'https://disneytermsofuse.com/english-united-kingdom/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
