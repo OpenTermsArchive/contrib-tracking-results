@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:16.901Z",
+    "serviceName": "BankID",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-of-use-bankid-mobile-application",
+        "fetch": "https://www.bankid.com/en/terms-of-use-bankid-mobile-application",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f177bdfcd9e05a855d291e5d3f6e68e24e946629"
+      }
+    ]
+  }
+}
