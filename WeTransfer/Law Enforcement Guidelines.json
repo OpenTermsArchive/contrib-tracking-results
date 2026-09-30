@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:44.082Z",
+    "serviceName": "WeTransfer",
+    "sourceDocuments": [
+      {
+        "id": "explore-legal-law-enforcement",
+        "fetch": "https://wetransfer.com/explore/legal/law-enforcement",
+        "select": [
+          ".ui-legal__content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "985cd4feb8965957d9665688e1fe98f378644ea7"
+      }
+    ]
+  }
+}
