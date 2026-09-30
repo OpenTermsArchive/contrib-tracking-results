@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:36.118Z",
+    "serviceName": "Olvid",
+    "sourceDocuments": [
+      {
+        "id": "terms-en",
+        "fetch": "https://olvid.io/terms/en/",
+        "select": [
+          ".container > .row > .col-12"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2a41609ee17cfbfee0bcf30bb7b57a7beaacfe3b"
+      }
+    ]
+  }
+}
