@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:42:53.731Z",
+    "serviceName": "Imgur",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://imgur.com/tos",
+        "select": [
+          ".text-content"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://imgur.com/tos'"
+    ]
+  }
+}
