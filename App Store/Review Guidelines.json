@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:44.531Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "app-store-review-guidelines",
+        "fetch": "https://developer.apple.com/app-store/review/guidelines/",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "7254fd6d46348f909e21b149021ecbdb0a4ff187"
+      }
+    ]
+  }
+}
