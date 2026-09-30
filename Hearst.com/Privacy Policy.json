@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:25.563Z",
+    "serviceName": "Hearst.com",
+    "sourceDocuments": [
+      {
+        "id": "--hearst-com-privacy-notice",
+        "fetch": "https://www.hearst.com/-/hearst-com-privacy-notice",
+        "select": ".body-content",
+        "mimeType": "text/html",
+        "snapshotId": "159a23e81b0bbc200f8b3bbb7778e5dcb2c30ed5"
+      }
+    ]
+  }
+}
