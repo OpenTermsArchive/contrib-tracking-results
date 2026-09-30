@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:39.150Z",
+    "serviceName": "Rubicon Project",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://rubiconproject.com/privacy-policy/",
+        "select": [
+          ".page-header",
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d90237a7aeec7631fa81ee331338c5b3fd7af158"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-header\",\".content\"]\" has no match in the web page at 'https://rubiconproject.com/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
