@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:38:59.537Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "safety-groups-law-guidelines",
+        "fetch": "https://www.facebook.com/safety/groups/law/guidelines",
+        "select": [
+          "._4xy4 > div"
+        ],
+        "remove": [
+          ".img"
+        ],
+        "filter": [
+          "cleanUrls"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "ac0f9fb84411c7642ba26ef08e184d6e343d3167"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"._4xy4 > div\"]\" has no match in the web page at 'https://www.facebook.com/safety/groups/law/guidelines'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
