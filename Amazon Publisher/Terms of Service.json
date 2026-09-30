@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:30.210Z",
+    "serviceName": "Amazon Publisher",
+    "sourceDocuments": [
+      {
+        "id": "webpublisher-apsmanaged-apsagreement",
+        "fetch": "https://ams.amazon.com/webpublisher/apsmanaged/apsagreement.html",
+        "select": [
+          ".col-md-12"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a8e4b2ba53897b690de8eab8952b61748b785141"
+      }
+    ]
+  }
+}
