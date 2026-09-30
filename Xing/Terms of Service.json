@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:50.330Z",
+    "serviceName": "Xing",
+    "sourceDocuments": [
+      {
+        "id": "terms-xing",
+        "fetch": "https://www.xing.com/terms/xing",
+        "select": ".content-page",
+        "mimeType": "text/html",
+        "snapshotId": "535941fd77f6be9985d07ec48748b59beede0a4a"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".content-page\" has no match in the web page at 'https://www.xing.com/terms/xing'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
