@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:46.245Z",
+    "serviceName": "eBay",
+    "sourceDocuments": [
+      {
+        "id": "help-policies-member-behaviour-policies-user-agreement",
+        "fetch": "https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259",
+        "select": "div.article_body",
+        "remove": "div.expand_collapse_list",
+        "mimeType": "text/html",
+        "snapshotId": "b41078f03b3d5575bbaf26e279b658b60ceefba1"
+      }
+    ]
+  }
+}
