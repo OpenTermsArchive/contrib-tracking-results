@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:34.528Z",
+    "serviceName": "Disqus",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-1717102-terms-of-service",
+        "fetch": "https://help.disqus.com/en/articles/1717102-terms-of-service",
+        "select": ".article",
+        "remove": [
+          ".article__meta",
+          ".avatar__photo"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "53537ccd2b56dc6bd945d98ac0eefbdc158503eb"
+      }
+    ]
+  }
+}
