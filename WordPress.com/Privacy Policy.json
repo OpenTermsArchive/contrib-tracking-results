@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:04.274Z",
+    "serviceName": "WordPress.com",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://automattic.com/privacy/",
+        "select": "main",
+        "remove": ".toc-wrapper",
+        "mimeType": "text/html",
+        "snapshotId": "e35efd6cf4e1df95e3d9f63b7a0f8a5c49733083"
+      }
+    ]
+  }
+}
