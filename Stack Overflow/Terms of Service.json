@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:49.446Z",
+    "serviceName": "Stack Overflow",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service",
+        "fetch": "https://stackoverflow.com/legal/terms-of-service",
+        "select": [
+          ".gsy"
+        ],
+        "remove": [
+          "#top > .mb24"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a982450ab2600452f517dbaadb590825a6d1d39c"
+      }
+    ]
+  }
+}
