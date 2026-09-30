@@ -1,0 +1,26 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:34.079Z",
+    "serviceName": "Scalingo",
+    "sourceDocuments": [
+      {
+        "id": "data-processing-agreement",
+        "fetch": "https://scalingo.com/data-processing-agreement",
+        "select": [
+          "h1",
+          {
+            "startBefore": ".markdown-legal h2:nth-of-type(2)",
+            "endBefore": ".markdown-legal h2:nth-of-type(4)"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d2262d9e92d443e8b4e43053eed4ff68e3042ea8"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\".markdown-legal h2:nth-of-type(2)\",\"endBefore\":\".markdown-legal h2:nth-of-type(4)\"}"
+    ]
+  }
+}
