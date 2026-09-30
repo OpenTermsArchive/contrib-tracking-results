@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:12:35.664Z",
+    "serviceName": "Amazon.com",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display.html-ref=hp_left_v4_sib",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=GX7NJQ4ZB8MHFRNJ",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "#hmd-FeedbackBox"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=GX7NJQ4ZB8MHFRNJ'"
+    ]
+  }
+}
