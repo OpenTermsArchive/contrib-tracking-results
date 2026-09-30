@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:21.554Z",
+    "serviceName": "WebCrawler",
+    "sourceDocuments": [
+      {
+        "id": "terms-terms-of-use",
+        "fetch": "https://system1.com/terms/terms-of-use",
+        "select": ".post",
+        "mimeType": "text/html",
+        "snapshotId": "79bdb5dc037077c7acce5691fa4f0e08bd04aa11"
+      }
+    ]
+  }
+}
