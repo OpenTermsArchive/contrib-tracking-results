@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:57.164Z",
+    "serviceName": "Woman’s Day",
+    "sourceDocuments": [
+      {
+        "id": "--us-magazines-privacy-notice",
+        "fetch": "https://www.hearst.com/-/us-magazines-privacy-notice",
+        "select": ".body-content",
+        "mimeType": "text/html",
+        "snapshotId": "583ae88606f69fb17b598cd85deb607119f00eda"
+      }
+    ]
+  }
+}
