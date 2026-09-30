@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:54.862Z",
+    "serviceName": "Chrome and Chrome OS",
+    "sourceDocuments": [
+      {
+        "id": "chrome-privacy",
+        "fetch": "https://www.google.com/chrome/privacy/?hl=en_GB",
+        "select": "div[role=main]",
+        "remove": "div[class=chr-privacy-history-dropdown]",
+        "mimeType": "text/html",
+        "snapshotId": "70cea354c147be39b66b01666495275c0a6e838e"
+      }
+    ]
+  }
+}
