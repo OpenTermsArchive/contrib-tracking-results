@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:29.349Z",
+    "serviceName": "PubMatic",
+    "sourceDocuments": [
+      {
+        "id": "legal-publisher-master-services-agreement",
+        "fetch": "https://pubmatic.com/legal/publisher-master-services-agreement/",
+        "select": [
+          ".main > .container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "611976899e212db26ae73b222c41d0bc25186865"
+      }
+    ]
+  }
+}
