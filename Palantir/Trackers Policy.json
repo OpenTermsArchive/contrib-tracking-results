@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:41.070Z",
+    "serviceName": "Palantir",
+    "sourceDocuments": [
+      {
+        "id": "cookie-statement",
+        "fetch": "https://www.palantir.com/cookie-statement/",
+        "select": [
+          "main section"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7bd46bd8f07ad10a199613f2cf256794da0b67aa"
+      }
+    ]
+  }
+}
