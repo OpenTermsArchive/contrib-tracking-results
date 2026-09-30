@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:09:06.032Z",
+    "serviceName": "Windstream",
+    "sourceDocuments": [
+      {
+        "id": "about-legal-Privacy-Policy",
+        "fetch": "https://www.windstream.com/about/legal/Privacy-Policy",
+        "select": ".support-container",
+        "mimeType": "text/html",
+        "snapshotId": "d731fad5744b40e22daf46c715742e0a056a5ef7"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".support-container\" has no match in the web page at 'https://www.windstream.com/about/legal/Privacy-Policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
