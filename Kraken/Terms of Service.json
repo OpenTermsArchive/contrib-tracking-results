@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:44:34.534Z",
+    "serviceName": "Kraken",
+    "sourceDocuments": [
+      {
+        "id": "en-us-legal",
+        "fetch": "https://www.kraken.com/en-us/legal#complete-tos",
+        "select": {
+          "startAfter": ".kraken-header",
+          "endBefore": ".kraken-footer"
+        },
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9b73328024324e19f2718080b66268cc8c04cca2"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startAfter\":\".kraken-header\",\"endBefore\":\".kraken-footer\"}"
+    ]
+  }
+}
