@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:52.167Z",
+    "serviceName": "Y Combinator",
+    "sourceDocuments": [
+      {
+        "id": "legal",
+        "fetch": "https://www.ycombinator.com/legal/",
+        "select": {
+          "startBefore": "#privacy",
+          "endBefore": "#tou"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "aaeeacf8c1240b2d7ebf6a6cc9e263797c71f0f7"
+      }
+    ]
+  }
+}
