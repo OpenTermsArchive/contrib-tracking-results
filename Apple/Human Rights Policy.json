@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:48.944Z",
+    "serviceName": "Apple",
+    "sourceDocuments": [
+      {
+        "id": "files-doc_downloads-gov_docs-Apple-Human-Rights-Policy",
+        "fetch": "https://investor.apple.com/files/doc_downloads/gov_docs/Apple-Human-Rights-Policy.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "f304a424629a7cf1b05cc00d798655f432da8e02"
+      }
+    ]
+  }
+}
