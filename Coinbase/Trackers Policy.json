@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:36:44.968Z",
+    "serviceName": "Coinbase",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookie",
+        "fetch": "https://www.coinbase.com/legal/cookie",
+        "select": [
+          "#main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1a5afa26509a83bd485cd83fb6fc59621b8835b3"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#main\"]\" has no match in the web page at 'https://www.coinbase.com/legal/cookie'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
