@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:03.280Z",
+    "serviceName": "Play",
+    "sourceDocuments": [
+      {
+        "id": "intl-en_us-about-play-terms",
+        "fetch": "https://play.google.com/intl/en_us/about/play-terms.html",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b889c4d6eaa668fbcf424e868bea74f8dd1b4b50"
+      }
+    ]
+  }
+}
