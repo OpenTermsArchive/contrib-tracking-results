@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:32:59.829Z",
+    "serviceName": "Alpha Vantage",
+    "sourceDocuments": [
+      {
+        "id": "terms_of_service",
+        "fetch": "https://www.alphavantage.co/terms_of_service/?.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "bedc321889a6725178d0e9ba7861742cbf2f6174"
+      }
+    ]
+  }
+}
