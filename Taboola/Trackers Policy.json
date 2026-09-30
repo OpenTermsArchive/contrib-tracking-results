@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:14:18.201Z",
+    "serviceName": "Taboola",
+    "sourceDocuments": [
+      {
+        "id": "policies-cookie-policy",
+        "fetch": "https://www.taboola.com/policies/cookie-policy",
+        "select": [
+          ".legal-portal-content__container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "729452a725818aa4379a061a35b94252bf4c951e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".legal-portal-content__container\"]\" has no match in the web page at 'https://www.taboola.com/policies/cookie-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
