@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:56.261Z",
+    "serviceName": "Cloudant",
+    "sourceDocuments": [
+      {
+        "id": "be-en-privacy",
+        "fetch": "https://www.ibm.com/be-en/privacy?lnk=flg-priv-been",
+        "select": [
+          ".privacy-layout"
+        ],
+        "remove": [
+          "aside",
+          " .ibm-forward-link",
+          " .ibm-anchor-up-link",
+          " .ibm-rule.ibm-alternate.ibm-gray-30 + h2"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d133e809ae7fc6d8e07257ab876b345b2e7833e3"
+      }
+    ]
+  }
+}
