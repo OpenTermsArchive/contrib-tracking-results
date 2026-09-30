@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:16.757Z",
+    "serviceName": "Tinder",
+    "sourceDocuments": [
+      {
+        "id": "community-guidelines-intl-en",
+        "fetch": "https://policies.tinder.com/community-guidelines/intl/en",
+        "select": [
+          "[class^=TextContent]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "07e69a96b9bbbbb8a09bbea538ed094e1bea64f1"
+      }
+    ]
+  }
+}
