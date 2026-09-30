@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:08.272Z",
+    "serviceName": "Google",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://policies.google.com/terms?hl=en-GB&gl=IE",
+        "select": "div[role=article]",
+        "remove": "img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          },
+          "removeCountryVersion"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "001f072460cf2ccedae27b102e631868366dd470"
+      }
+    ]
+  }
+}
