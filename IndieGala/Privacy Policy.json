@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:00.578Z",
+    "serviceName": "IndieGala",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.indiegala.com/privacy-policy",
+        "select": [
+          ".main-container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "620865b4b3c26f66c742cc5ea70510e6bcad57c7"
+      }
+    ]
+  }
+}
