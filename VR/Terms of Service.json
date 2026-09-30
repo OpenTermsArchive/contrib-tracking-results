@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:03.380Z",
+    "serviceName": "VR",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-and-conditions",
+        "fetch": "https://www.vr.fi/en/terms-and-conditions",
+        "select": "#maincontent",
+        "remove": [
+          "[class^=\"ContentfulFullwidthImageHeader\"]",
+          "[class^=\"ContentfulTwoColumnInfo\"]",
+          "[class^=\"ContentfulRichTextWithImage\"] > img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7def76da37a00862c757154b5b96c2070c0015d9"
+      }
+    ]
+  }
+}
