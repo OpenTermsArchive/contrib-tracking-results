@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:05:32.497Z",
+    "serviceName": "Verizon",
+    "sourceDocuments": [
+      {
+        "id": "about-terms-conditions-terms-of-use",
+        "fetch": "https://www.verizon.com/about/terms-conditions/terms-of-use",
+        "select": ".component-start",
+        "mimeType": "text/html",
+        "snapshotId": "c6ba2a9cb2349dec68ef87b1b5de312621185f69"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".component-start\" has no match in the web page at 'https://www.verizon.com/about/terms-conditions/terms-of-use'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
