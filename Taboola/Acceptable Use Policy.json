@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:57:56.355Z",
+    "serviceName": "Taboola",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-115007068368-Prohibited-Content-Products-and-Services",
+        "fetch": "https://help.taboola.com/hc/en-us/articles/115007068368-Prohibited-Content-Products-and-Services",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".avatar,.article-meta,.article-subscribe,.article-votes,.article-relatives"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "81f5fe81b199b797b63d4e33140b6ea8baf013e7"
+      }
+    ]
+  }
+}
