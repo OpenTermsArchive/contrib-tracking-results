@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:11:24.500Z",
+    "serviceName": "Zoom",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://zoom.us/privacy",
+        "select": [
+          ".main-DefaultTemplate"
+        ],
+        "remove": [
+          ".category"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a283492ee7dd5315e299a60615e9978eb9fb3cb5"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".main-DefaultTemplate\"]\" has no match in the web page at 'https://zoom.us/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
