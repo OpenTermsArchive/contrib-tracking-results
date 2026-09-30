@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:35.502Z",
+    "serviceName": "SoundCloud",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://soundcloud.com/terms-of-use",
+        "select": [
+          "[role=\"main\"]"
+        ],
+        "remove": [
+          ".l-sidebar-right"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "43bb6745d1e971b9e197d355f1d683c86cb6629f"
+      }
+    ]
+  }
+}
