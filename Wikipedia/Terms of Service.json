@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:02.913Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Terms_of_Use",
+        "fetch": "https://foundation.wikimedia.org/wiki/Terms_of_Use",
+        "select": [
+          "#content"
+        ],
+        "remove": [
+          "a[title]",
+          ".nmbox",
+          "#toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8c507c273ce8b42b6aeb53543a821ab4c824eaa6"
+      }
+    ]
+  }
+}
