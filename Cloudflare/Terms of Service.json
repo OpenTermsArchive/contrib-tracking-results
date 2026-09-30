@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:36:00.511Z",
+    "serviceName": "Cloudflare",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.cloudflare.com/terms/",
+        "select": [
+          ".col-lg-8 > .rich-text-renderer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bcd59be3cdab6246ae9f33f31916ae01889c6a08"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".col-lg-8 > .rich-text-renderer\"]\" has no match in the web page at 'https://www.cloudflare.com/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
