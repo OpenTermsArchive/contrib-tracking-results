@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:44.803Z",
+    "serviceName": "Mailjet",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms",
+        "fetch": "https://www.mailjet.com/legal/terms/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c3f25980a46a3c8186801c204d072581514e2d87"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.mailjet.com/legal/terms/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
