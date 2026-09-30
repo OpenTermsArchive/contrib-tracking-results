@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:31.662Z",
+    "serviceName": "OVHcloud",
+    "sourceDocuments": [
+      {
+        "id": "v1-AUTH_325716a587c64897acbef9a4a4726e38-contracts-a50e2ae-contrat_genServices-IE-5.0",
+        "fetch": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/a50e2ae-contrat_genServices-IE-5.0.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "adcbb8afe3e1150b3426c3bfc84add0da1c77d69"
+      }
+    ]
+  }
+}
