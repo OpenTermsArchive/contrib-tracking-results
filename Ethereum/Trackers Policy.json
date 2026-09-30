@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:57.988Z",
+    "serviceName": "Ethereum",
+    "sourceDocuments": [
+      {
+        "id": "en-cookie-policy",
+        "fetch": "https://ethereum.org/en/cookie-policy/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          "aside",
+          "#main-content > div.mb-4.mt-8.flex.w-full.flex-col.rounded.border.border-body-light.bg-feedback-gradient.p-6"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1951ee709ce7bcfe157c97f1758661bc897a3c63"
+      }
+    ]
+  }
+}
