@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:54.751Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://developers.facebook.com/terms",
+        "select": [
+          "#rebrandBodyID"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          },
+          "replaceInfoImageWithEmoji"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8576a69fed38787798cb45c5b27b6c218a2b8d0d"
+      }
+    ]
+  }
+}
