@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:44:18.538Z",
+    "serviceName": "Kivra",
+    "sourceDocuments": [
+      {
+        "id": "en-about-kivra-terms-general-terms-and-conditions",
+        "fetch": "https://kivra.se/en/about-kivra/terms/general-terms-and-conditions",
+        "select": [
+          "#mainContent"
+        ],
+        "remove": "div[data-component=breadcrumbs]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "6fbb0a875bd20c869c2577e4c4eea9864d6a5e31"
+      }
+    ]
+  }
+}
