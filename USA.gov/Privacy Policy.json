@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:04.628Z",
+    "serviceName": "USA.gov",
+    "sourceDocuments": [
+      {
+        "id": "privacy-security",
+        "fetch": "https://www.usa.gov/privacy-security",
+        "select": [
+          ".usa-layout-docs__main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d13983a4bbb538022d70776c731c2b99a44f0cf1"
+      }
+    ]
+  }
+}
