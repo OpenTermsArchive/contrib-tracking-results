@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:56.224Z",
+    "serviceName": "Arc",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://arc.net/privacy",
+        "select": [
+          "article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6558779a9be9c27241e872e29d310e31c8a34b60"
+      }
+    ]
+  }
+}
