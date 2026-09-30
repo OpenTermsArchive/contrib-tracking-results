@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:40.844Z",
+    "serviceName": "Logitech",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-legal-web-privacy-policy",
+        "fetch": "https://www.logitech.com/en-gb/legal/web-privacy-policy.html",
+        "select": "#maincontent .page",
+        "mimeType": "text/html",
+        "snapshotId": "5d2449f2d97c7d5c6cbc21aff73e452458a9b742"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#maincontent .page\" has no match in the web page at 'https://www.logitech.com/en-gb/legal/web-privacy-policy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
