@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:51:04.134Z",
+    "serviceName": "Reserve with Google",
+    "sourceDocuments": [
+      {
+        "id": "maps-reserve-terms",
+        "fetch": "https://www.google.com/maps/reserve/terms",
+        "select": ".jic4te",
+        "mimeType": "text/html",
+        "snapshotId": "601bd709b4e8d2d63703dcea13c7ce1bf0dcb1f5"
+      }
+    ]
+  }
+}
