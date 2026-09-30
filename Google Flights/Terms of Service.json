@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:36.915Z",
+    "serviceName": "Google Flights",
+    "sourceDocuments": [
+      {
+        "id": "booking-flights-terms",
+        "fetch": "https://travel.google.com/booking/flights/terms/",
+        "select": "#maia-main",
+        "mimeType": "text/html",
+        "snapshotId": "e22d9ecc69a9a846c0794cd2e7d61eb0dd76f06d"
+      }
+    ]
+  }
+}
