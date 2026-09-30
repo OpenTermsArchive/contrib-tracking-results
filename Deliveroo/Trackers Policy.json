@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:27.991Z",
+    "serviceName": "Deliveroo",
+    "sourceDocuments": [
+      {
+        "id": "cookies",
+        "fetch": "https://deliveroo.ie/cookies",
+        "select": [
+          {
+            "startBefore": "#how-we-use-cookies",
+            "endBefore": "#page-footer"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "177cc321c83e53d115a2a1cbd12afadbddb99d9b"
+      }
+    ]
+  }
+}
