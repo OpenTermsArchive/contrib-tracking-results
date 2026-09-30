@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:51.202Z",
+    "serviceName": "Match",
+    "sourceDocuments": [
+      {
+        "id": "pages-misc-cge",
+        "fetch": "https://uk.match.com/pages/misc/cge",
+        "select": "#article_content",
+        "mimeType": "text/html",
+        "snapshotId": "e408d2298c9b67273aa3ba8c84e59944560f70d5"
+      }
+    ]
+  }
+}
