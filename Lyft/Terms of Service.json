@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:42.779Z",
+    "serviceName": "Lyft",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.lyft.com/terms",
+        "select": [
+          "#main-container > article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "aabe847c62bffee1bf37e05f966e61edff81a610"
+      }
+    ]
+  }
+}
