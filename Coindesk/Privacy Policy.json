@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:01.632Z",
+    "serviceName": "Coindesk",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.coindesk.com/privacy/",
+        "select": [
+          "[data-module-name=\"page\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d042929bab30a05db89cb1ff8cdb635638aefea8"
+      }
+    ]
+  }
+}
