@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:33.558Z",
+    "serviceName": "Viaplay",
+    "sourceDocuments": [
+      {
+        "id": "gb-en-privacy",
+        "fetch": "https://viaplay.com/gb-en/privacy",
+        "select": [
+          "h1",
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a5fc23d731f89f2007d961b5b34b2961a7d9667f"
+      }
+    ]
+  }
+}
