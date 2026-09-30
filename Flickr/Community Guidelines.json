@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:29.794Z",
+    "serviceName": "Flickr",
+    "sourceDocuments": [
+      {
+        "id": "help-guidelines",
+        "fetch": "http://www.flickr.com/help/guidelines/",
+        "select": ".help-page-container",
+        "mimeType": "text/html",
+        "snapshotId": "19c551c8ba7ac487a8398955a2b4ad05531ce039"
+      }
+    ]
+  }
+}
