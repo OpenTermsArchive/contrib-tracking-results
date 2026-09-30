@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:02.277Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Privacy_policy",
+        "fetch": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+        "select": [
+          "#firstHeading",
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e71510af8aad6cb761057d64fea663b06be0f2fe"
+      }
+    ]
+  }
+}
