@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:45:03.034Z",
+    "serviceName": "Last.fm",
+    "sourceDocuments": [
+      {
+        "id": "en-policy",
+        "fetch": "https://www.viacomcbsprivacy.com/en/policy?r=www.viacomcbsprivacy.com",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".dropdown-container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "51edc44f1f64942900f07fd9da1ac90473109cb8"
+      }
+    ]
+  }
+}
