@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:35:58.734Z",
+    "serviceName": "Cloudant",
+    "sourceDocuments": [
+      {
+        "id": "be-en-legal",
+        "fetch": "https://www.ibm.com/be-en/legal?lnk=flg-tous-be-en",
+        "select": "div#ibm-content-main > .node__content> div:first-child",
+        "mimeType": "text/html",
+        "snapshotId": "3dc3229dcae2384d2ee99c9723ac6a8eef5063ce"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div#ibm-content-main > .node__content> div:first-child\" has no match in the web page at 'https://www.ibm.com/be-en/legal?lnk=flg-tous-be-en'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
