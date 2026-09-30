@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:57.497Z",
+    "serviceName": "IndieGala",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://www.indiegala.com/terms-of-service",
+        "select": [
+          ".main-container"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d7b85c3449b657922577be1d4cb9478bab3a8cd5"
+      }
+    ]
+  }
+}
