@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:34:04.389Z",
+    "serviceName": "ASKfm",
+    "sourceDocuments": [
+      {
+        "id": "legal-en-terms",
+        "fetch": "https://about.ask.fm/legal/en/terms.html",
+        "select": [
+          "section.container"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://about.ask.fm/legal/en/terms.html'"
+    ]
+  }
+}
