@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:08:13.379Z",
+    "serviceName": "Wargaming",
+    "sourceDocuments": [
+      {
+        "id": "en-eula",
+        "fetch": "https://legal.eu.wargaming.net/en/eula/",
+        "select": [
+          ".docs-popup-wrapper"
+        ],
+        "remove": [
+          ".close-btn"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e8a82950e8809d5700502055d2bfb96e3a99d40c"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".docs-popup-wrapper\"]\" has no match in the web page at 'https://legal.eu.wargaming.net/en/eula/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
