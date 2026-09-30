@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:42:53.629Z",
+    "serviceName": "Imgur",
+    "sourceDocuments": [
+      {
+        "id": "rules",
+        "fetch": "https://imgur.com/rules",
+        "select": [
+          "#rules-container"
+        ],
+        "remove": [
+          ".rules-more"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://imgur.com/rules'"
+    ]
+  }
+}
