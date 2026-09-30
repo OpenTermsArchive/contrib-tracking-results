@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:33.854Z",
+    "serviceName": "The Guardian",
+    "sourceDocuments": [
+      {
+        "id": "help-terms-of-service",
+        "fetch": "https://www.theguardian.com/help/terms-of-service",
+        "select": ".article-body-commercial-selector",
+        "mimeType": "text/html",
+        "snapshotId": "410ea21922cc25d760625df33942b128f68b9d8f"
+      }
+    ]
+  }
+}
