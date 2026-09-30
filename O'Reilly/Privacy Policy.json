@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:31.244Z",
+    "serviceName": "O'Reilly",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.oreilly.com/privacy.html",
+        "select": ".hero.hero-general, #privacy-policy",
+        "mimeType": "text/html",
+        "snapshotId": "eec6ff88897f7926eb775c7c2b9dd8210a804351"
+      }
+    ]
+  }
+}
