@@ -1,0 +1,231 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:04:51.391Z",
+    "serviceName": "Twitter",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-twitter-rules",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "546a3b2124f7addb2fbd950a427d5da8aed6d8e1"
+      },
+      {
+        "id": "en-rules-and-policies-violent-entities",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/violent-entities",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c9027c65a272fb3a86e3d7afc742b76b63707365"
+      },
+      {
+        "id": "en-rules-and-policies-sexual-exploitation-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "840b8e9b1acf58209a6736ca91f3eeb821117bdf"
+      },
+      {
+        "id": "en-rules-and-policies-abusive-behavior",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f0d01afa4cc9a0793eb87b3a73d3ccb8091a0385"
+      },
+      {
+        "id": "en-rules-and-policies-hateful-conduct-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "37a65bd40c481d594f6e05ba0822daa1e464aef7"
+      },
+      {
+        "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/perpetrators-of-violent-attacks",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7276e933eb1397f9dc95c55df214891613b810a2"
+      },
+      {
+        "id": "en-rules-and-policies-glorifying-self-harm",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "aca09767154f859cbac75ca55087f36bef1a28ea"
+      },
+      {
+        "id": "en-rules-and-policies-media-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/media-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "544b48bd04a93c5257e25069bb78bcdbd6f47aaf"
+      },
+      {
+        "id": "en-rules-and-policies-regulated-goods-services",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      },
+      {
+        "id": "en-rules-and-policies-personal-information",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4829bd87571bfccd83506163ae69455ff8ca85f3"
+      },
+      {
+        "id": "en-rules-and-policies-intimate-media",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/intimate-media",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e301ebcb1bccdf2c22b00edfc99a439cae4151cd"
+      },
+      {
+        "id": "en-rules-and-policies-platform-manipulation",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9f0343ac5bee8228acfec216c86014a4e7da0975"
+      },
+      {
+        "id": "en-rules-and-policies-election-integrity-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/election-integrity-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6b4cc620ee4fa4e4fbade5f762f53e27ca0e1307"
+      },
+      {
+        "id": "en-rules-and-policies-twitter-impersonation-and-deceptive-identities-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5b004cec10b6589317df0e75452e499f0f58cef3"
+      },
+      {
+        "id": "en-rules-and-policies-manipulated-media",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a60f2989cacd6c41c50ce35ac15c826664fcc0bf"
+      },
+      {
+        "id": "en-rules-and-policies-twitter-trademark-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "afcb7411fb78526d9d23aa37993fabcccea9b63c"
+      },
+      {
+        "id": "en-rules-and-policies-copyright-policy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endBefore": "[class*=\"share-tweet\"]"
+          }
+        ],
+        "remove": [
+          "[class*=\"twtr-type--headline-md\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bdd832cc0f7067fd5aae71a76c28ae7edd996174"
+      },
+      {
+        "id": "en-rules-and-policies-enforcement-philosophy",
+        "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-philosophy",
+        "select": [
+          {
+            "startBefore": "h1",
+            "endAfter": "[class*=\"rich-text-v\"]"
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "359fe3186921250e396c7435231a1ba7b4166b01"
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'"
+    ]
+  }
+}
