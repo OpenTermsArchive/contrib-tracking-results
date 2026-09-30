@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:57.321Z",
+    "serviceName": "Yahoo",
+    "sourceDocuments": [
+      {
+        "id": "ie-en-yahoo-privacy-index",
+        "fetch": "https://policies.yahoo.com/ie/en/yahoo/privacy/index.htm?redirect=no",
+        "select": ".l-content-well-content",
+        "mimeType": "text/html",
+        "snapshotId": "ddbf5a6f664ae9811333ad7a121a7adfc314d340"
+      }
+    ]
+  }
+}
