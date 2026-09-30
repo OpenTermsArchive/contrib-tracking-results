@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:35:54.381Z",
+    "serviceName": "Chrome and Chrome OS",
+    "sourceDocuments": [
+      {
+        "id": "chrome-terms",
+        "fetch": "https://www.google.com/chrome/terms/?hl=en_GB",
+        "select": "div[class=chrm-text-only]",
+        "remove": [
+          "div[class=chr-header__logo]",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2b7946634f2503c05aa884d85ded4ec6ac8dc6f0"
+      }
+    ]
+  }
+}
