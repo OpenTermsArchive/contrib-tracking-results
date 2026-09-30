@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:06.226Z",
+    "serviceName": "Goodreads",
+    "sourceDocuments": [
+      {
+        "id": "about-privacy",
+        "fetch": "https://www.goodreads.com/about/privacy",
+        "select": ".guidelines",
+        "mimeType": "text/html",
+        "snapshotId": "7dfb9d1497004b063983a2ac02e674ddf66a671d"
+      }
+    ]
+  }
+}
