@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:35.342Z",
+    "serviceName": "DistroKid",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://distrokid.com/terms/",
+        "select": [
+          ".outer2:nth-child(1) > .inner2 > div"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8e499519434f8d91c5ecc1065b8f1343199a0ca6"
+      }
+    ]
+  }
+}
