@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:10.812Z",
+    "serviceName": "Academia.edu",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.academia.edu/privacy",
+        "select": "div.static-page-padded-content.no-reset",
+        "mimeType": "text/html",
+        "snapshotId": "cafab58d4473146722a430b413a52cd268380a89"
+      }
+    ]
+  }
+}
