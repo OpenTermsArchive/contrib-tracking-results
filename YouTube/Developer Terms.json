@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:10.985Z",
+    "serviceName": "YouTube",
+    "sourceDocuments": [
+      {
+        "id": "youtube-terms-developer-policies",
+        "fetch": "https://developers.google.com/youtube/terms/developer-policies",
+        "select": "article.devsite-article",
+        "remove": ".devsite-article-meta, .devsite-thumb-rating, .devsite-banner-message",
+        "mimeType": "text/html",
+        "snapshotId": "ef20af0e14968400cae0833bc30b5d6bea361c86"
+      }
+    ]
+  }
+}
