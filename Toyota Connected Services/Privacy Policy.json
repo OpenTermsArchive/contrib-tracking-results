@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:00:18.965Z",
+    "serviceName": "Toyota Connected Services",
+    "sourceDocuments": [
+      {
+        "id": "support-privacy-rights",
+        "fetch": "https://www.toyota.com/support/privacy-rights",
+        "select": ".section",
+        "mimeType": "text/html",
+        "snapshotId": "a63eaae6831945c593372cc9ead50a4f18fde8dc"
+      }
+    ]
+  }
+}
