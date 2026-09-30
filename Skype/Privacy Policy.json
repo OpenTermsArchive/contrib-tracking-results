@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:57.926Z",
+    "serviceName": "Skype",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-privacystatement",
+        "fetch": "https://privacy.microsoft.com/en-gb/privacystatement",
+        "select": "h1, #psp_last_updated, .header_content .Description, .div_content",
+        "filter": [
+          "removeIrrelevantModulesFromPrivacyPolicy",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b501ad76aa288fef6b90593cf2dd7826b902d187"
+      }
+    ]
+  }
+}
