@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:55.674Z",
+    "serviceName": "Sketchfab",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://sketchfab.com/privacy",
+        "select": [
+          "#terms"
+        ],
+        "remove": [
+          "#toc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "25b1475a39e58cc4b8fb5cbff7b66e77af86a62d"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#terms\"]\" has no match in the web page at 'https://sketchfab.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
