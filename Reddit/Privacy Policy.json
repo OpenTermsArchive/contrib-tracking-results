@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:00.783Z",
+    "serviceName": "Reddit",
+    "sourceDocuments": [
+      {
+        "id": "policies-privacy-policy",
+        "fetch": "https://www.redditinc.com/policies/privacy-policy",
+        "select": "#main-content",
+        "remove": ".filter-holder",
+        "mimeType": "text/html",
+        "snapshotId": "ea6109bc37cfed189823d225f69b236a49b51373"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#main-content\" has no match in the web page at 'https://www.redditinc.com/policies/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
