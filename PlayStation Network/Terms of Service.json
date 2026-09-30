@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:04.240Z",
+    "serviceName": "PlayStation Network",
+    "sourceDocuments": [
+      {
+        "id": "en-us-legal-psn-terms-of-service",
+        "fetch": "https://www.playstation.com/en-us/legal/psn-terms-of-service/",
+        "select": [
+          ".gpdc-section"
+        ],
+        "remove": [
+          ".media-block__inner"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "24a97a2e7cfa68f060dbb2e2add7cdf5fe173d50"
+      }
+    ]
+  }
+}
