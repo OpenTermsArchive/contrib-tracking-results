@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:11:16.549Z",
+    "serviceName": "Zillow",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use",
+        "fetch": "https://www.zillowgroup.com/terms-of-use/",
+        "select": ".site-main",
+        "mimeType": "text/html",
+        "snapshotId": "d38a993ddcb4cac2eace209f234eb1fb19b805bf"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".site-main\" has no match in the web page at 'https://www.zillowgroup.com/terms-of-use/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
