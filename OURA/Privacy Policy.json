@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:12.837Z",
+    "serviceName": "ŌURA",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://ouraring.com/privacy-policy",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "580794a282bbfc0811d1cd45a14e251d0255ea49"
+      }
+    ]
+  }
+}
