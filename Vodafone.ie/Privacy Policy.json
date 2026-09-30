@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:07:55.439Z",
+    "serviceName": "Vodafone.ie",
+    "sourceDocuments": [
+      {
+        "id": "privacy-privacy-and-you",
+        "fetch": "https://n.vodafone.ie/privacy/privacy-and-you.html",
+        "select": [
+          "#content"
+        ],
+        "remove": [
+          ".hello__message",
+          ".breadcrumbs__component",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c0d3fa35b3fedc4bd026922ee9ed1f40924780d7"
+      }
+    ]
+  }
+}
