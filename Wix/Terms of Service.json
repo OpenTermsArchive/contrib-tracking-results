@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:09:44.554Z",
+    "serviceName": "Wix",
+    "sourceDocuments": [
+      {
+        "id": "about-terms-of-use",
+        "fetch": "https://www.wix.com/about/terms-of-use",
+        "select": ".site-root",
+        "mimeType": "text/html",
+        "snapshotId": "521654f9c17339c7e2522ba2503cd9d0f42b4c03"
+      }
+    ]
+  }
+}
