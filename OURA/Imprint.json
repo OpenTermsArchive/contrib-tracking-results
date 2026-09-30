@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:49:10.763Z",
+    "serviceName": "ŌURA",
+    "sourceDocuments": [
+      {
+        "id": "impressum",
+        "fetch": "https://ouraring.com/impressum",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "6913773bf41e078f8ad768af74753ee1e62b116f"
+      }
+    ]
+  }
+}
