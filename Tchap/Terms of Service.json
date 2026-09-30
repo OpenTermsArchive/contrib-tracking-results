@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:58:21.360Z",
+    "serviceName": "Tchap",
+    "sourceDocuments": [
+      {
+        "id": "cgu",
+        "fetch": "https://tchap.beta.gouv.fr/cgu",
+        "select": [
+          {
+            "startBefore": ".MuiContainer-root",
+            "endBefore": "#footer"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e627359654882bff76e2899fc5762499d7d6a1ce"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\".MuiContainer-root\",\"endBefore\":\"#footer\"}"
+    ]
+  }
+}
