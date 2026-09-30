@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:51:40.808Z",
+    "serviceName": "Rubicon Project",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy-website-cookie-statement",
+        "fetch": "https://rubiconproject.com/privacy-policy/website-cookie-statement/",
+        "select": [
+          ".page-header",
+          ".content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b8aee81832b822512ce3d110f37b8d8f0857bc55"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-header\",\".content\"]\" has no match in the web page at 'https://rubiconproject.com/privacy-policy/website-cookie-statement/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
