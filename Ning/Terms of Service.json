@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:20.429Z",
+    "serviceName": "Ning",
+    "sourceDocuments": [
+      {
+        "id": "termsofservice",
+        "fetch": "https://www.ning.com/termsofservice/",
+        "select": ".page__article",
+        "mimeType": "text/html",
+        "snapshotId": "92a70ea19671b9ef57ae118213c52346a79e8a3d"
+      }
+    ]
+  }
+}
