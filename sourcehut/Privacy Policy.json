@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:53:36.669Z",
+    "serviceName": "sourcehut",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://man.sr.ht/privacy.md",
+        "select": [
+          ".header-tabbed h2",
+          ".content"
+        ],
+        "remove": [
+          "h4 a[href^=\"#\"]",
+          "h5 a[href^=\"#\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a08a8d22510e24d2d87dbf2c97d231ec73bcf096"
+      }
+    ]
+  }
+}
