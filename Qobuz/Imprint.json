@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:35.842Z",
+    "serviceName": "Qobuz",
+    "sourceDocuments": [
+      {
+        "id": "us-en-legal-mentions",
+        "fetch": "https://www.qobuz.com/us-en/legal/mentions",
+        "select": "#main",
+        "mimeType": "text/html",
+        "snapshotId": "635c4051a82e3ae704b67cdc0fbde441569d3ec3"
+      }
+    ]
+  }
+}
