@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:53:28.530Z",
+    "serviceName": "Solana",
+    "sourceDocuments": [
+      {
+        "id": "tos",
+        "fetch": "https://solana.com/tos",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "img[aria-hidden=\"true\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c7208a5092affbba8a85ebb28e9f23911d8fbad0"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://solana.com/tos'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
