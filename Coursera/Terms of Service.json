@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:07.929Z",
+    "serviceName": "Coursera",
+    "sourceDocuments": [
+      {
+        "id": "about-terms",
+        "fetch": "https://www.coursera.org/about/terms",
+        "select": "div.coursera-tos",
+        "mimeType": "text/html",
+        "snapshotId": "28e18862f72a1db6af37f896366c8e8382bf2adb"
+      }
+    ]
+  }
+}
