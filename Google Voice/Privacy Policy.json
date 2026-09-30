@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:02.013Z",
+    "serviceName": "Google Voice",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en-GB",
+        "select": "div[role=article]",
+        "remove": ".KMMDve, .TL2alc, .aYyAOe, img[src$='.svg'], img[src^='data:image/svg+xml']",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "90f94a7f6415ceb769845ac4febb66575b6b750e"
+      }
+    ]
+  }
+}
