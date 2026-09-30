@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:39:31.454Z",
+    "serviceName": "Flutterwave",
+    "sourceDocuments": [
+      {
+        "id": "us-terms",
+        "fetch": "https://flutterwave.com/us/terms",
+        "select": ".page__content__data",
+        "mimeType": "text/html",
+        "snapshotId": "882e4d826ee69b0394a523374120c8d0322ed706"
+      }
+    ]
+  }
+}
