@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:42.113Z",
+    "serviceName": "Qwant",
+    "sourceDocuments": [
+      {
+        "id": "en-legal-qwant-search",
+        "fetch": "https://about.qwant.com/en/legal/qwant-search/",
+        "select": [
+          ".elementor-col-66 > .elementor-widget-wrap"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c4b7a9af8480e79e60e20d23d2020acc75434970"
+      }
+    ]
+  }
+}
