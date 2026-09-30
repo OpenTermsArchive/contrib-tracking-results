@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:48:14.777Z",
+    "serviceName": "National Geographic",
+    "sourceDocuments": [
+      {
+        "id": "en-current-privacy-policy",
+        "fetch": "https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/",
+        "select": "main>.container-fluid:first-of-type",
+        "remove": ".icon-left, .openall",
+        "mimeType": "text/html",
+        "snapshotId": "def417672eacc03d60f121b285e6a0afa9f956c7"
+      }
+    ]
+  }
+}
