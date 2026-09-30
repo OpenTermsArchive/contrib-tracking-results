@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:36:14.393Z",
+    "serviceName": "CNN International",
+    "sourceDocuments": [
+      {
+        "id": "policycenter-b2c-en-row",
+        "fetch": "https://www.warnermediaprivacy.com/policycenter/b2c/en-row/",
+        "select": [
+          ".otnotice-content"
+        ],
+        "remove": [
+          "#otnotice-section-a884e299-853f-4057-8184-e31a1acf85fe"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c93d352b21e1e3d0867e490fec052d1e73bd44de"
+      }
+    ]
+  }
+}
