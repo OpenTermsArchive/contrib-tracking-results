@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:51.886Z",
+    "serviceName": "Simpli.fi",
+    "sourceDocuments": [
+      {
+        "id": "site-privacy-policy",
+        "fetch": "https://simpli.fi/site-privacy-policy/",
+        "select": [
+          ".default_template_content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f9a83a02f6c485d32b10c34f2f4f84b637cd4490"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".default_template_content\"]\" has no match in the web page at 'https://simpli.fi/site-privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
