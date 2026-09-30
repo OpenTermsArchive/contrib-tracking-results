@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:40.749Z",
+    "serviceName": "Steam",
+    "sourceDocuments": [
+      {
+        "id": "online_conduct",
+        "fetch": "https://store.steampowered.com/online_conduct/",
+        "select": [
+          "#ssa_box"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1aadbbb2bb1ed74a10fc4765cb96a8b33a292802"
+      }
+    ]
+  }
+}
