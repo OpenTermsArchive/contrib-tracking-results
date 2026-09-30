@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:27.932Z",
+    "serviceName": "BankID",
+    "sourceDocuments": [
+      {
+        "id": "en-integritetspolicy",
+        "fetch": "https://www.bankid.com/en/integritetspolicy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".news-block"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "428dbc9fb3c8109fa89e9c1522f281ea7411c0c9"
+      }
+    ]
+  }
+}
