@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:58:34.617Z",
+    "serviceName": "The Guardian",
+    "sourceDocuments": [
+      {
+        "id": "help-privacy-policy",
+        "fetch": "https://www.theguardian.com/help/privacy-policy",
+        "select": [
+          "main article [data-gu-name=headline]",
+          "main article [data-gu-name=meta]",
+          "main article [data-gu-name=body]"
+        ],
+        "remove": [
+          "gu-island",
+          "main article [data-gu-name=body] [data-print-layout=hide]",
+          "main article [data-gu-name=meta] ul"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a1774bfa773b6d0a4fe840bf559988b32ffd32a9"
+      }
+    ]
+  }
+}
