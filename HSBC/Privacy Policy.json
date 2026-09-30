@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:39.210Z",
+    "serviceName": "HSBC",
+    "sourceDocuments": [
+      {
+        "id": "privacy-notice",
+        "fetch": "https://www.hsbc.com/privacy-notice",
+        "select": ".sublayout.article-sublayout",
+        "mimeType": "text/html",
+        "snapshotId": "d225b23fe90cc316f9cd1a85c099fc315ced767c"
+      }
+    ]
+  }
+}
