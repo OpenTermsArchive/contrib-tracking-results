@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:44:08.973Z",
+    "serviceName": "Kbin",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://kbin.social/privacy-policy",
+        "select": [
+          "#main"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://kbin.social/privacy-policy'"
+    ]
+  }
+}
