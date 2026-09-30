@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:59:10.274Z",
+    "serviceName": "The Trade Desk",
+    "sourceDocuments": [
+      {
+        "id": "us-website-privacy-policy",
+        "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "543df12114a471e1b87766f54632bc1b69131d08"
+      }
+    ]
+  }
+}
