@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:56:53.106Z",
+    "serviceName": "Swiss Post",
+    "sourceDocuments": [
+      {
+        "id": "en-pages-footer-data-protection-and-disclaimer",
+        "fetch": "https://www.post.ch/en/pages/footer/data-protection-and-disclaimer",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          ".ppm-share .col-12",
+          ".col-lg-3",
+          ".ppm-breadcrumb > .container"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "308220be740789826baaba165181bcc818cff348"
+      }
+    ]
+  }
+}
