@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:50.663Z",
+    "serviceName": "Aetna",
+    "sourceDocuments": [
+      {
+        "id": "legal-notices-privacy-web-privacy",
+        "fetch": "https://www.aetna.com/legal-notices/privacy/web-privacy.html",
+        "select": [
+          ".responsivegrid .body__copy",
+          ".component.container",
+          ".bodytext + .accordion + .text"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "761e7e0a8431d0ef65b3a95edde4987252af1d6e"
+      }
+    ]
+  }
+}
