@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:08:55.629Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-updates-terms-of-service-eea",
+        "fetch": "https://www.whatsapp.com/legal/updates/terms-of-service-eea?lang=en",
+        "select": [
+          "#content-wrapper"
+        ],
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "aaf3637c61e9de04697d3c45b29f2abb0319b695"
+      }
+    ]
+  }
+}
