@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:31:43.523Z",
+    "serviceName": "AdSense",
+    "sourceDocuments": [
+      {
+        "id": "webmasters-answer-35769",
+        "fetch": "https://support.google.com/webmasters/answer/35769",
+        "select": ".devsite-article-body",
+        "mimeType": "text/html",
+        "snapshotId": "d8fc0ff612b9a991c33f961173c62d81bd364795"
+      }
+    ]
+  }
+}
