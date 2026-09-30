@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:42:47.753Z",
+    "serviceName": "Ikea",
+    "sourceDocuments": [
+      {
+        "id": "ie-en-customer-service-cookie-policy",
+        "fetch": "https://www.ikea.com/ie/en/customer-service/cookie-policy/",
+        "select": [
+          "main#content"
+        ],
+        "remove": [
+          ".bc-breadcrumb__list",
+          ".hnf-mobile-vp"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d38abf88b9e04c45a0ba1c7a2975acff713801b3"
+      }
+    ]
+  }
+}
