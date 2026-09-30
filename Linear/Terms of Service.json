@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:45:55.843Z",
+    "serviceName": "Linear",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://linear.app/terms",
+        "select": "main",
+        "remove": "#skip-nav",
+        "mimeType": "text/html",
+        "snapshotId": "8ec8388dcd962509650949989a820fbb8ed59cb6"
+      }
+    ]
+  }
+}
