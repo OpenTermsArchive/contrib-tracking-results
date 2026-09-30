@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:27.120Z",
+    "serviceName": "Google Classroom",
+    "sourceDocuments": [
+      {
+        "id": "edu-classroom-answer-7165963",
+        "fetch": "https://support.google.com/edu/classroom/answer/7165963?hl=en-GB",
+        "select": "section[class=article-container]",
+        "remove": ".scClientFeedbackInlineFeedbacklinkroot",
+        "mimeType": "text/html",
+        "snapshotId": "98b489517b76aa8d9e118ec0d1d56059aad83b3e"
+      }
+    ]
+  }
+}
