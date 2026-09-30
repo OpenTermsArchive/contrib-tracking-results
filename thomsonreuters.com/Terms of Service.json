@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:59:15.758Z",
+    "serviceName": "thomsonreuters.com",
+    "sourceDocuments": [
+      {
+        "id": "en-terms-of-use",
+        "fetch": "https://www.thomsonreuters.com/en/terms-of-use.html",
+        "select": ".tr-SemanticMain",
+        "mimeType": "text/html",
+        "snapshotId": "72badafb155c206cf4604df5d216de219af9eee0"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".tr-SemanticMain\" has no match in the web page at 'https://www.thomsonreuters.com/en/terms-of-use.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
