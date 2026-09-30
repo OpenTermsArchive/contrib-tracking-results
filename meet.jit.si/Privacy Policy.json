@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:46:58.565Z",
+    "serviceName": "meet.jit.si",
+    "sourceDocuments": [
+      {
+        "id": "meet-jit-si-privacy",
+        "fetch": "https://jitsi.org/meet-jit-si-privacy/",
+        "select": [
+          ".img-text-holder"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e3603a2f6f07ffd635995be38a3ea6736189cee4"
+      }
+    ]
+  }
+}
