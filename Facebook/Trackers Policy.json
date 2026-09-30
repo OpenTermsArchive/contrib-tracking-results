@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:38:21.843Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "policies-cookies",
+        "fetch": "https://www.facebook.com/policies/cookies",
+        "select": "._5tkp",
+        "filter": [
+          "removeImgFromCookiesPolicy",
+          "removeReturnToTopButtons",
+          "cleanUrls"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "159949f9a756ed7881ba2cc82e02a1b216f63c67"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The filter function \"removeImgFromCookiesPolicy\" failed: TypeError: Cannot read properties of null (reading 'remove')"
+    ]
+  }
+}
