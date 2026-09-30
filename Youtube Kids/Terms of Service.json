@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:12.190Z",
+    "serviceName": "YouTube Kids",
+    "sourceDocuments": [
+      {
+        "id": "t-terms",
+        "fetch": "https://kids.youtube.com/t/terms",
+        "select": "#yts-article",
+        "mimeType": "text/html",
+        "snapshotId": "287ec7c95dc093416b4bc8e6452e858c96dfa0c1"
+      }
+    ]
+  }
+}
