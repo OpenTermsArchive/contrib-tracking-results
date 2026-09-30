@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:39.712Z",
+    "serviceName": "Amazon Web Services",
+    "sourceDocuments": [
+      {
+        "id": "trademark-guidelines",
+        "fetch": "https://aws.amazon.com/trademark-guidelines/",
+        "select": [
+          "#aws-page-content-main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "9cf2c024c283679d546239e522a02ce6e3c9f965"
+      }
+    ]
+  }
+}
