@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:52:49.697Z",
+    "serviceName": "Shockwave.com",
+    "sourceDocuments": [
+      {
+        "id": "about-privacyPolicy.jsp",
+        "fetch": "http://www.shockwave.com/about/privacyPolicy.jsp",
+        "select": [
+          ".podContent"
+        ],
+        "filter": [
+          "unifyEmailProtectedAddresses"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "46b0749357d6485533d5a26b7598f5a644c2b138"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".podContent\"]\" has no match in the web page at 'http://www.shockwave.com/about/privacyPolicy.jsp'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
