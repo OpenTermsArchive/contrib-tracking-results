@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:40:29.794Z",
+    "serviceName": "Gartner",
+    "sourceDocuments": [
+      {
+        "id": "en-about-policies-terms-of-use",
+        "fetch": "https://www.gartner.com/en/about/policies/terms-of-use",
+        "select": ".col-lg-9.col-md-9.col-sm-12.col-xs-12",
+        "mimeType": "text/html",
+        "snapshotId": "3a4533c913df166c82f4de3df359c757ed1ff10d"
+      }
+    ]
+  }
+}
