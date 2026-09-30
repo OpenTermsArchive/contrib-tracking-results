@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:44:17.288Z",
+    "serviceName": "KimCartoon",
+    "sourceDocuments": [
+      {
+        "id": "Message-PrivacyPolicy",
+        "fetch": "https://kimcartoon.li/Message/PrivacyPolicy",
+        "select": [
+          "#container"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://kimcartoon.li/Message/PrivacyPolicy'"
+    ]
+  }
+}
