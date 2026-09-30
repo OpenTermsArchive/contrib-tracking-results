@@ -1,0 +1,44 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:56:40.017Z",
+    "serviceName": "Steam",
+    "sourceDocuments": [
+      {
+        "id": "steam_refunds",
+        "fetch": "https://store.steampowered.com/steam_refunds/",
+        "select": [
+          "#main_content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4dbb7fa5473188e4910a350a4830f503ea42e6c1"
+      },
+      {
+        "id": "hardware_order_terms",
+        "fetch": "https://store.steampowered.com/hardware_order_terms",
+        "select": [
+          "#responsive_page_template_content > div.page_header_ctn",
+          "#legal_box"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "0583a020a19c8933c1c8d58eec9ac8043ef05aca"
+      },
+      {
+        "id": "en-faqs-view-369C-3E9F-76FD-DEDA",
+        "fetch": "https://help.steampowered.com/en/faqs/view/369C-3E9F-76FD-DEDA",
+        "select": [
+          ".faqbbcode_FAQContainer_1BWX4"
+        ],
+        "remove": [
+          ".faqbbcode_FAQImage_1sKwB"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "351fefcfc5aab23f60795c3334f5153d398e57ff"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".faqbbcode_FAQContainer_1BWX4\"]\" has no match in the web page at 'https://help.steampowered.com/en/faqs/view/369C-3E9F-76FD-DEDA'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
