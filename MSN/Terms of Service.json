@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:47:38.547Z",
+    "serviceName": "MSN",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-servicesagreement",
+        "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".print",
+          ".tr_Right_Nav_Header_OnePSTemplate",
+          ".back-to-top-button"
+        ],
+        "filter": [
+          "removeIrrelevantModulesFromTos",
+          "removeNavigationHeaders",
+          "removeModuleIDs",
+          "removeInvisibleText"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "18f48e5ea3b5c39763900dd1cb7a511cd0fbb698"
+      }
+    ]
+  }
+}
