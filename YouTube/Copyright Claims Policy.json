@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:11:11.609Z",
+    "serviceName": "YouTube",
+    "sourceDocuments": [
+      {
+        "id": "intl-en_be-howyoutubeworks-policies-copyright",
+        "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "#copyright-explore-more"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cb257f08797cbf320bdb9c02fcbed4b887bf6ad9"
+      }
+    ]
+  }
+}
