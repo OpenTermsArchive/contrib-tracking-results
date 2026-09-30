@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:50:00.987Z",
+    "serviceName": "pixiv",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy_policy",
+        "fetch": "https://policies.pixiv.net/en/privacy_policy.html",
+        "select": [
+          ".terms-block"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "757692040324ea08d8d23f0736f0fc62cd403c80"
+      }
+    ]
+  }
+}
