@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:05:08.317Z",
+    "serviceName": "Uschovna.cz",
+    "sourceDocuments": [
+      {
+        "id": "PRIVACY POLICY - Uschovna",
+        "fetch": "https://www.uschovna.cz/PRIVACY%20POLICY%20-%20Uschovna.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "7219183e47659ab64cf02f6c21e56536a94b3474"
+      }
+    ]
+  }
+}
