@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:49.339Z",
+    "serviceName": "Energia",
+    "sourceDocuments": [
+      {
+        "id": "home-terms-and-conditions",
+        "fetch": "https://www.energia.ie/home/terms-and-conditions",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "01aadb6b79a0dbeb07d7707f8dcbf45f8cd5100f"
+      }
+    ]
+  }
+}
