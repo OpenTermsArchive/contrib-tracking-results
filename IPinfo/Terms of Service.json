@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:43:56.212Z",
+    "serviceName": "IPinfo",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-service",
+        "fetch": "https://ipinfo.io/terms-of-service",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "e9384eab3a2d5b33511b22f3e1f75dd8d68e90fd"
+      }
+    ]
+  }
+}
