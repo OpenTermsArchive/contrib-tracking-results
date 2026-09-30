@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:34:31.176Z",
+    "serviceName": "BBC",
+    "sourceDocuments": [
+      {
+        "id": "usingthebbc-privacy-policy",
+        "fetch": "https://www.bbc.co.uk/usingthebbc/privacy-policy/",
+        "select": [
+          ".ipagesHero-title",
+          "main"
+        ],
+        "remove": [
+          ".stickysidenav",
+          "a[href$=\"#top\"]",
+          ".languageList"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "353d089e076577a8127fa1ada5b42a87adbc6eb3"
+      }
+    ]
+  }
+}
