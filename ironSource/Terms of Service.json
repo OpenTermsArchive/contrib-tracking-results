@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:43:58.376Z",
+    "serviceName": "ironSource",
+    "sourceDocuments": [
+      {
+        "id": "terms-of-use-new",
+        "fetch": "https://www.is.com/terms-of-use-new/",
+        "select": [
+          "#content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "baf84993e15ad65b6c32cba77ac6637a42ccde6e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#content\"]\" has no match in the web page at 'https://www.is.com/terms-of-use-new/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
