@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:33:23.069Z",
+    "serviceName": "Amazon Device",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080",
+        "select": "div.help-content",
+        "mimeType": "text/html",
+        "snapshotId": "09a010921af0b2a9006b09a7d9f6d461ef77d6bf"
+      }
+    ]
+  }
+}
