@@ -1,0 +1,41 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:54:19.234Z",
+    "serviceName": "Starlink",
+    "sourceDocuments": [
+      {
+        "id": "legal-documents-DOC-1000-41799-67",
+        "fetch": "https://www.starlink.com/legal/documents/DOC-1000-41799-67?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ca32f1de087329c4a0de39cb634c55be4dda59a3"
+      },
+      {
+        "id": "legal-documents-DOC-1009-83220-61",
+        "fetch": "https://starlink.com/legal/documents/DOC-1009-83220-61?regionCode=IE",
+        "select": [
+          "app-legal-document"
+        ],
+        "remove": [
+          "app-locale-selector",
+          "summary"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ed9f03de64c5f508363e1412fbb0776d5942ee53"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://www.starlink.com/legal/documents/DOC-1000-41799-67?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content.",
+      "[extraction] Extract failed: The provided selector \"[\"app-legal-document\"]\" has no match in the web page at 'https://starlink.com/legal/documents/DOC-1009-83220-61?regionCode=IE'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
