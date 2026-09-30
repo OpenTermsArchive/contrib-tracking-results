@@ -1,0 +1,22 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:12:33.957Z",
+    "serviceName": "Alexa",
+    "sourceDocuments": [
+      {
+        "id": "gp-help-customer-display",
+        "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740",
+        "select": [
+          "div.help-content"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740'"
+    ]
+  }
+}
