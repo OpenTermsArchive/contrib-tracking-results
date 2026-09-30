@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:58.594Z",
+    "serviceName": "Google Store",
+    "sourceDocuments": [
+      {
+        "id": "intl-en_uk-about-device-terms",
+        "fetch": "https://store.google.com/intl/en_uk/about/device-terms/",
+        "select": ".page-content",
+        "mimeType": "text/html",
+        "snapshotId": "f1f8d1a0586997b44dee5200c144334d76bcaa8a"
+      }
+    ]
+  }
+}
