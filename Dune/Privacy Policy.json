@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:37:44.909Z",
+    "serviceName": "Dune",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://dune.com/privacy",
+        "select": [
+          "main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "54c6f6281c9fd14f05feea591ab1f39e8870172b"
+      }
+    ]
+  }
+}
