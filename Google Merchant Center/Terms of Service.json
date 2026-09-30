@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:44.649Z",
+    "serviceName": "Google Merchant Center",
+    "sourceDocuments": [
+      {
+        "id": "files-tos-extend-GB-tos",
+        "fetch": "https://merchants.google.com/files/tos/extend/GB/tos.html",
+        "select": ".inlined-doc",
+        "mimeType": "text/html",
+        "snapshotId": "0aa9674b49f1ff851795bf126fb2d1a91dd07859"
+      }
+    ]
+  }
+}
