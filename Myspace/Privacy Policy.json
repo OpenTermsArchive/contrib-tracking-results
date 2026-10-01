@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-09-30T01:14:10.290Z",
+    "date": "2026-10-01T00:47:24.441Z",
     "serviceName": "Myspace",
     "sourceDocuments": [
       {
@@ -9,12 +9,9 @@
         "fetch": "https://myspace.com/pages/eeaprivacy",
         "select": "#nms_legal",
         "remove": "ol > *:not(li)",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0f16c7514967a349b3522a6cee306e288cec8573"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://myspace.com/pages/eeaprivacy'"
     ]
   }
 }
