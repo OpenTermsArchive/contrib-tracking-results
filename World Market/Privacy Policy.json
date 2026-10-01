@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-09-30T13:07:52.082Z",
+    "date": "2026-10-01T01:08:24.693Z",
     "serviceName": "World Market",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           "#privacy-policy"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "51b168ea6d513a2e150ac6b6ae37531fae97c74f"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.worldmarket.com/category/customer-service/privacy-and-security.do'"
     ]
   }
 }
