@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-c929043f-adff-4867-b6c9-f490ead96119",
+  "runId": "ota-run-0865a48b-ee92-449a-bf92-3aa78cee1761",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-09-30T12:30:04.731Z",
-    "endDate": "2026-09-30T13:12:21.001Z",
+    "startDate": "2026-10-01T00:30:04.695Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,31 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 572,
-    "failed": 254
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "World Market",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
