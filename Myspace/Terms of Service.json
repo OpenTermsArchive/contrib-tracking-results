@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-01T01:12:09.074Z",
+    "date": "2026-10-01T12:47:39.359Z",
     "serviceName": "Myspace",
     "sourceDocuments": [
       {
@@ -9,12 +9,9 @@
         "fetch": "https://myspace.com/pages/terms",
         "select": "#nms_legal",
         "remove": "ol > *:not(li)",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "11605dc6e7985e3c1845cce7af490e4027f45c7a"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://myspace.com/pages/terms'"
     ]
   }
 }
