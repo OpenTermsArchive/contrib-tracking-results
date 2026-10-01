@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-0865a48b-ee92-449a-bf92-3aa78cee1761",
+  "runId": "ota-run-4ccb1076-b3ca-4388-ab4b-44fa63fcee8a",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-01T00:30:04.695Z",
-    "endDate": "2026-10-01T01:13:17.344Z",
+    "startDate": "2026-10-01T12:30:04.670Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,39 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 573,
-    "failed": 253
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Rakuten",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "World Market",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
