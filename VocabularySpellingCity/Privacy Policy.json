@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T01:07:40.635Z",
+    "date": "2026-10-01T13:16:39.680Z",
     "serviceName": "VocabularySpellingCity",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           "#wp-main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "e5a3fd8d2aa444290a9d888a5aba7cdcd53fffbb"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"#wp-main\"]\" has no match in the web page at 'https://www.spellingcity.com/privacy-policy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.spellingcity.com/privacy-policy.html'"
     ]
   }
 }
