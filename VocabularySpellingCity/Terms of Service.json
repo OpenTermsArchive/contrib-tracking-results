@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-01T13:17:10.291Z",
+    "date": "2026-10-02T01:05:56.716Z",
     "serviceName": "VocabularySpellingCity",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           "#wp-main"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f993c6f3e4d67f35453371f2d9eb75b4ebf73b97"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.spellingcity.com/terms-of-service.html'"
+      "[extraction] Extract failed: The provided selector \"[\"#wp-main\"]\" has no match in the web page at 'https://www.spellingcity.com/terms-of-service.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
