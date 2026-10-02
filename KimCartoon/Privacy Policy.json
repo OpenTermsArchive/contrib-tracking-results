@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:44:17.288Z",
+    "date": "2026-10-02T12:44:15.649Z",
     "serviceName": "KimCartoon",
     "sourceDocuments": [
       {
@@ -15,7 +15,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://kimcartoon.li/Message/PrivacyPolicy'"
+      "[fetch] Fetch failed: Network system error ERR_TLS_CERT_ALTNAME_INVALID occurred when trying to fetch 'https://kimcartoon.li/Message/PrivacyPolicy'"
     ]
   }
 }
