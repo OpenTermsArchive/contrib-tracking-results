@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-4ccb1076-b3ca-4388-ab4b-44fa63fcee8a",
+  "runId": "ota-run-380e0617-832d-4282-8a9b-2b2dec0958f9",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-01T12:30:04.670Z",
-    "endDate": "2026-10-01T13:17:11.962Z",
+    "startDate": "2026-10-02T00:30:04.608Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,39 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 576,
-    "failed": 250
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
