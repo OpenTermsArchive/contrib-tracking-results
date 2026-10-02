@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-380e0617-832d-4282-8a9b-2b2dec0958f9",
+  "runId": "ota-run-7570c0e2-6e58-43a4-beb6-0749c06b5aac",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-02T00:30:04.608Z",
-    "endDate": "2026-10-02T01:12:42.697Z",
+    "startDate": "2026-10-02T12:30:04.679Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,52 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 576,
-    "failed": 250
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "ulster.ac.uk",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
