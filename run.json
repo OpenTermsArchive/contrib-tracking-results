@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-02T00:30:04.608Z",
-    "endDate": null,
+    "endDate": "2026-10-02T01:12:42.697Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,17 +14,52 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 576,
+    "failed": 250
   },
   "coverage": {
-    "processed": 0,
+    "processed": 826,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Roblox",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Nextdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Roblox",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "VocabularySpellingCity",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "VocabularySpellingCity",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
