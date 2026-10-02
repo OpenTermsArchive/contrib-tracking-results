@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T13:14:09.410Z",
+    "date": "2026-10-02T00:47:20.669Z",
     "serviceName": "Myspace",
     "sourceDocuments": [
       {
@@ -10,13 +10,8 @@
         "select": "#nms_legal",
         "remove": "ol > *:not(li)",
         "mimeType": "text/html",
-        "snapshotId": "012adf4100f48600dcbfafa15fe17845db6339c6"
+        "snapshotId": "cf7a66fc328565f70b367d74286d4fdeb1f54531"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://myspace.com/pages/eeaprivacy'"
-      ]
-    }
+    ]
   }
 }
