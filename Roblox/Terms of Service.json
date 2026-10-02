@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-02T00:50:34.718Z",
+    "date": "2026-10-02T12:51:28.662Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -15,12 +15,9 @@
           ".article-footer"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "a713f900ac10b2b2d01613493e46d7768e101f4a"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use'"
     ]
   }
 }
