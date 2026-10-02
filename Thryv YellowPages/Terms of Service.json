@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-01T13:15:06.206Z",
+    "date": "2026-10-02T00:57:40.570Z",
     "serviceName": "YellowPages",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
           ".mx-auto"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b6b21dd18b7456e5cdeaa595f6110aaa863e39ec"
+        "snapshotId": "b93899fc2170de5593d1b4fcff1a66c10d15ce97"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://corporate.thryv.com/terms-of-use/'"
-      ]
-    }
+    ]
   }
 }
