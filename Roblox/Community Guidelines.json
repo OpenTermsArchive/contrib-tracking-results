@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:51:38.155Z",
+    "date": "2026-10-02T00:50:35.478Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -15,12 +15,12 @@
           ".article-relatives"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "a8176848dd0ecade54f6ee90f281f78966258d59"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Rules'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Rules'"
     ]
   }
 }
