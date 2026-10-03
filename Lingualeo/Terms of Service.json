@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T01:13:42.569Z",
+    "date": "2026-10-03T12:45:56.068Z",
     "serviceName": "Lingualeo",
     "sourceDocuments": [
       {
@@ -18,7 +18,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://corp.lingualeo.com/terms-of-use-en/'"
+      "[fetch] Fetch failed: Network system error ERR_TLS_CERT_ALTNAME_INVALID occurred when trying to fetch 'https://corp.lingualeo.com/terms-of-use-en/'"
     ]
   }
 }
