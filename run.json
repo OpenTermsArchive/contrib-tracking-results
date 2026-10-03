@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-7570c0e2-6e58-43a4-beb6-0749c06b5aac",
+  "runId": "ota-run-1588ec97-9e71-4b50-b2d0-f4f073eda4f2",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-02T12:30:04.679Z",
-    "endDate": "2026-10-02T13:13:13.525Z",
+    "startDate": "2026-10-03T00:30:05.324Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,43 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 578,
-    "failed": 248
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "KimCartoon",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
