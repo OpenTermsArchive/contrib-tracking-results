@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-03T01:11:54.976Z",
+    "date": "2026-10-03T12:46:13.786Z",
     "serviceName": "Lyft",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           "#main-container > article"
         ],
         "mimeType": "text/html",
-        "snapshotId": "ed7b61fb3ad5dd3a1f0bbf87c955913cc45a586c"
+        "snapshotId": "cba36e35d10f53d08888fa912023a5722c121297"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 504 when trying to fetch 'https://www.lyft.com/terms'"
-      ]
-    }
+    ]
   }
 }
