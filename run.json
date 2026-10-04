@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-04T12:30:05.216Z",
-    "endDate": null,
+    "endDate": "2026-10-04T13:12:27.977Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,17 +14,44 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 575,
+    "failed": 251
   },
   "coverage": {
-    "processed": 0,
+    "processed": 826,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "PubMatic",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
   "transientErrors": 0
 }
