@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-1ac014e1-b303-496a-9445-30bdd4ec556e",
+  "runId": "ota-run-53f26fa1-9ec9-4920-b7ed-0b2105a5db2a",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-04T00:30:07.342Z",
-    "endDate": "2026-10-04T01:12:25.575Z",
+    "startDate": "2026-10-04T12:30:05.216Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,40 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 577,
-    "failed": 249
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "PubMatic",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "World Market",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
