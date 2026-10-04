@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-04T00:49:42.882Z",
+    "date": "2026-10-04T13:11:08.807Z",
     "serviceName": "PubMatic",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           ".main > .container"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "b9ccf6832738d00b5324355991aaa329447bf71a"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 504 when trying to fetch 'https://pubmatic.com/legal/publisher-master-services-agreement/'"
     ]
   }
 }
