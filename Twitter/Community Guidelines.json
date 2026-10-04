@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-03T13:15:12.637Z",
+    "date": "2026-10-04T01:02:57.705Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -25,7 +25,7 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
+        "mimeType": "text/html",
         "snapshotId": null
       },
       {
@@ -38,7 +38,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "e6305b74374caae980227c9b429966d1b6d93477"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-abusive-behavior",
@@ -62,7 +62,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "8e2b853b0a88ea36ebb5543b58103c6f6c81354f"
+        "snapshotId": "14faacd0e02aa6b5107ac7e77e931790597f4849"
       },
       {
         "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
@@ -98,7 +98,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "404f7957481fa4d58a873584e127fb4d6a66d050"
+        "snapshotId": "1ca8e3acee0127434bdbcea2deae34406aa07afd"
       },
       {
         "id": "en-rules-and-policies-regulated-goods-services",
@@ -134,7 +134,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "69577b2918d1df452513a221203b1555f71773f3"
+        "snapshotId": "35489c75b6297daf00ef4e82c9a961242c4f7da6"
       },
       {
         "id": "en-rules-and-policies-platform-manipulation",
@@ -146,7 +146,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "d1003c40304f667a4c9ea7abd2eb5b2780ba3c80"
       },
       {
         "id": "en-rules-and-policies-election-integrity-policy",
@@ -170,7 +170,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "82c414c516a57fcd0c5f7dea77e799923e58f0f3"
       },
       {
         "id": "en-rules-and-policies-manipulated-media",
@@ -182,7 +182,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "9bf9843d28cafb0954d528cb3a147f7b498fd188"
       },
       {
         "id": "en-rules-and-policies-twitter-trademark-policy",
@@ -221,11 +221,10 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "124b6df6b33bd4f60ed14d5d3dc8a1e9a1407799"
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/violent-entities'",
       "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'"
     ]
   }
