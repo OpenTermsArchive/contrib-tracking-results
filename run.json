@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-f2b7ec68-0131-45b9-9cf3-b22597e29307",
+  "runId": "ota-run-1ac014e1-b303-496a-9445-30bdd4ec556e",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-03T12:30:06.947Z",
-    "endDate": "2026-10-03T13:16:14.233Z",
+    "startDate": "2026-10-04T00:30:07.342Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,76 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 576,
-    "failed": 250
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "World Market",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "PubMatic",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Lingualeo",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
