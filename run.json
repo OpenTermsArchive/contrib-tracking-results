@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-53f26fa1-9ec9-4920-b7ed-0b2105a5db2a",
+  "runId": "ota-run-bac47588-71fd-4397-894b-c3b979d90b0c",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-04T12:30:05.216Z",
-    "endDate": "2026-10-04T13:12:27.977Z",
+    "startDate": "2026-10-05T00:30:04.866Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,44 +14,17 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 575,
-    "failed": 251
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 826,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "PubMatic",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
