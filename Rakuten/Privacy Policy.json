@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:50:59.068Z",
+    "date": "2026-10-05T01:11:48.329Z",
     "serviceName": "Rakuten",
     "sourceDocuments": [
       {
@@ -9,12 +9,12 @@
         "fetch": "https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/",
         "select": "#post-2785",
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "a2e8c03894abc4da9dfb77e38132aa211d3160db"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"#post-2785\" has no match in the web page at 'https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://fr.shopping.rakuten.com/newhelp/vie-privee-et-cookies/'"
     ]
   }
 }
