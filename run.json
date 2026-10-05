@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-05T00:30:04.866Z",
-    "endDate": null,
+    "endDate": "2026-10-05T01:12:52.632Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,17 +14,56 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 580,
+    "failed": 246
   },
   "coverage": {
-    "processed": 0,
+    "processed": 826,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "PubMatic",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Rakuten",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 3
 }
