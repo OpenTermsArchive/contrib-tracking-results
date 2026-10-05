@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-01T00:50:14.049Z",
+    "date": "2026-10-05T12:49:53.514Z",
     "serviceName": "Rakuten",
     "sourceDocuments": [
       {
@@ -13,11 +13,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "58013ff10b4ba340972b1d5b73530ff75a39f7eb"
+        "snapshotId": "8cf1e43d6e0984998eaf3295fce9557bc68947b4"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"#main-content .article-title\",\"#main-content .article-body\"]\" has no match in the web page at 'https://fr.shopping.rakuten.com/newhelp/conditions-generales/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
