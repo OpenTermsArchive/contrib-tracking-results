@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-06T00:30:04.588Z",
-    "endDate": null,
+    "endDate": "2026-10-06T01:12:11.501Z",
     "engineVersion": "16.2.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "1264428ce78b35aba8d62411a1480f027ad10bf3",
@@ -14,17 +14,35 @@
     "terms": 826
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 576,
+    "failed": 250
   },
   "coverage": {
-    "processed": 0,
+    "processed": 826,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Privacy Policy"
+      }
+    ],
     "recoveries": [],
-    "reasonChanges": []
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
   "transientErrors": 0
 }
