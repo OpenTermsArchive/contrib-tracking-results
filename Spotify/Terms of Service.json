@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:53:48.620Z",
+    "date": "2026-10-07T00:53:04.254Z",
     "serviceName": "Spotify",
     "sourceDocuments": [
       {
@@ -14,8 +14,11 @@
           ".subnav-main"
         ],
         "mimeType": "text/html",
-        "snapshotId": "261d4cf46ea803cf23be4811f0bd074378e6bf3c"
+        "snapshotId": "f2904a2d95e1c9297348fd122abfdebf06486f7c"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.spotify.com/us/legal/end-user-agreement/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
