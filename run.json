@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-8a4cd26d-8349-4ac7-a42c-48b5ebe17d73",
+  "runId": "ota-run-5c432cce-43f1-486a-b8f0-fe8e3de73df6",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-08T00:30:04.494Z",
-    "endDate": "2026-10-08T01:12:42.721Z",
+    "startDate": "2026-10-08T12:30:04.574Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,80 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 580,
-    "failed": 248
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Mix",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Mix",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
