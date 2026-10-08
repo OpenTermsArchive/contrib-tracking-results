@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:47:31.535Z",
+    "date": "2026-10-08T00:47:07.111Z",
     "serviceName": "Mix",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           ".max-w-screen-md"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e38d9fc03add6d9fac2523f06e3f1028c6962b30"
+        "snapshotId": "3ef04d315a52b53e222a8d16002a643b75b03ab0"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".max-w-screen-md\"]\" has no match in the web page at 'https://mix.com/tos'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
