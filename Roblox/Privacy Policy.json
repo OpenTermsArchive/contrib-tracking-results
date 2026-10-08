@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-08T00:50:19.631Z",
+    "date": "2026-10-08T12:50:37.741Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -14,12 +14,9 @@
           ".wysiwyg-text-align-right img"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5e7ffbe4b54b0b55bcb9df949fc4e50a47fec08d"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy-'"
     ]
   }
 }
