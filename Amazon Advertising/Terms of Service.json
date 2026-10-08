@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:33:03.890Z",
+    "date": "2026-10-08T13:10:01.832Z",
     "serviceName": "Amazon Advertising",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           ".help-content"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6c9eabcbe89089475a11e45e120df50ed6f71540"
+        "snapshotId": "ed6f77d654f2b2f06613c57a1b22d68e0b4e0dd9"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.co.uk/gp/help/customer/display.html/?ie=UTF8&nodeId=1040616&ref_=a20m_us_fnav_l_cndtns_gb'"
+      ]
+    }
   }
 }
