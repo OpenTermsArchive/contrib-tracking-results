@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-12a50394-7cb1-4566-82c1-f6090be050b7",
+  "runId": "ota-run-8a4cd26d-8349-4ac7-a42c-48b5ebe17d73",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-07T12:30:04.254Z",
-    "endDate": "2026-10-07T13:13:56.562Z",
+    "startDate": "2026-10-08T00:30:04.494Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,60 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 578,
-    "failed": 250
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Spotify",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Spotify",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
