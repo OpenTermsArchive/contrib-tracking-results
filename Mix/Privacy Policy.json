@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:47:32.222Z",
+    "date": "2026-10-08T00:47:07.591Z",
     "serviceName": "Mix",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           ".max-w-screen-md"
         ],
         "mimeType": "text/html",
-        "snapshotId": "49c1973a31df74db6b17581a1b533565c4ad8166"
+        "snapshotId": "e7f00469aae21631f2a0d1716fc0991fa2ef0b86"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".max-w-screen-md\"]\" has no match in the web page at 'https://mix.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
