@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-5c432cce-43f1-486a-b8f0-fe8e3de73df6",
+  "runId": "ota-run-da1e07b3-7b9d-46c3-ba41-c39b79df1882",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-08T12:30:04.574Z",
-    "endDate": "2026-10-08T13:11:59.296Z",
+    "startDate": "2026-10-09T00:30:04.306Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,36 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 579,
-    "failed": 249
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Roblox",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
