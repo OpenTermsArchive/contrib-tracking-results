@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-07T13:12:49.773Z",
+    "date": "2026-10-09T00:58:56.915Z",
     "serviceName": "timeanddate.com",
     "sourceDocuments": [
       {
         "id": "information-privacy",
         "fetch": "https://www.timeanddate.com/information/privacy.html",
         "select": ".layout-grid__main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "e34d4071669b8ef96f017161c8f464088f4b14b3"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.timeanddate.com/information/privacy.html'"
+      "[extraction] Extract failed: The provided selector \".layout-grid__main\" has no match in the web page at 'https://www.timeanddate.com/information/privacy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
