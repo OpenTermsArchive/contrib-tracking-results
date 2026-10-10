@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-09T13:13:00.292Z",
+    "date": "2026-10-10T00:45:51.694Z",
     "serviceName": "LibraryThing",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
           "endBefore": "[name=terms]"
         },
         "mimeType": "text/html",
-        "snapshotId": "18b8c0a6dd67335653259f0bb844d0ba4b6f0617"
+        "snapshotId": "6bb0a6d4b111bcf8cb8de268808121a557ff8d0c"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.librarything.com/privacy'"
-      ]
-    }
+    ]
   }
 }
