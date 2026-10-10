@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-10T01:11:56.550Z",
+    "date": "2026-10-10T12:33:25.731Z",
     "serviceName": "Amazon Monthly Payments",
     "sourceDocuments": [
       {
         "id": "gp-help-customer-display",
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202095050",
         "select": "div.help-content",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f227b28324b4df957352231ddbb1210c755e744e"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=202095050'"
+      "[extraction] Extract failed: The provided selector \"div.help-content\" has no match in the web page at 'https://www.amazon.com/gp/help/customer/display.html?nodeId=202095050'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
