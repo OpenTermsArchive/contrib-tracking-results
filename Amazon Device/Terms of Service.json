@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-10T01:11:53.430Z",
+    "date": "2026-10-10T12:33:22.728Z",
     "serviceName": "Amazon Device",
     "sourceDocuments": [
       {
         "id": "gp-help-customer-display",
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080",
         "select": "div.help-content",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f2c6bfbbf41db2bbf548b44b5b9b52cd404a8e83"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080'"
+      "[extraction] Extract failed: The provided selector \"div.help-content\" has no match in the web page at 'https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
