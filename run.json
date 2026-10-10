@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-78fb8735-93d3-4728-a670-0b2121c0c32d",
+  "runId": "ota-run-05fb6a82-6c29-4c55-bdc0-fcb6b52c8b78",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-09T12:30:04.423Z",
-    "endDate": "2026-10-09T13:14:44.282Z",
+    "startDate": "2026-10-10T00:30:05.285Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,40 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 579,
-    "failed": 249
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
