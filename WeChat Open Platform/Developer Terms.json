@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-09T13:14:44.194Z",
+    "date": "2026-10-10T01:07:35.666Z",
     "serviceName": "WeChat Open Platform",
     "sourceDocuments": [
       {
@@ -14,11 +14,6 @@
         "mimeType": "text/html",
         "snapshotId": "11b09d7438de00a4878ecedb8c6e3d24c8e2552f"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://open.weixin.qq.com/cgi-bin/frame?t=news/protocol_developer_tmpl'"
-      ]
-    }
+    ]
   }
 }
