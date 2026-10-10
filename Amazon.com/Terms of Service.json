@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:33:40.869Z",
+    "date": "2026-10-10T01:12:00.934Z",
     "serviceName": "Amazon.com",
     "sourceDocuments": [
       {
@@ -17,9 +17,12 @@
           "#hmd-ConfirmYesBox",
           "#hmd-ConfirmNoBox"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "eedc10dd36b480a70c7c246813af57c179d3408f"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=201909000'"
     ]
   }
 }
