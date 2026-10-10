@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-10T01:11:52.524Z",
+    "date": "2026-10-10T12:33:21.921Z",
     "serviceName": "Amazon Coins",
     "sourceDocuments": [
       {
         "id": "gp-help-customer-display",
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201434520",
         "select": "div.help-content",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "45322ee5038239a5a5f16fca1214eb2a9f8f570a"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201434520'"
+      "[extraction] Extract failed: The provided selector \"div.help-content\" has no match in the web page at 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201434520'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
