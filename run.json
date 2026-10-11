@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-11T12:30:04.401Z",
-    "endDate": null,
+    "endDate": "2026-10-11T13:12:19.452Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,17 +14,39 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 577,
+    "failed": 251
   },
   "coverage": {
-    "processed": 0,
+    "processed": 828,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "Booking.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      }
+    ],
     "recoveries": [],
-    "reasonChanges": []
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
