@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-480f75a2-de8a-4827-92da-84b2950808e6",
+  "runId": "ota-run-5a82c4c9-ec53-4f9f-b72a-2d1f7e48f3c9",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-11T00:30:04.151Z",
-    "endDate": "2026-10-11T01:11:42.328Z",
+    "startDate": "2026-10-11T12:30:04.401Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,36 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 580,
-    "failed": 248
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
