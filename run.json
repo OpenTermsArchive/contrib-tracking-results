@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-1728b8c8-1cf0-45cb-bc35-38c3215875c7",
+  "runId": "ota-run-480f75a2-de8a-4827-92da-84b2950808e6",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-10T12:30:04.197Z",
-    "endDate": "2026-10-10T13:14:21.638Z",
+    "startDate": "2026-10-11T00:30:04.151Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,83 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 580,
-    "failed": 248
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Appstore",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon E-Reader and Fire Tablet",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Maps",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Music",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Photos",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Prime",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Silk",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Acceptable Use Policy"
-      },
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Amazon Coins",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Device",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Monthly Payments",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
