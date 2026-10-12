@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:46:27.771Z",
+    "date": "2026-10-12T00:46:07.412Z",
     "serviceName": "Lingualeo",
     "sourceDocuments": [
       {
@@ -14,8 +14,11 @@
           ".wp-block-post-title"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3179c1a3a42d8b3ffe21895bcbbd2f129e30c262"
+        "snapshotId": "f8cf36d164ed66187654cbab9f25db03939be887"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://lingualeo.com/en/blog/privacy-policy-en/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
