@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-09-30T01:12:39.405Z",
+    "date": "2026-10-12T01:11:20.073Z",
     "serviceName": "Glassdoor",
     "sourceDocuments": [
       {
@@ -11,12 +11,14 @@
           "main"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "b605a90afda2567317e729714f55cd294e7ffac4"
       }
     ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.glassdoor.com/about/terms/'"
-    ]
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.glassdoor.com/about/terms/'"
+      ]
+    }
   }
 }
