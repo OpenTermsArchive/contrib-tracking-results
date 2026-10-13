@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-12T13:13:12.020Z",
+    "date": "2026-10-13T00:35:46.904Z",
     "serviceName": "Cdiscount",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
         "filter": [
           "recoverReplacementCharacters"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "ab383e4b9c125cb44d99a106d06d634558bf2f3a"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://clients.cdiscount.com/simple/cgv.aspx'"
+      "[extraction] Extract failed: The provided selector \".acDes\" has no match in the web page at 'https://clients.cdiscount.com/simple/cgv.aspx'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
