@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:11:29.438Z",
+    "date": "2026-10-13T01:09:22.809Z",
     "serviceName": "Zoosk",
     "sourceDocuments": [
       {
@@ -9,9 +9,12 @@
         "fetch": "https://docviewer.zoosk.com/legal-privacy-en_eu.html",
         "select": ".legal__inner",
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "1fa3475571be65dcb85d01f392610013689db22e"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 530 when trying to fetch 'https://docviewer.zoosk.com/legal-privacy-en_eu.html'"
     ]
   }
 }
