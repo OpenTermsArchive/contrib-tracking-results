@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-3d801e0f-1e7c-4367-98a1-d33f28e4828e",
+  "runId": "ota-run-6b6269fd-15fb-4faf-a328-7324ffddbd58",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-12T12:30:05.232Z",
-    "endDate": "2026-10-12T13:15:27.118Z",
+    "startDate": "2026-10-13T00:30:04.389Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,47 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 574,
-    "failed": 254
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Booking.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Glassdoor",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
