@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-13T00:49:56.524Z",
+    "date": "2026-10-13T13:12:49.856Z",
     "serviceName": "Project Gutenberg",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           ".page_content"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "4b7094aadfb93b85e5ad4a3a308c49f234b500b0"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 504 when trying to fetch 'https://www.gutenberg.org/policy/privacy_policy.html'"
     ]
   }
 }
