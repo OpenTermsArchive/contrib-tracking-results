@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:59:44.320Z",
+    "date": "2026-10-13T00:58:17.834Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "#policy-card .content"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "4f59e3a930fa8ad1f0f27720156396b8ecddd06f"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received an empty content when fetching 'https://www.tiktok.com/legal/page/eea/privacy-policy/en'"
     ]
   }
 }
