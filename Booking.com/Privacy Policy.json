@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-14T00:35:21.396Z",
+    "date": "2026-10-14T12:35:15.161Z",
     "serviceName": "Booking.com",
     "sourceDocuments": [
       {
@@ -18,8 +18,11 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "9650f841aa64d28e65543f3af4c5cd74829f2f10"
+        "snapshotId": "c57d7429971f4d8acab7270461b4daea94807668"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div.static_content\" has no match in the web page at 'https://www.booking.com/content/privacy.en-gb.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
