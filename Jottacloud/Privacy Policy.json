@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-13T13:12:27.027Z",
+    "date": "2026-10-14T00:45:12.364Z",
     "serviceName": "Jottacloud",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           ".module-articleRichText"
         ],
         "mimeType": "text/html",
-        "snapshotId": "bdd879e261f786f9d330b84d1d132173b49b6d7c"
+        "snapshotId": "46bc2802fea3266fb9e9f116b9baeeb7f26ff9a1"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://jottacloud.com/en/privacy'"
-      ]
-    }
+    ]
   }
 }
