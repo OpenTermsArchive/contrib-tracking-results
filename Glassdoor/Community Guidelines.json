@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-14T00:41:54.582Z",
+    "date": "2026-10-14T13:11:22.935Z",
     "serviceName": "Glassdoor",
     "sourceDocuments": [
       {
@@ -17,8 +17,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9865855b9aec306e039718168aeb2a80b1730ffb"
+        "snapshotId": "a1c4a52398b29802c03ff477749db56461f1a4e1"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"[data-region-name=\\\"articleDetail\\\"]\"]\" has no match in the web page at 'https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
