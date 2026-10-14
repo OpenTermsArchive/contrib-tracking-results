@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-13T12:45:56.631Z",
+    "date": "2026-10-14T01:13:03.398Z",
     "serviceName": "Limitless",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           ".text-left"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "6d271b3fdc7e15e166a2c49cbbb32b57391a375e"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.limitless.ai/privacy-policy'"
     ]
   }
 }
