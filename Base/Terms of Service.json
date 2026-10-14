@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:34:29.295Z",
+    "date": "2026-10-14T00:34:37.964Z",
     "serviceName": "Base",
     "sourceDocuments": [
       {
         "id": "docs-terms-of-service",
         "fetch": "https://docs.base.org/docs/terms-of-service/",
         "select": "article",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9338f926f151b4f5d7a14a053cebbb5049b54758"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://docs.base.org/docs/terms-of-service/'"
+      "[extraction] Extract failed: The provided selector \"article\" has no match in the web page at 'https://docs.base.org/docs/terms-of-service/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
