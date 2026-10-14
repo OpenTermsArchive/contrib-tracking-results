@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-13T13:12:26.331Z",
+    "date": "2026-10-14T00:45:11.698Z",
     "serviceName": "Jottacloud",
     "sourceDocuments": [
       {
@@ -11,13 +11,8 @@
           ".module-articleRichText"
         ],
         "mimeType": "text/html",
-        "snapshotId": "37631dda4dab960d1a6283fb2d9059358a38882c"
+        "snapshotId": "0e859733e91d45fd58a9a387b0df45cdd5b9b34b"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://jottacloud.com/en/terms-conditions'"
-      ]
-    }
+    ]
   }
 }
