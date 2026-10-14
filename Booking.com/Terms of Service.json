@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-12T12:35:15.938Z",
+    "date": "2026-10-14T00:35:20.419Z",
     "serviceName": "Booking.com",
     "sourceDocuments": [
       {
@@ -17,11 +17,8 @@
           "removeLabelAndSidFromUrls"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6c4ec648b9c27db1b4e9ebb7ad248118fa026020"
+        "snapshotId": "60b1980ddb28edb1fdfc1af4f67eac7e6b0ea3d4"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"[role=\\\"main\\\"]\"]\" has no match in the web page at 'https://www.booking.com/content/terms.en-gb.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
