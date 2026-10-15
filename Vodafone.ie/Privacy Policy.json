@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-15T01:13:31.027Z",
+    "date": "2026-10-15T13:07:28.380Z",
     "serviceName": "Vodafone.ie",
     "sourceDocuments": [
       {
@@ -16,13 +16,8 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c057f880175f18419d2329b02f86ebc09136f4c6"
+        "snapshotId": "1d57e6233d38ce02c13a5df3eb8a4c7a443b7a72"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://n.vodafone.ie/privacy/privacy-and-you.html'"
-      ]
-    }
+    ]
   }
 }
