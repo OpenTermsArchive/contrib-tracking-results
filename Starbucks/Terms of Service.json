@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:53:55.954Z",
+    "date": "2026-10-15T12:52:59.847Z",
     "serviceName": "Starbucks",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           ".sb-contentColumn"
         ],
         "mimeType": "text/html",
-        "snapshotId": "504d5b841d583d5d4e5f2440384439922cf14f0a"
+        "snapshotId": "44e088a07b61e229c3442dcedb3a4ce9707471fa"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".sb-contentColumn\"]\" has no match in the web page at 'https://www.starbucks.com/terms/starbucks-terms-of-use'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
