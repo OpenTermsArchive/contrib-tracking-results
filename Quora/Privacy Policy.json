@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-07T12:49:48.845Z",
+    "date": "2026-10-16T00:50:21.365Z",
     "serviceName": "Quora",
     "sourceDocuments": [
       {
@@ -12,8 +12,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b9a94de4e24654fb30739290bdf7ce51126dc067"
+        "snapshotId": "a27fcb6edac7cdedf8a500be4847164f4b2e2a9e"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#mainContent\"]\" has no match in the web page at 'https://www.quora.com/about/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
