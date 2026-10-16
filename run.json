@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-162ba013-630b-450d-ba70-90242275fc42",
+  "runId": "ota-run-b400abf8-8ed4-4b27-b10f-00c11aefe46f",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-15T12:30:04.769Z",
-    "endDate": "2026-10-15T13:13:23.349Z",
+    "startDate": "2026-10-16T00:30:04.352Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,76 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 575,
-    "failed": 253
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Starbucks",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Starbucks",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Bolt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Lingualeo",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
