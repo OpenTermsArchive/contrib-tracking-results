@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-10T12:33:27.763Z",
+    "date": "2026-10-16T13:11:06.306Z",
     "serviceName": "Amazon Photos",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201376540",
         "select": "div.help-content",
         "mimeType": "text/html",
-        "snapshotId": "e9a85dedf8c1a0fdfcf9f41c39b44a15f510075e"
+        "snapshotId": "c7a0db9f0c9f1b0eff9abd7229614e2261ae1827"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201376540'"
+      ]
+    }
   }
 }
