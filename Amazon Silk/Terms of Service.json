@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-10T12:33:36.515Z",
+    "date": "2026-10-16T13:11:08.417Z",
     "serviceName": "Amazon Silk",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           ".help-service-content"
         ],
         "mimeType": "text/html",
-        "snapshotId": "bc49152abf14367790406b3d96de1b9ca317468c"
+        "snapshotId": "9b4573b20a8320492c2abcfabd2c3115214a45ce"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=200775270'"
+      ]
+    }
   }
 }
