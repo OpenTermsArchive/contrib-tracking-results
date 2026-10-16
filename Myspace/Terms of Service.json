@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-16T01:12:06.447Z",
+    "date": "2026-10-16T12:47:21.533Z",
     "serviceName": "Myspace",
     "sourceDocuments": [
       {
@@ -9,12 +9,9 @@
         "fetch": "https://myspace.com/pages/terms",
         "select": "#nms_legal",
         "remove": "ol > *:not(li)",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "6e4087cfe628a64bbd14a56665ece006264d852b"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://myspace.com/pages/terms'"
     ]
   }
 }
