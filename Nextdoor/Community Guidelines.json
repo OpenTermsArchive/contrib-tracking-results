@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-15T12:47:27.739Z",
+    "date": "2026-10-16T00:47:55.896Z",
     "serviceName": "Nextdoor",
     "sourceDocuments": [
       {
@@ -12,12 +12,12 @@
           "#articlecontent"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "698e771653fcbf0c57864c3d134ad381350c65d6"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: net::ERR_CERT_AUTHORITY_INVALID at https://help.nextdoor.com/s/article/community-guidelines?language=en_GB"
+      "[extraction] Extract failed: The provided selector \"[\".article-head\",\"#articlecontent\"]\" has no match in the web page at 'https://help.nextdoor.com/s/article/community-guidelines?language=en_GB'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
