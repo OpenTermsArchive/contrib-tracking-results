@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-10T12:33:24.965Z",
+    "date": "2026-10-16T13:11:03.629Z",
     "serviceName": "Amazon Maps",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201544030",
         "select": "div.help-content",
         "mimeType": "text/html",
-        "snapshotId": "1f5332371bd993de88e9a300c2f68645f74e49aa"
+        "snapshotId": "f863843357e22f44e2da554b137688760069f0c2"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201544030'"
+      ]
+    }
   }
 }
