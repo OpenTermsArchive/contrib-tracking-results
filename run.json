@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-b400abf8-8ed4-4b27-b10f-00c11aefe46f",
+  "runId": "ota-run-4d7d513a-0931-4488-9a6d-8dbfe2fe9dbe",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-16T00:30:04.352Z",
-    "endDate": "2026-10-16T01:13:59.766Z",
+    "startDate": "2026-10-16T12:30:04.484Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,64 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 568,
-    "failed": 260
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Bolt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "WordPress Foundation",
-        "termsType": "Brand Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
