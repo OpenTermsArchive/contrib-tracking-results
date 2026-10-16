@@ -1,19 +1,16 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-16T01:13:59.675Z",
+    "date": "2026-10-16T13:08:34.001Z",
     "serviceName": "WordPress Foundation",
     "sourceDocuments": [
       {
         "id": "trademark-policy",
         "fetch": "https://wordpressfoundation.org/trademark-policy/",
         "select": "main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "ed771983cac00689b4773f27c9dd39987f47170d"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://wordpressfoundation.org/trademark-policy/'"
     ]
   }
 }
