@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-16T13:11:07.535Z",
+    "date": "2026-10-17T00:33:40.632Z",
     "serviceName": "Amazon Prime",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=13819201",
         "select": "article.help-content",
         "mimeType": "text/html",
-        "snapshotId": "25103cb436d1ddd61cab9c1825541c931276ff3a"
+        "snapshotId": "6c82d36dff586a33a2f05908925b0b1cfdc75158"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=13819201'"
-      ]
-    }
+    ]
   }
 }
