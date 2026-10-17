@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-16T13:11:05.399Z",
+    "date": "2026-10-17T00:33:38.463Z",
     "serviceName": "Amazon Music",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201380010",
         "select": "div.help-content",
         "mimeType": "text/html",
-        "snapshotId": "96ea7b559fe369b32a2aaefc5a305cb53a882606"
+        "snapshotId": "b0d0ff8820e5744475167d9bd90b77c6934b18a4"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201380010'"
-      ]
-    }
+    ]
   }
 }
