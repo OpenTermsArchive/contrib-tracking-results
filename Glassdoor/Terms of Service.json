@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-12T13:13:30.060Z",
+    "date": "2026-10-17T12:41:34.204Z",
     "serviceName": "Glassdoor",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           "main"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "d754f7088a1eb55cff9dc4f9e1b0fee224100567"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.glassdoor.com/about/terms/'"
     ]
   }
 }
