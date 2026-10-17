@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-17T00:30:05.130Z",
-    "endDate": null,
+    "endDate": "2026-10-17T01:15:06.088Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,17 +14,56 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 569,
+    "failed": 259
   },
   "coverage": {
-    "processed": 0,
+    "processed": 828,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Bolt",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Infolinks",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Infolinks",
+        "termsType": "Acceptable Use Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Booking.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Booking.com",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
