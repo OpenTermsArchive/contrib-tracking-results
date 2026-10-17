@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-16T13:10:59.135Z",
+    "date": "2026-10-17T00:33:32.929Z",
     "serviceName": "Amazon Appstore",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=201485660",
         "select": "div.help-content",
         "mimeType": "text/html",
-        "snapshotId": "84c985c747ba41528ca80ff4743ff7a77d17a4c2"
+        "snapshotId": "01c0415a0b58c4e7e0edf06f84d60887724d77d7"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201485660'"
-      ]
-    }
+    ]
   }
 }
