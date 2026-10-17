@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:48:29.777Z",
+    "date": "2026-10-17T12:49:25.000Z",
     "serviceName": "NOYB",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           "startBefore": "#privacy",
           "endBefore": "#copyright"
         },
-        "mimeType": "text/html",
-        "snapshotId": "d6db39d3b0187f1cb917a0d2c9b3a0170f0eb82d"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"#privacy\",\"endBefore\":\"#copyright\"}"
+      "[fetch] Fetch failed: Network system error ECONNREFUSED occurred when trying to fetch 'https://noyb.eu/en/legal'"
     ]
   }
 }
