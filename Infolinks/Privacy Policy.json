@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-17T01:12:41.637Z",
+    "date": "2026-10-17T12:44:19.316Z",
     "serviceName": "Infolinks",
     "sourceDocuments": [
       {
@@ -13,12 +13,9 @@
         "remove": [
           ".print"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "220e16149a354924fc268186af5d32cbcaf25725"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.infolinks.com/privacy-policy/'"
     ]
   }
 }
