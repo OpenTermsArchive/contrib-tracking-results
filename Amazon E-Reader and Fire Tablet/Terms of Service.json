@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-16T13:11:02.001Z",
+    "date": "2026-10-17T00:33:35.365Z",
     "serviceName": "Amazon E-Reader and Fire Tablet",
     "sourceDocuments": [
       {
@@ -18,13 +18,8 @@
           "#hmd-ConfirmNoBox"
         ],
         "mimeType": "text/html",
-        "snapshotId": "691987e2c8018cd8a72b2d577334813da3b53b2a"
+        "snapshotId": "b4bf5f200c264676b9efa8affe6220126eb85cd1"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=200699130'"
-      ]
-    }
+    ]
   }
 }
