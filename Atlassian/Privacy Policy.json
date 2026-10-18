@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-17T13:12:31.573Z",
+    "date": "2026-10-18T00:34:14.173Z",
     "serviceName": "Atlassian",
     "sourceDocuments": [
       {
@@ -13,11 +13,6 @@
         "mimeType": "text/html",
         "snapshotId": "428bfda11656116df50a9f5ed2a25423c1202026"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.atlassian.com/legal/privacy-policy'"
-      ]
-    }
+    ]
   }
 }
