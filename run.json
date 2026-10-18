@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-18T12:30:04.629Z",
-    "endDate": null,
+    "endDate": "2026-10-18T13:17:13.112Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "6fc4940664549f645a052614328685b77ba09ce8",
@@ -14,17 +14,52 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 568,
+    "failed": 260
   },
   "coverage": {
-    "processed": 0,
+    "processed": 828,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Infolinks",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Cdiscount",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
