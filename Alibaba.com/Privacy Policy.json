@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-10T12:32:19.417Z",
+    "date": "2026-10-18T13:13:29.068Z",
     "serviceName": "Alibaba.com",
     "sourceDocuments": [
       {
@@ -16,8 +16,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "89a1aa4915acc6a5699a7878b61bec1c35e6505c"
+        "snapshotId": "bcdd0f44e2dc0b761b056497b87745c589ddb1c1"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://rulechannel.alibaba.com/icbu?type=detail&ruleId=2034&cId=1306#/rule/detail?cId=1306&ruleId=2034'"
+      ]
+    }
   }
 }
