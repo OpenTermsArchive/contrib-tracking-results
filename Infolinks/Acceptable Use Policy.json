@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-17T01:13:11.819Z",
+    "date": "2026-10-19T12:44:37.019Z",
     "serviceName": "Infolinks",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           ".section-title",
           "ol:nth-child(4)"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0f1c6c34e18fb9688fcc6b4433728db669a3a102"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.infolinks.com/service-agreement/'"
     ]
   }
 }
