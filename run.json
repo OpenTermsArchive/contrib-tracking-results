@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-2c8654c6-17b6-4913-8ef1-dfda80996c60",
+  "runId": "ota-run-ec37f857-7ba7-407e-8eb0-3e81de1ccd86",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-19T00:30:04.947Z",
-    "endDate": "2026-10-19T01:14:34.438Z",
+    "startDate": "2026-10-19T12:30:05.192Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,35 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 571,
-    "failed": 257
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      }
-    ]
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
