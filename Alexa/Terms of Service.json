@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-03T13:10:10.245Z",
+    "date": "2026-10-19T13:12:35.238Z",
     "serviceName": "Alexa",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           "div.help-content"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "1143612df1a6283157b357d6849fd30d26cf7f1a"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740'"
+      "[extraction] Extract failed: The provided selector \"[\"div.help-content\"]\" has no match in the web page at 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201809740'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
