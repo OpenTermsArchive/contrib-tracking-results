@@ -1,65 +1,30 @@
 {
-  "runId": "ota-run-a9c355cc-48e1-483e-b2b2-91f51f35c4e6",
+  "runId": "ota-run-2c8654c6-17b6-4913-8ef1-dfda80996c60",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-18T12:30:04.629Z",
-    "endDate": "2026-10-18T13:17:13.112Z",
+    "startDate": "2026-10-19T00:30:04.947Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "6fc4940664549f645a052614328685b77ba09ce8",
+    "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
     "services": 384,
     "terms": 828
   },
   "tracked": {
-    "ok": 568,
-    "failed": 260
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Infolinks",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ulster.ac.uk",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
