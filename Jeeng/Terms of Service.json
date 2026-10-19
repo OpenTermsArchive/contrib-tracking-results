@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:44:02.225Z",
+    "date": "2026-10-19T13:13:57.516Z",
     "serviceName": "Jeeng",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           ".container--small"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e34e2725462e0f9c1c899ed74a74efc2af2c2817"
+        "snapshotId": "15de676d3193612283c760128103dcfcf8c33fa2"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 504 when trying to fetch 'https://www.jeeng.com/terms-of-use/'"
+      ]
+    }
   }
 }
