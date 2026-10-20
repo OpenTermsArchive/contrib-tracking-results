@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:05.574Z",
+    "date": "2026-10-20T00:37:24.994Z",
     "serviceName": "Couchsurfing",
     "sourceDocuments": [
       {
         "id": "about-privacy-policy",
         "fetch": "https://about.couchsurfing.com/about/privacy-policy/",
         "select": "section#privacy-policy",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "6f7eeb75fc1b0d623c9c555a5785ff771a9ed2f8"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://about.couchsurfing.com/about/privacy-policy/'"
+      "[extraction] Extract failed: The provided selector \"section#privacy-policy\" has no match in the web page at 'https://about.couchsurfing.com/about/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
