@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-20T00:59:05.528Z",
+    "date": "2026-10-20T13:01:07.011Z",
     "serviceName": "Tildes",
     "sourceDocuments": [
       {
@@ -14,12 +14,9 @@
           ".breadcrumb",
           ".toc"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "b027f1c47d04c2ae0b04c5fe471123c3a5fec24f"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error CERT_HAS_EXPIRED occurred when trying to fetch 'https://docs.tildes.net/policies/privacy-policy'"
     ]
   }
 }
