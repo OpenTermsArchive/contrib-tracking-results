@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-20T00:30:04.494Z",
-    "endDate": null,
+    "endDate": "2026-10-20T01:13:07.130Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,17 +14,76 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 567,
+    "failed": 261
   },
   "coverage": {
-    "processed": 0,
+    "processed": 828,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "CNN International",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Tildes",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Tildes",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Tildes",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Infolinks",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Quora",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "PubMatic",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Couchsurfing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Couchsurfing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Alexa",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
