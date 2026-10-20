@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-20T00:59:05.951Z",
+    "date": "2026-10-20T13:01:10.226Z",
     "serviceName": "Tildes",
     "sourceDocuments": [
       {
@@ -14,12 +14,9 @@
           ".breadcrumb",
           ".toc"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "b0b3c5b64d07c4f44a48c3fda6854b059d26d977"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Network system error CERT_HAS_EXPIRED occurred when trying to fetch 'https://docs.tildes.net/policies/code-of-conduct'"
     ]
   }
 }
