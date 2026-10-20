@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-15T01:11:47.778Z",
+    "date": "2026-10-20T13:14:02.928Z",
     "serviceName": "Glassdoor",
     "sourceDocuments": [
       {
@@ -16,12 +16,12 @@
           ".changeView"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "67403dde262899d1454d6231126d9f90d31be65b"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US'"
+      "[extraction] Extract failed: The provided selector \"[\"[data-region-name=\\\"articleDetail\\\"]\"]\" has no match in the web page at 'https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
