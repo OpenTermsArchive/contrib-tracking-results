@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:36:18.586Z",
+    "date": "2026-10-20T00:36:28.688Z",
     "serviceName": "CNN International",
     "sourceDocuments": [
       {
@@ -14,8 +14,11 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "b831a310e1779343400807c10ea944ce918ca398"
+        "snapshotId": "17e47d8263937f55d2ea10c77d20ca192090977f"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\".layout__content-wrapper\",\"endBefore\":\".layout__bottom\"}"
     ]
   }
 }
