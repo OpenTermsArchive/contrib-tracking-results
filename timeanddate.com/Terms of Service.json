@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-18T13:16:05.540Z",
+    "date": "2026-10-20T00:59:20.147Z",
     "serviceName": "timeanddate.com",
     "sourceDocuments": [
       {
         "id": "information-terms-conditions",
         "fetch": "https://www.timeanddate.com/information/terms-conditions.html",
         "select": ".layout-grid__main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "b9c12e81bba9f3d11496b2843423a35e8172f7cd"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.timeanddate.com/information/terms-conditions.html'"
+      "[extraction] Extract failed: The provided selector \".layout-grid__main\" has no match in the web page at 'https://www.timeanddate.com/information/terms-conditions.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
