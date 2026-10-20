@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:06.284Z",
+    "date": "2026-10-20T00:37:36.917Z",
     "serviceName": "Couchsurfing",
     "sourceDocuments": [
       {
         "id": "about-terms-of-use",
         "fetch": "https://about.couchsurfing.com/about/terms-of-use/",
         "select": "section#tos",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "28a75240ee92052ff8c5b29b9ecea0e99e1c673d"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://about.couchsurfing.com/about/terms-of-use/'"
+      "[extraction] Extract failed: The provided selector \"section#tos\" has no match in the web page at 'https://about.couchsurfing.com/about/terms-of-use/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
