@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:00:01.113Z",
+    "date": "2026-10-20T13:01:03.998Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           "#policy-card .content"
         ],
         "mimeType": "text/html",
-        "snapshotId": "56760bcdc62b799dff63277da339bc00925ddc40"
+        "snapshotId": "eee4907ff2ec49f5ab812b64b34a779d8c5f3211"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#policy-card .content\"]\" has no match in the web page at 'https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
