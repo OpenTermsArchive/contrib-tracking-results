@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:00:08.325Z",
+    "date": "2026-10-20T00:59:06.331Z",
     "serviceName": "Tildes",
     "sourceDocuments": [
       {
@@ -15,9 +15,12 @@
           ".date-info > a",
           ".toc"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "db2e2e8177c8ced9979d8e67b966e9cf7eace6b3"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Network system error CERT_HAS_EXPIRED occurred when trying to fetch 'https://docs.tildes.net/policies/terms-of-use'"
     ]
   }
 }
