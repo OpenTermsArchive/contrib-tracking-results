@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-18T00:49:28.420Z",
+    "date": "2026-10-21T13:12:54.565Z",
     "serviceName": "NOYB",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           "startBefore": "#privacy",
           "endBefore": "#copyright"
         },
-        "mimeType": "text/html",
-        "snapshotId": "237a78bc8aa0cd9a11f56f0272be8dbf968c6a4a"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"#privacy\",\"endBefore\":\"#copyright\"}"
+      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://noyb.eu/en/legal'"
     ]
   }
 }
