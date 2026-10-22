@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-21T13:12:46.814Z",
+    "date": "2026-10-22T01:12:28.903Z",
     "serviceName": "DeviantArt",
     "sourceDocuments": [
       {
@@ -18,7 +18,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://about.deviantart.com/policy/privacy/'"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://about.deviantart.com/policy/privacy/'"
     ]
   }
 }
