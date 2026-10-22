@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-21T13:12:55.020Z",
+    "date": "2026-10-22T00:49:06.232Z",
     "serviceName": "OnlyFans",
     "sourceDocuments": [
       {
@@ -13,12 +13,12 @@
           ".b-section-article:nth-child(5)",
           ".b-section-article:nth-child(9)"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "da5c19469f620dde48b3c0bbdf5f35bf9d7e2924"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://onlyfans.com/terms'"
+      "[extraction] Extract failed: The provided selector \"[\".b-section-article:nth-child(3)\",\".b-section-article:nth-child(7)\",\".b-section-article:nth-child(5)\",\".b-section-article:nth-child(9)\"]\" has no match in the web page at 'https://onlyfans.com/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
