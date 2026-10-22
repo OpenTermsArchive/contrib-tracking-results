@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:48:22.645Z",
+    "date": "2026-10-22T13:15:33.606Z",
     "serviceName": "Nissan",
     "sourceDocuments": [
       {
@@ -9,9 +9,12 @@
         "fetch": "https://www.nissan-global.com/EN/PRIVACY/",
         "select": "#area0",
         "remove": ".c_breadcrumbs",
-        "mimeType": "text/html",
-        "snapshotId": "b5b94bc4e2b757f31bfc788c6330e9f1ee08dd1b"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.nissan-global.com/EN/PRIVACY/'"
     ]
   }
 }
