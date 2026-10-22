@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-22T01:12:32.647Z",
+    "date": "2026-10-22T12:42:29.092Z",
     "serviceName": "Goodreads",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://www.goodreads.com/about/privacy",
         "select": ".guidelines",
         "mimeType": "text/html",
-        "snapshotId": "bf5c9d044e2bcc40d0fa295ec65278008fc48b16"
+        "snapshotId": "5fec123cdd5a2fbb9b4ced28471a7de9047a5027"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.goodreads.com/about/privacy'"
-      ]
-    }
+    ]
   }
 }
