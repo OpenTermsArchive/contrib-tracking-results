@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-c0929726-eb66-4777-ad53-517df90b8065",
+  "runId": "ota-run-8ce8ab0c-0020-4c50-beba-768edf061f63",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-22T00:30:05.132Z",
-    "endDate": "2026-10-22T01:14:26.424Z",
+    "startDate": "2026-10-22T12:30:05.203Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,88 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 569,
-    "failed": 259
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "AdRoll",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "AdRoll",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Acceptable Use Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "DeviantArt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "DeviantArt",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
