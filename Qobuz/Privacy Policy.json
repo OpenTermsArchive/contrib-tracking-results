@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-21T00:51:04.027Z",
+    "date": "2026-10-22T01:13:09.061Z",
     "serviceName": "Qobuz",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.qobuz.com/us-en/discover/legals/privacy",
         "select": "main",
         "mimeType": "text/html",
-        "snapshotId": "6a7b683c69112ee39a7ff5059d95803b4937c11b"
+        "snapshotId": "9359300d4c8f46c57da3c3a46fe98a219662e3ea"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.qobuz.com/us-en/discover/legals/privacy'"
+      ]
+    }
   }
 }
