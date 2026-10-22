@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-82f7a802-e9a0-4700-975d-102e879b56cc",
+  "runId": "ota-run-c0929726-eb66-4777-ad53-517df90b8065",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-21T12:30:05.025Z",
-    "endDate": "2026-10-21T13:15:03.573Z",
+    "startDate": "2026-10-22T00:30:05.132Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,68 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 569,
-    "failed": 259
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "DeviantArt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "DeviantArt",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "NOYB",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "OnlyFans",
-        "termsType": "Acceptable Use Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
