@@ -1,19 +1,16 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-22T00:31:23.990Z",
+    "date": "2026-10-23T00:31:26.169Z",
     "serviceName": "AdRoll",
     "sourceDocuments": [
       {
         "id": "privacy",
         "fetch": "https://www.nextroll.com/privacy",
         "select": ".main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f21fbb4cb105312df46259206d2cbc6e5ae43295"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://www.nextroll.com/privacy'"
     ]
   }
 }
