@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-22T13:15:35.033Z",
+    "date": "2026-10-23T00:49:04.550Z",
     "serviceName": "Nissan",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": "#area0",
         "remove": ".c_breadcrumbs",
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "d9cbc32d469aec3c3c94bc53bdab27d6f93849d4"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.nissan-global.com/EN/ABOUT/'"
     ]
   }
 }
