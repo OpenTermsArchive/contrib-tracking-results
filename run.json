@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-72aae424-dfe9-4d04-8bba-eb09e8aee492",
+  "runId": "ota-run-91b7aa9e-818d-4c8b-b3b6-e14f69013d90",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-23T00:30:05.061Z",
-    "endDate": "2026-10-23T01:13:43.005Z",
+    "startDate": "2026-10-23T12:30:04.400Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,76 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 572,
-    "failed": 256
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "AdRoll",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "AdRoll",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Nissan",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Nissan",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Persumi",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Persumi",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
