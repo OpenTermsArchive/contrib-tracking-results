@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-22T13:16:35.287Z",
+    "date": "2026-10-23T00:50:35.068Z",
     "serviceName": "Persumi",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           ".prose"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "a099ed203e6d3914cda4f6b81c0f00900723cc8d"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://persumi.com/terms'"
     ]
   }
 }
