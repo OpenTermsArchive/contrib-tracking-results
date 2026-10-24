@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:53:43.713Z",
+    "date": "2026-10-24T01:12:42.952Z",
     "serviceName": "Spam.org",
     "sourceDocuments": [
       {
@@ -14,9 +14,12 @@
           ".breadcrumb-small",
           "hr"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "3a1fad173f0187aa8a166a30c2795b09d599a8f4"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.spam.org/tos'"
     ]
   }
 }
