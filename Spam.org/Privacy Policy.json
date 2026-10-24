@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:53:40.067Z",
+    "date": "2026-10-24T01:12:41.776Z",
     "serviceName": "Spam.org",
     "sourceDocuments": [
       {
@@ -14,9 +14,12 @@
           ".breadcrumb-small",
           "hr"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "43f2ed89bf1f201b0b15dedb824e3904312fa474"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.spam.org/privacy'"
     ]
   }
 }
