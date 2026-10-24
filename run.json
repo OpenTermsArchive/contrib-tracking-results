@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-7fddcc21-da5f-4dca-b978-ed10d3d920a5",
+  "runId": "ota-run-3ca9013a-8a97-44ce-83b5-e46264e00442",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-24T00:30:04.260Z",
-    "endDate": "2026-10-24T01:13:49.277Z",
+    "startDate": "2026-10-24T12:30:05.067Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,48 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 571,
-    "failed": 257
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Spam.org",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Spam.org",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ulster.ac.uk",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
