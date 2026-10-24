@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-91b7aa9e-818d-4c8b-b3b6-e14f69013d90",
+  "runId": "ota-run-7fddcc21-da5f-4dca-b978-ed10d3d920a5",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-23T12:30:04.400Z",
-    "endDate": "2026-10-23T13:15:25.482Z",
+    "startDate": "2026-10-24T00:30:04.260Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,36 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 571,
-    "failed": 257
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ulster.ac.uk",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
