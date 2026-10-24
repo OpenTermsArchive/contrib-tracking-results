@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-24T00:37:47.665Z",
+    "date": "2026-10-24T12:37:55.690Z",
     "serviceName": "Daily Mail",
     "sourceDocuments": [
       {
@@ -12,11 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "212e1ad523daed887e227a59183ffe1bb2abfc4a"
+        "snapshotId": "ed9fdaf0e9d3ac93243c47898820fff2c0260748"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"div[itemprop=articleBody]\"]\" matches an empty content in the web page at 'https://www.dailymail.co.uk/home/article-7759273/Privacy-Cookies-Policy-Policy.html'"
     ]
   }
 }
