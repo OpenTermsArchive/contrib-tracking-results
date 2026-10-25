@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-3ca9013a-8a97-44ce-83b5-e46264e00442",
+  "runId": "ota-run-b96e2e73-a311-4d99-aaf2-80ed72f8cc8c",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-24T12:30:05.067Z",
-    "endDate": "2026-10-24T13:14:44.034Z",
+    "startDate": "2026-10-25T00:30:04.710Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,35 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 571,
-    "failed": 257
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
