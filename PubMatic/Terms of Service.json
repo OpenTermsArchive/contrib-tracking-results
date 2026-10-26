@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-26T01:12:22.729Z",
+    "date": "2026-10-26T12:50:48.953Z",
     "serviceName": "PubMatic",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           ".main > .container"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9adf4b170c4973297be89976c8df84e9945b37ed"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://pubmatic.com/legal/publisher-master-services-agreement/'"
     ]
   }
 }
