@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-2a185d23-1345-4b69-8d02-8157d72638c3",
+  "runId": "ota-run-7daf470a-25ae-45b3-92ec-0d8754ba0da5",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-25T12:30:04.772Z",
-    "endDate": "2026-10-25T13:14:28.525Z",
+    "startDate": "2026-10-26T00:30:04.763Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "71d58cf34de6382d4fc79eb0b24e7993c5a14f1a",
@@ -14,44 +14,17 @@
     "terms": 828
   },
   "tracked": {
-    "ok": 568,
-    "failed": 260
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 828,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ulster.ac.uk",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
