@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-26T12:34:14.850Z",
+    "date": "2026-10-27T00:34:30.377Z",
     "serviceName": "Atlassian",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           "main .column-lg-7"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c2b7a9b408d7b012b26121179f185b055acb286c"
+        "snapshotId": "ed522788a561134732a40cba801ce8dbab2b5004"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main .column-lg-7\"]\" has no match in the web page at 'https://www.atlassian.com/legal/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
