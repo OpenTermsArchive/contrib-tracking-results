@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-10-27T00:34:22.047Z",
+    "serviceName": "AT&T",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms.consumerServiceAgreement",
+        "fetch": "https://www.att.com/legal/terms.consumerServiceAgreement.html",
+        "select": "#termsofservices",
+        "mimeType": "text/html",
+        "snapshotId": "63974553486e8b1f31b93c33b1c8ba4270e55cf8"
+      }
+    ]
+  }
+}
