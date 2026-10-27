@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-21T01:12:06.184Z",
+    "date": "2026-10-27T12:41:27.692Z",
     "serviceName": "Glassdoor",
     "sourceDocuments": [
       {
@@ -16,12 +16,9 @@
           ".changeView"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "72e12b40feba12f669408424ef17ee31221f9d7d"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.glassdoor.com/s/article/Community-Guidelines?language=en_US'"
     ]
   }
 }
