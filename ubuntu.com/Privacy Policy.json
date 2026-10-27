@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-27T01:12:52.851Z",
+    "date": "2026-10-27T13:04:52.151Z",
     "serviceName": "ubuntu.com",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://ubuntu.com/legal/data-privacy",
         "select": ".p-strip",
         "mimeType": "text/html",
-        "snapshotId": "ab7561f5654e0e0f5320941c1946fc0a6725b330"
+        "snapshotId": "441ee5f3924fff0ad45107933d1940edf3bb9ecb"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://ubuntu.com/legal/data-privacy'"
-      ]
-    }
+    ]
   }
 }
