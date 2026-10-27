@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-10-27T00:34:28.493Z",
+    "serviceName": "AT&T",
+    "sourceDocuments": [
+      {
+        "id": "privacy-privacy-notice",
+        "fetch": "https://about.att.com/privacy/privacy-notice.html",
+        "select": [
+          {
+            "startBefore": "#textblk_prvcy_ntce",
+            "endBefore": "[data-comp=\"linkfarm-duc\"]"
+          }
+        ],
+        "remove": [
+          "a[onclick*=\"print\"]",
+          "[data-comp=\"micro-banner-duc\"]",
+          "#prvcy-notice-txtblk-recnt-updts"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9a86ad12eb7aa5dd6f7bc186fb0199672cf72d0b"
+      }
+    ]
+  }
+}
