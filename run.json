@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-f7a18c9c-12a3-446f-b7c8-94838a10a1e6",
+  "runId": "ota-run-edc55883-d216-49c2-9086-b6288331935d",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-27T00:30:04.938Z",
-    "endDate": "2026-10-27T01:13:54.617Z",
+    "startDate": "2026-10-27T12:30:04.701Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,68 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 578,
-    "failed": 252
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Couchsurfing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Couchsurfing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Meetup",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Meetup",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
