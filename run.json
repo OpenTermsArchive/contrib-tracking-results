@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-27T00:30:04.938Z",
-    "endDate": null,
+    "endDate": "2026-10-27T01:13:54.617Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,68 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 578,
+    "failed": 252
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "ASUS",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Atlassian",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Couchsurfing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Couchsurfing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Meetup",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Meetup",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Alexa",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 3
 }
