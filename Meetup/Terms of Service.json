@@ -1,24 +1,20 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-09-30T00:47:11.738Z",
+    "date": "2026-10-27T00:47:24.372Z",
     "serviceName": "Meetup",
     "sourceDocuments": [
       {
         "id": "hc-en-us-articles-360027447252",
         "fetch": "https://help.meetup.com/hc/en-us/articles/360027447252",
-        "select": ".article",
+        "select": ".lt-article",
         "remove": [
-          "footer",
-          ".article-subscribe"
+          "prev-next-articles"
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "704e4b03d15b86e3ae5fbe8a96f7aa1fe70dae8e"
+        "snapshotId": "9bb5797e56160f2109a6f31d18ab30f3c1e04acc"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".article\" has no match in the web page at 'https://help.meetup.com/hc/en-us/articles/360027447252'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
