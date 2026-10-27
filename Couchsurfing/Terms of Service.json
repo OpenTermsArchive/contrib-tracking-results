@@ -1,19 +1,16 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-20T00:37:36.917Z",
+    "date": "2026-10-27T00:37:37.414Z",
     "serviceName": "Couchsurfing",
     "sourceDocuments": [
       {
         "id": "about-terms-of-use",
         "fetch": "https://about.couchsurfing.com/about/terms-of-use/",
-        "select": "section#tos",
+        "select": ".article-body",
         "mimeType": "text/html",
-        "snapshotId": "28a75240ee92052ff8c5b29b9ecea0e99e1c673d"
+        "snapshotId": "382540ade25fb2146db6d2be908c15d64ebd3da8"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"section#tos\" has no match in the web page at 'https://about.couchsurfing.com/about/terms-of-use/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
