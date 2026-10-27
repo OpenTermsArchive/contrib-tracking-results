@@ -1,19 +1,16 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-15T01:12:23.510Z",
+    "date": "2026-10-27T00:49:49.584Z",
     "serviceName": "Polyfill.io",
     "sourceDocuments": [
       {
         "id": "v3-terms",
         "fetch": "https://polyfill.io/v3/terms",
         "select": "main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f9fd4ce7ac5097b309e01e972797518d9a5cda88"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://polyfill.io/v3/terms'"
     ]
   }
 }
