@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-edc55883-d216-49c2-9086-b6288331935d",
+  "runId": "ota-run-2335f289-fe4d-47dc-880c-7ec770409488",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-27T12:30:04.701Z",
-    "endDate": "2026-10-27T13:15:15.919Z",
+    "startDate": "2026-10-28T00:30:04.450Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,68 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 576,
-    "failed": 254
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ASUS",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Glassdoor",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "KimCartoon",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
