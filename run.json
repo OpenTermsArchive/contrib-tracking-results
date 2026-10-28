@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-28T12:30:04.722Z",
-    "endDate": null,
+    "endDate": "2026-10-28T13:15:50.637Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,72 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 576,
+    "failed": 254
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Atlassian",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Kindle Store",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Glassdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
   "transientErrors": 0
 }
