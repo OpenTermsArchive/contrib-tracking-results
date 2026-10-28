@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-2335f289-fe4d-47dc-880c-7ec770409488",
+  "runId": "ota-run-290f4d20-2991-411b-9aca-fe22e8bf5a28",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-28T00:30:04.450Z",
-    "endDate": "2026-10-28T01:11:26.230Z",
+    "startDate": "2026-10-28T12:30:04.722Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,56 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 576,
-    "failed": 254
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Glassdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Instagram",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "AcuityAds",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "AcuityAds",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
