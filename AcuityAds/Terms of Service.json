@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T01:12:03.058Z",
+    "date": "2026-10-28T00:30:23.053Z",
     "serviceName": "AcuityAds",
     "sourceDocuments": [
       {
@@ -15,7 +15,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.acuityads.com/terms-and-conditions/'"
+      "[fetch] Fetch failed: Network system error EHOSTUNREACH occurred when trying to fetch 'https://www.acuityads.com/terms-and-conditions/'"
     ]
   }
 }
