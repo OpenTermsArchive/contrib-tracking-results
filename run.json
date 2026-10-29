@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-290f4d20-2991-411b-9aca-fe22e8bf5a28",
+  "runId": "ota-run-918e9bc0-e092-4c89-8666-678b0f97ccec",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-28T12:30:04.722Z",
-    "endDate": "2026-10-28T13:15:50.637Z",
+    "startDate": "2026-10-29T00:30:05.207Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,72 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 576,
-    "failed": 254
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Instagram",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Kindle Store",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Glassdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
