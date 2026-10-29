@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-29T00:30:05.207Z",
-    "endDate": null,
+    "endDate": "2026-10-29T01:11:59.571Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,80 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 569,
+    "failed": 261
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Coindesk",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Coindesk",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Coindesk",
+        "termsType": "Editorial Policy"
+      },
+      {
+        "serviceId": "Qwant",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Qwant",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Atlassian",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Solana",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Solana",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Amazon Kindle Store",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Polyfill.io",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
   "transientErrors": 0
 }
