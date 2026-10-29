@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:02.880Z",
+    "date": "2026-10-29T00:36:31.260Z",
     "serviceName": "Coindesk",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "[data-module-name=\"page\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "69b84a59928fc19395fc8221019fb691ad3e3027"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://www.coindesk.com/ethics/'"
     ]
   }
 }
