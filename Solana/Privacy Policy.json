@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:53:27.388Z",
+    "date": "2026-10-29T00:53:09.005Z",
     "serviceName": "Solana",
     "sourceDocuments": [
       {
@@ -13,12 +13,12 @@
         "remove": [
           "img[aria-hidden=\"true\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "f91dc680fa027c776ab34454a2cbfd90ba26e962"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://solana.com/privacy-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://solana.com/privacy-policy'"
     ]
   }
 }
