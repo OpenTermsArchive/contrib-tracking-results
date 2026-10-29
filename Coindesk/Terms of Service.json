@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:00.353Z",
+    "date": "2026-10-29T00:36:30.854Z",
     "serviceName": "Coindesk",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "[data-module-name=\"page\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "7f8d21a86a9c3fdab989df7779e8f6f662924709"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://www.coindesk.com/terms/'"
     ]
   }
 }
