@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:50:42.113Z",
+    "date": "2026-10-29T00:50:12.317Z",
     "serviceName": "Qwant",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           ".elementor-col-66 > .elementor-widget-wrap"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c4b7a9af8480e79e60e20d23d2020acc75434970"
+        "snapshotId": "b99b525d62880ee461cfcd029e5f5dd1b7bc1be8"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".elementor-col-66 > .elementor-widget-wrap\"]\" has no match in the web page at 'https://about.qwant.com/en/legal/qwant-search/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
