@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-28T13:10:37.404Z",
+    "date": "2026-10-29T01:10:10.359Z",
     "serviceName": "Amazon Kindle Store",
     "sourceDocuments": [
       {
@@ -14,12 +14,12 @@
           }
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "b495f4dde5104c691f819b29e81cd9d09159096e"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"h1\",\"endBefore\":\"#hmd-FeedbackBox\"}"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html?nodeId=201014950'"
     ]
   }
 }
