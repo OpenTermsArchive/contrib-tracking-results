@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-28T13:11:47.203Z",
+    "date": "2026-10-29T01:10:49.151Z",
     "serviceName": "Polyfill.io",
     "sourceDocuments": [
       {
@@ -13,7 +13,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://polyfill.io/v3/privacy-policy'"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://polyfill.io/v3/privacy-policy'"
     ]
   }
 }
