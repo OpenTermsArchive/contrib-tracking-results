@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-918e9bc0-e092-4c89-8666-678b0f97ccec",
+  "runId": "ota-run-2b8a6ee1-4d55-41c6-ba7e-05d918d01269",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-29T00:30:05.207Z",
-    "endDate": "2026-10-29T01:11:59.571Z",
+    "startDate": "2026-10-29T12:30:04.611Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,80 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 569,
-    "failed": 261
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Coindesk",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Coindesk",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Coindesk",
-        "termsType": "Editorial Policy"
-      },
-      {
-        "serviceId": "Qwant",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Qwant",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Atlassian",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Solana",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Solana",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Amazon Kindle Store",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
