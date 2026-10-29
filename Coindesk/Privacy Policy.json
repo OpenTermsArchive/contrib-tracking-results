@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:01.632Z",
+    "date": "2026-10-29T00:36:31.023Z",
     "serviceName": "Coindesk",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "[data-module-name=\"page\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "d042929bab30a05db89cb1ff8cdb635638aefea8"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://www.coindesk.com/privacy/'"
     ]
   }
 }
