@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-27T12:34:17.294Z",
+    "date": "2026-10-29T12:33:21.814Z",
     "serviceName": "ASUS",
     "sourceDocuments": [
       {
@@ -9,8 +9,11 @@
         "fetch": "https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/",
         "select": "#member-page-content",
         "mimeType": "text/html",
-        "snapshotId": "d23255000da7cba7dbb3cb0accce86261bb804f3"
+        "snapshotId": "93b40e5443e465851ae09441c9e8327d4af56e78"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"#member-page-content\" has no match in the web page at 'https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
