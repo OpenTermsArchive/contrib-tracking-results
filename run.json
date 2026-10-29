@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-29T12:30:04.611Z",
-    "endDate": null,
+    "endDate": "2026-10-29T13:14:10.419Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,52 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 572,
+    "failed": 258
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "ASUS",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ASUS",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Cdiscount",
+        "termsType": "Commercial Terms"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
