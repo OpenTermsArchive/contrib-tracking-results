@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-28T13:14:48.956Z",
+    "date": "2026-10-29T01:03:32.400Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -13,8 +13,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5f26a88801dd332bddebbfee07aedf5ab2a3f6a9"
       },
       {
         "id": "en-rules-and-policies-violent-entities",
@@ -26,7 +26,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "d50fca917480e98f8b415782b338d5a887312982"
       },
       {
         "id": "en-rules-and-policies-sexual-exploitation-policy",
@@ -38,7 +38,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "9fa94219e04487a8758c41a9bbdf49d64d19db19"
       },
       {
         "id": "en-rules-and-policies-abusive-behavior",
@@ -50,7 +50,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "4d69167397d7a63c1bf588862e012238957e5aed"
+        "snapshotId": "c0c2e83a43580862c10c8a87c057bdfcbbba960f"
       },
       {
         "id": "en-rules-and-policies-hateful-conduct-policy",
@@ -62,7 +62,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "17c20e42b5c2922b907e784c4c1401082deab12b"
       },
       {
         "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
@@ -74,7 +74,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "c6ebd3af91e43e8eddf4c5c32ba52f65a1cda695"
+        "snapshotId": "718253f51ad0d254f2b0bf35795e8bf914d57801"
       },
       {
         "id": "en-rules-and-policies-glorifying-self-harm",
@@ -86,7 +86,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "0658f6c56103a36d395ce5e9c89009409252ea8e"
       },
       {
         "id": "en-rules-and-policies-media-policy",
@@ -97,8 +97,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "97ad4cf9cc513673296357cecb59c04dbcd94227"
       },
       {
         "id": "en-rules-and-policies-regulated-goods-services",
@@ -122,7 +122,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "02fa801ae38dfca7a0edc15c78eccdc1b4ec59a2"
       },
       {
         "id": "en-rules-and-policies-intimate-media",
@@ -134,7 +134,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "88f8d747c25e48e1b9f3ad31b83fbccb08c365ed"
       },
       {
         "id": "en-rules-and-policies-platform-manipulation",
@@ -145,8 +145,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "3e5b036b9c110f3baa3e987b0c10157de743b928"
       },
       {
         "id": "en-rules-and-policies-election-integrity-policy",
@@ -158,7 +158,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "77ebede2ed82360291723bd2f6ba9de21914730f"
+        "snapshotId": "46e1281525274386460ef942882e4c2c2cce883c"
       },
       {
         "id": "en-rules-and-policies-twitter-impersonation-and-deceptive-identities-policy",
@@ -169,8 +169,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "61a413f13c06fbb0c54362bc31fb6536da86dead"
       },
       {
         "id": "en-rules-and-policies-manipulated-media",
@@ -182,7 +182,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "884e4f50236ebf648912bae2eabde90d2e0be8ff"
+        "snapshotId": "732e3021d0e1d386bdfad152a73dbf7663978fdb"
       },
       {
         "id": "en-rules-and-policies-twitter-trademark-policy",
@@ -193,8 +193,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4a94e25869a26d7508514894bbf568451f4231a0"
       },
       {
         "id": "en-rules-and-policies-copyright-policy",
@@ -209,7 +209,7 @@
           "[class*=\"twtr-type--headline-md\"]"
         ],
         "mimeType": "text/html",
-        "snapshotId": "8b69ec8dfb7e06b2f0bd3f854505b009d94e258d"
+        "snapshotId": "d76f0c1e3ddcfac0c5870db0783bfc3f9b99836b"
       },
       {
         "id": "en-rules-and-policies-enforcement-philosophy",
@@ -221,16 +221,11 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "3edb109256d8e1d3c830e88af308937f94268628"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-rules'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/media-policy'",
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/platform-manipulation'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy'"
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'"
     ]
   }
 }
