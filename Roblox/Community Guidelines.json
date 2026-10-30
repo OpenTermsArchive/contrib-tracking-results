@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-09T00:51:15.379Z",
+    "date": "2026-10-30T00:55:46.074Z",
     "serviceName": "Roblox",
     "sourceDocuments": [
       {
@@ -16,11 +16,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "7fcaf3fe48706337be5b7d10f4c560546dc11ac7"
+        "snapshotId": "20efc51024b52148017aef61622cac24e24ae878"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".article\"]\" has no match in the web page at 'https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Rules'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
