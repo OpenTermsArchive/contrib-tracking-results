@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-10T12:33:22.728Z",
+    "date": "2026-10-30T00:32:32.130Z",
     "serviceName": "Amazon Device",
     "sourceDocuments": [
       {
@@ -9,11 +9,8 @@
         "fetch": "https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080",
         "select": "div.help-content",
         "mimeType": "text/html",
-        "snapshotId": "f2c6bfbbf41db2bbf548b44b5b9b52cd404a8e83"
+        "snapshotId": "4c73a94263ed91b1420cd3433c251ca8134e83b4"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"div.help-content\" has no match in the web page at 'https://www.amazon.com/gp/help/customer/display.html?nodeId=202002080'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
