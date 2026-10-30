@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-05455358-6aca-4188-b843-3e357a4b9ef1",
+  "runId": "ota-run-d104bd4d-7708-46e6-93c5-007678e80961",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-30T00:30:04.547Z",
-    "endDate": "2026-10-30T01:17:29.311Z",
+    "startDate": "2026-10-30T12:30:05.004Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,48 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 571,
-    "failed": 259
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "PubMatic",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Device",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Roblox",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
