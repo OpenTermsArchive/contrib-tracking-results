@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-30T01:02:50.267Z",
+    "date": "2026-10-30T13:11:09.172Z",
     "serviceName": "YellowPages",
     "sourceDocuments": [
       {
@@ -12,8 +12,13 @@
           ".mx-auto"
         ],
         "mimeType": "text/html",
-        "snapshotId": "85601c8dedebc992dfb4c5e8fce718a75171e83d"
+        "snapshotId": "c67e53e2e56209fd09f3a9ac98d1d9037054f772"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://corporate.thryv.com/privacy/'"
+      ]
+    }
   }
 }
