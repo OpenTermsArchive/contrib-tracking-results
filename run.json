@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-10-30T12:30:05.004Z",
-    "endDate": null,
+    "endDate": "2026-10-30T13:12:10.883Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,39 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 574,
+    "failed": 256
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "recoveries": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "PubMatic",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Glassdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
