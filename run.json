@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-765ac4c4-dff0-4a71-8005-0be8f3d1aeb2",
+  "runId": "ota-run-cd6d96a7-8352-40c1-9ceb-61a3bbc0826e",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-10-31T00:30:04.793Z",
-    "endDate": "2026-10-31T01:11:42.818Z",
+    "startDate": "2026-10-31T12:30:04.613Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,39 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 572,
-    "failed": 258
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Glassdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
