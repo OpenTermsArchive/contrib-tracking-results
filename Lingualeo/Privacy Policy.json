@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-01T00:45:53.392Z",
+    "date": "2026-11-01T12:45:43.737Z",
     "serviceName": "Lingualeo",
     "sourceDocuments": [
       {
@@ -13,12 +13,9 @@
         "remove": [
           ".wp-block-post-title"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "948afde176787cc27d583868d724f48b1ea21ea7"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://lingualeo.com/en/blog/privacy-policy-en/"
     ]
   }
 }
