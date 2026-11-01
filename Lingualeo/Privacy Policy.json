@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-15T13:12:03.384Z",
+    "date": "2026-11-01T00:45:53.392Z",
     "serviceName": "Lingualeo",
     "sourceDocuments": [
       {
@@ -18,7 +18,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://lingualeo.com/en/blog/privacy-policy-en/'"
+      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://lingualeo.com/en/blog/privacy-policy-en/"
     ]
   }
 }
