@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:57:56.355Z",
+    "date": "2026-11-02T13:10:19.874Z",
     "serviceName": "Taboola",
     "sourceDocuments": [
       {
@@ -15,8 +15,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "81f5fe81b199b797b63d4e33140b6ea8baf013e7"
+        "snapshotId": "e42d27fffba200b6323cd8bdac5094163b6b0f98"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://help.taboola.com/hc/en-us/articles/115007068368-Prohibited-Content-Products-and-Services'"
+      ]
+    }
   }
 }
