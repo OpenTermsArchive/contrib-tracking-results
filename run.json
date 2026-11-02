@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-868179fe-c50c-41d1-a7b6-5a8b642887b3",
+  "runId": "ota-run-88d97287-a77b-4e4b-ba6d-d22ad6a335a2",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-01T12:30:04.426Z",
-    "endDate": "2026-11-01T13:14:23.213Z",
+    "startDate": "2026-11-02T00:30:04.956Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,40 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 572,
-    "failed": 258
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Lingualeo",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
