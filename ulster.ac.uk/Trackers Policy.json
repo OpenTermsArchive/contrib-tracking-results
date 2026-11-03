@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-02T01:02:20.605Z",
+    "date": "2026-11-03T01:10:42.724Z",
     "serviceName": "ulster.ac.uk",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.ulster.ac.uk/cookies",
         "select": "[role=main]",
         "mimeType": "text/html",
-        "snapshotId": "3cca3a0f5a057cd269db13c869a391d69516c249"
+        "snapshotId": "c9d737a1a15c4de46a50f9729ff0953a5eefde3e"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.ulster.ac.uk/cookies'"
+      ]
+    }
   }
 }
