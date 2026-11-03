@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:09:50.753Z",
+    "date": "2026-11-03T01:08:06.465Z",
     "serviceName": "WolframAlpha",
     "sourceDocuments": [
       {
@@ -9,8 +9,11 @@
         "fetch": "https://www.wolfram.com/legal/privacy/wolfram/",
         "select": "div.leftcolumn",
         "mimeType": "text/html",
-        "snapshotId": "c1f3e80695675b55a11fea3928f9cc4bf35c403f"
+        "snapshotId": "67f1fc070f3f3d152133191050f8bb2c982fde9a"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div.leftcolumn\" has no match in the web page at 'https://www.wolfram.com/legal/privacy/wolfram/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
