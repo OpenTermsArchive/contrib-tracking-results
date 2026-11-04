@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-04T01:12:20.048Z",
+    "date": "2026-11-04T12:52:53.528Z",
     "serviceName": "sourcehut",
     "sourceDocuments": [
       {
@@ -14,12 +14,9 @@
         "remove": [
           "h5 a[href^=\"#\"]"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "466eee7556bb410da29899fdf3ff1815570e7a44"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://man.sr.ht/terms.md'"
     ]
   }
 }
