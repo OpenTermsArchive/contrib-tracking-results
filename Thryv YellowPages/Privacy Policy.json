@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-03T13:11:34.562Z",
+    "date": "2026-11-04T00:58:09.469Z",
     "serviceName": "YellowPages",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
           ".mx-auto"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6548c9785e6d4b7863982ee390694bcacee8b342"
+        "snapshotId": "c706005545a4ab92c3d4c916f47c26dd3c340eea"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://corporate.thryv.com/privacy/'"
-      ]
-    }
+    ]
   }
 }
