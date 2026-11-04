@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-23T00:54:15.420Z",
+    "date": "2026-11-04T01:12:50.158Z",
     "serviceName": "sourcehut",
     "sourceDocuments": [
       {
@@ -15,9 +15,12 @@
           "h4 a[href^=\"#\"]",
           "h5 a[href^=\"#\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "10a9530f836ecc0932a6748a5ae9737b963aaac1"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://man.sr.ht/privacy.md'"
     ]
   }
 }
