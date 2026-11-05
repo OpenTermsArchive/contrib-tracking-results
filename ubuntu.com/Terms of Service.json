@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-05T01:10:25.782Z",
+    "date": "2026-11-05T13:02:26.101Z",
     "serviceName": "ubuntu.com",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://ubuntu.com/legal/terms",
         "select": ".p-strip",
         "mimeType": "text/html",
-        "snapshotId": "a0b2fdcb1fa20a332ff0dcbb8d2e06160750cf61"
+        "snapshotId": "3a2fad3c41f9002127f31158a80080481bd2fd6d"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://ubuntu.com/legal/terms'"
-      ]
-    }
+    ]
   }
 }
