@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-05T00:30:04.778Z",
-    "endDate": null,
+    "endDate": "2026-11-05T01:11:27.429Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,56 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 566,
+    "failed": 264
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Quora",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "PayPal",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Qobuz",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Nextdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
