@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-ee52f7c8-2f09-4988-b862-a7f7ec52b4e8",
+  "runId": "ota-run-64951923-4239-4481-8acc-70aa291efbe3",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-05T00:30:04.778Z",
-    "endDate": "2026-11-05T01:11:27.429Z",
+    "startDate": "2026-11-05T12:30:05.085Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,56 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 566,
-    "failed": 264
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "PayPal",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Qobuz",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
