@@ -1,19 +1,16 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-05T01:10:18.826Z",
+    "date": "2026-11-05T12:49:23.275Z",
     "serviceName": "Qobuz",
     "sourceDocuments": [
       {
         "id": "us-en-copyright-policy",
         "fetch": "https://www.qobuz.com/us-en/copyright-policy",
         "select": "#main",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0bce4c021580d352cee38b082eae10e29d10c539"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://www.qobuz.com/us-en/copyright-policy'"
     ]
   }
 }
