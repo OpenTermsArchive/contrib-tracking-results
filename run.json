@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-ea68aa02-1154-465d-a1ca-4bab08aad31a",
+  "runId": "ota-run-ee52f7c8-2f09-4988-b862-a7f7ec52b4e8",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-04T12:30:04.792Z",
-    "endDate": "2026-11-04T13:12:04.472Z",
+    "startDate": "2026-11-05T00:30:04.778Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,60 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 571,
-    "failed": 259
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ASUS",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "ASUS",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "PayPal",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
