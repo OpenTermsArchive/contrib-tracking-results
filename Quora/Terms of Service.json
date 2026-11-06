@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-01T12:49:06.128Z",
+    "date": "2026-11-06T00:50:56.513Z",
     "serviceName": "Quora",
     "sourceDocuments": [
       {
@@ -12,8 +12,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f14a57fbbe1b9dcc001f2916bb448be96552e36d"
+        "snapshotId": "9dd2051f06dda8da34859f8a2b388a15c967492c"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#mainContent\"]\" has no match in the web page at 'https://www.quora.com/about/tos'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
