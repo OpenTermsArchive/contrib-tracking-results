@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T01:01:03.865Z",
+    "date": "2026-11-06T13:09:51.490Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -20,12 +20,12 @@
           ".twtr-component--first > .b02-v2 > ul",
           ".twtr-component--first b"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "816a0176f08f1fd5f57c05e21cf256b2684b99f7"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".aem-Grid\"]\" has no match in the web page at 'https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support'"
     ]
   }
 }
