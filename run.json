@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-06T12:30:04.869Z",
-    "endDate": null,
+    "endDate": "2026-11-06T13:13:08.089Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
@@ -14,17 +14,72 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 568,
+    "failed": 262
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Quora",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
