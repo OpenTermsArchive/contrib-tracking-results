@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:48:31.244Z",
+    "date": "2026-11-06T00:48:34.948Z",
     "serviceName": "O'Reilly",
     "sourceDocuments": [
       {
@@ -9,8 +9,11 @@
         "fetch": "https://www.oreilly.com/privacy.html",
         "select": ".hero.hero-general, #privacy-policy",
         "mimeType": "text/html",
-        "snapshotId": "eec6ff88897f7926eb775c7c2b9dd8210a804351"
+        "snapshotId": "f6680f9b6fab0f983cf47fd255c6c5a0487fb9f1"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".hero.hero-general, #privacy-policy\" has no match in the web page at 'https://www.oreilly.com/privacy.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
