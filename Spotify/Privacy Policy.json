@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-07T12:53:06.788Z",
+    "date": "2026-11-07T12:53:19.609Z",
     "serviceName": "Spotify",
     "sourceDocuments": [
       {
@@ -15,8 +15,11 @@
           "a[href=\"#spotify-privacy-policy\"]"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6637522afbafc91c542c2fc78b99c9d61b38ff60"
+        "snapshotId": "1d2c935ffa0de804687a873b9c8b10e9dad6cb5c"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main\"]\" has no match in the web page at 'https://www.spotify.com/us/legal/privacy-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
