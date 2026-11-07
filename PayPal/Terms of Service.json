@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-05T01:10:15.175Z",
+    "date": "2026-11-07T00:49:50.498Z",
     "serviceName": "PayPal",
     "sourceDocuments": [
       {
@@ -13,12 +13,9 @@
         "remove": [
           ".sub-header-wrapper"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "f3f23b099d7fa3015a5b04c92d192e5e05bdaca3"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.paypal.com/cz/webapps/mpp/ua/useragreement-full?locale.x=en_CZ'"
     ]
   }
 }
