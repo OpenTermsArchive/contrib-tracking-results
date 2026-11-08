@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-08T00:33:00.676Z",
+    "date": "2026-11-08T13:10:02.795Z",
     "serviceName": "Amazon.com",
     "sourceDocuments": [
       {
@@ -14,12 +14,12 @@
           }
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "a4197a9c13ffc88b837770e7fa00454abd01d60e"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\"h1\",\"endBefore\":\"#hmd-FeedbackBox\"}"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=GX7NJQ4ZB8MHFRNJ'"
     ]
   }
 }
