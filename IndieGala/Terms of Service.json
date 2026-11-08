@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-08T01:12:09.862Z",
+    "date": "2026-11-08T12:44:09.996Z",
     "serviceName": "IndieGala",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f7cfeebf36e884304708f8eeb0a69d6ce816837a"
+        "snapshotId": "77a09d9ca29fc61d978d1c8e1106ccb8d6025b18"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.indiegala.com/terms-of-service'"
-      ]
-    }
+    ]
   }
 }
