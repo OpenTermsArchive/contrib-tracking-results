@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:49:38.583Z",
+    "date": "2026-11-08T12:49:56.660Z",
     "serviceName": "Palantir",
     "sourceDocuments": [
       {
@@ -12,8 +12,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2b6e478ce66bfeefe4869c71351e2db488b27b9a"
+        "snapshotId": "25f2cd2a94cf65b866e0f3d3c806fa88d4aa9202"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"main section\"]\" has no match in the web page at 'https://www.palantir.com/privacy-and-security/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
