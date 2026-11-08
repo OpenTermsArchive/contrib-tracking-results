@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:58:33.120Z",
+    "date": "2026-11-08T13:13:05.896Z",
     "serviceName": "Tencent",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.tencent.com/en-us/privacy-policy.html",
         "select": ".page-content",
         "mimeType": "text/html",
-        "snapshotId": "cd7a7c72a1fcb1d69a15b12d98f6e92074fd0946"
+        "snapshotId": "d5d4b9ef874a264f2f9859594890cd253730cc8b"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.tencent.com/en-us/privacy-policy.html'"
+      ]
+    }
   }
 }
