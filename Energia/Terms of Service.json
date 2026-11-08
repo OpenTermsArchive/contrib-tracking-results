@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-07T13:10:01.966Z",
+    "date": "2026-11-08T00:38:52.623Z",
     "serviceName": "Energia",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           "main"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0d0f1e03a6c01b0b3053d53c883984946c23ffd9"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.energia.ie/home/terms-and-conditions'"
     ]
   }
 }
