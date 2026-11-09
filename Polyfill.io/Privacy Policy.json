@@ -1,16 +1,19 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-07T00:50:03.919Z",
+    "date": "2026-11-09T01:12:45.461Z",
     "serviceName": "Polyfill.io",
     "sourceDocuments": [
       {
         "id": "v3-privacy-policy",
         "fetch": "https://polyfill.io/v3/privacy-policy",
         "select": "main",
-        "mimeType": "text/html",
-        "snapshotId": "3c30a30f2069fb66d879bcef997b372cb2252358"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://polyfill.io/v3/privacy-policy'"
     ]
   }
 }
