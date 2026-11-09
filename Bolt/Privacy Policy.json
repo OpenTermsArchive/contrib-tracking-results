@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-08T12:34:44.749Z",
+    "date": "2026-11-09T00:34:33.395Z",
     "serviceName": "Bolt",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "cf9b10eb0f59ce9cd35eddaf399908cf0dce77ca"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 308 when trying to fetch 'https://bolt.eu/en/legal/ie/privacy-for-riders/'"
     ]
   }
 }
