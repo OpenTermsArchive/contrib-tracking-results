@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-08T12:34:48.948Z",
+    "date": "2026-11-09T00:34:33.841Z",
     "serviceName": "Bolt Drivers",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "d2009672d4b916f2f4feb786e9f354a2fd6101c2"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 308 when trying to fetch 'https://bolt.eu/en/legal/ie/terms-for-drivers/'"
     ]
   }
 }
