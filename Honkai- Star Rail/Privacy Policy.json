@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:42:38.469Z",
+    "date": "2026-11-09T01:11:57.118Z",
     "serviceName": "Honkai: Star Rail",
     "sourceDocuments": [
       {
@@ -16,9 +16,12 @@
           ".footer-crm"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "f07526170d15bd48e2990b64443835b8c1124504"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://hsr.hoyoverse.com/en-us/company/privacy'"
     ]
   }
 }
