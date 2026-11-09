@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:10:03.557Z",
+    "date": "2026-11-09T13:08:27.920Z",
     "serviceName": "WordPress.com",
     "sourceDocuments": [
       {
@@ -9,8 +9,11 @@
         "fetch": "http://en.wordpress.com/tos/",
         "select": "div.pagebody",
         "mimeType": "text/html",
-        "snapshotId": "82a50377bcb04dadb7688b2d9a2392ced8ac13f7"
+        "snapshotId": "1c447d31fd9c8bc5c3185f67d62b12b7199426fb"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"div.pagebody\" has no match in the web page at 'http://en.wordpress.com/tos/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
