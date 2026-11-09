@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-09T01:13:08.732Z",
+    "date": "2026-11-09T13:11:33.462Z",
     "serviceName": "YellowPages",
     "sourceDocuments": [
       {
@@ -11,14 +11,12 @@
           ".wrapper-newsTop",
           ".mx-auto"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "7b2b36c378c3b1e1901e3fc5aa3a58ffdbf2c882"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://corporate.thryv.com/terms-of-use/'"
-      ]
-    }
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://corporate.thryv.com/terms-of-use/'"
+    ]
   }
 }
