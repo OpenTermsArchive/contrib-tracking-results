@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-23T00:35:20.123Z",
+    "date": "2026-11-09T12:34:23.051Z",
     "serviceName": "Bolt",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           "main"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "2625d6c269d134d4c0a6944b77ad5a0eb5f0a8a3"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 308 when trying to fetch 'https://bolt.eu/en/legal/ie/terms-for-riders/'"
     ]
   }
 }
