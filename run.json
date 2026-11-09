@@ -1,121 +1,30 @@
 {
-  "runId": "ota-run-1f9f27dd-09e5-4973-b582-ef548f1536e2",
+  "runId": "ota-run-ad5ca2f8-62ba-4345-b0c7-ec6d903669eb",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-09T00:30:05.016Z",
-    "endDate": "2026-11-09T01:14:12.455Z",
-    "engineVersion": "16.3.0",
-    "status": "completed"
+    "startDate": "2026-11-09T12:30:04.752Z",
+    "endDate": null,
+    "engineVersion": "17.0.0",
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "7e130fe6f1b3df10eec81ec809b4e0e44fa81bcb",
+    "commit": "c3729d7ce20c11e2b1c8266f7fa82e249d21cc7f",
     "services": 385,
     "terms": 830
   },
   "tracked": {
-    "ok": 567,
-    "failed": 263
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Bolt",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "PayPal",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Polyfill.io",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Palantir",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Palantir",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
