@@ -1,84 +1,30 @@
 {
-  "runId": "ota-run-ad5ca2f8-62ba-4345-b0c7-ec6d903669eb",
+  "runId": "ota-run-58bcd241-7d13-4db7-920a-9b13392d373d",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-09T12:30:04.752Z",
-    "endDate": "2026-11-09T13:15:59.424Z",
+    "startDate": "2026-11-10T00:30:04.651Z",
+    "endDate": null,
     "engineVersion": "17.0.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "c3729d7ce20c11e2b1c8266f7fa82e249d21cc7f",
+    "commit": "f1ce5beee3f3cd70d506eca010c20b984644caf1",
     "services": 385,
     "terms": 830
   },
   "tracked": {
-    "ok": 568,
-    "failed": 262
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "WordPress.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Bolt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "PayPal",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Trackers Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
