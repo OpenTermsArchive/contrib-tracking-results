@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-10T00:30:04.651Z",
-    "endDate": null,
+    "endDate": "2026-11-10T01:12:28.186Z",
     "engineVersion": "17.0.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "f1ce5beee3f3cd70d506eca010c20b984644caf1",
@@ -14,17 +14,51 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 568,
+    "failed": 262
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "Bolt",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Bolt Drivers",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "PayPal",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Myspace",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
     "reasonChanges": []
   },
-  "transientErrors": 0
+  "transientErrors": 4
 }
