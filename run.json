@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-10T12:30:04.878Z",
-    "endDate": null,
+    "endDate": "2026-11-10T13:15:23.892Z",
     "engineVersion": "17.0.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "f1ce5beee3f3cd70d506eca010c20b984644caf1",
@@ -14,17 +14,84 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 569,
+    "failed": 261
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Daily Mail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Myspace",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Alexa",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Kindle Store",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon.com",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Nextdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
