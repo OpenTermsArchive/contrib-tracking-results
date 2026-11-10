@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-58bcd241-7d13-4db7-920a-9b13392d373d",
+  "runId": "ota-run-824d08e9-74b0-4878-a242-24206294098a",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-10T00:30:04.651Z",
-    "endDate": "2026-11-10T01:12:28.186Z",
+    "startDate": "2026-11-10T12:30:04.878Z",
+    "endDate": null,
     "engineVersion": "17.0.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "f1ce5beee3f3cd70d506eca010c20b984644caf1",
@@ -14,51 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 568,
-    "failed": 262
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Bolt",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "PayPal",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 4
+  "transientErrors": 0
 }
