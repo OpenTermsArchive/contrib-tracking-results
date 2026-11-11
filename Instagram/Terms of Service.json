@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-11T00:42:19.303Z",
+    "date": "2026-11-11T12:43:46.548Z",
     "serviceName": "Instagram",
     "sourceDocuments": [
       {
@@ -23,12 +23,9 @@
           }
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "673991d85fa6042db0022a269131c0f8fc2d9e23"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 429 when trying to fetch 'https://help.instagram.com/581066165581870'"
     ]
   }
 }
