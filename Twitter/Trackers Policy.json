@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-10T13:12:10.308Z",
+    "date": "2026-11-11T12:59:30.122Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -17,12 +17,12 @@
           ".b24__wrapper",
           ".b17"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "9f9c28bd136d97615295df2053ab19f29175a78d"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-cookies'"
+      "[extraction] Extract failed: The provided selector \"[\".aem-Grid\"]\" has no match in the web page at 'https://help.twitter.com/en/rules-and-policies/twitter-cookies'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
