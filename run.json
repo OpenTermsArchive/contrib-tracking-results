@@ -1,97 +1,30 @@
 {
-  "runId": "ota-run-824d08e9-74b0-4878-a242-24206294098a",
+  "runId": "ota-run-fd1c518a-c901-4e7b-ab25-656e50714af9",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-10T12:30:04.878Z",
-    "endDate": "2026-11-10T13:15:23.892Z",
-    "engineVersion": "17.0.0",
-    "status": "completed"
+    "startDate": "2026-11-11T00:30:04.892Z",
+    "endDate": null,
+    "engineVersion": "17.0.1",
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "f1ce5beee3f3cd70d506eca010c20b984644caf1",
+    "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
     "services": 385,
     "terms": 830
   },
   "tracked": {
-    "ok": 569,
-    "failed": 261
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Kindle Store",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
