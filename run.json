@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-fd1c518a-c901-4e7b-ab25-656e50714af9",
+  "runId": "ota-run-deedf1ea-6c00-4c59-ac62-ccef2af8af2f",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-11T00:30:04.892Z",
-    "endDate": "2026-11-11T01:10:06.203Z",
+    "startDate": "2026-11-11T12:30:04.793Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,72 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 563,
-    "failed": 267
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Instagram",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Instagram",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Rakuten",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Kindle Store",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Instagram",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
