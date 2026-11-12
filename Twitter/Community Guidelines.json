@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-11T13:13:11.681Z",
+    "date": "2026-11-12T01:15:01.109Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -13,8 +13,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": "text/html",
-        "snapshotId": "256037777a8c35d8ae0ebfe07e198305472fdbd2"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-violent-entities",
@@ -26,7 +26,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "5803100805e132162ba2584c4b0675b84519b59f"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-sexual-exploitation-policy",
@@ -37,8 +37,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "1fcde681e3fad3ffcc4401f71d68f9d5f5413296"
       },
       {
         "id": "en-rules-and-policies-abusive-behavior",
@@ -50,7 +50,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "3618183db502a20a369416fc122b48bbfd11de89"
       },
       {
         "id": "en-rules-and-policies-hateful-conduct-policy",
@@ -62,7 +62,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "9cdd82ddc65b4854d260c7795efe03e0c6069133"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-perpetrators-of-violent-attacks",
@@ -86,7 +86,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "6176ce6b486d4ef19ce45b4fad3c1a7723b51592"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-media-policy",
@@ -97,7 +97,7 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
+        "mimeType": "text/html",
         "snapshotId": null
       },
       {
@@ -145,8 +145,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "5a563d61405ed9b064fef9f01a2d340b62f43eca"
       },
       {
         "id": "en-rules-and-policies-election-integrity-policy",
@@ -170,7 +170,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "a464d32b28b0d4eeb74f60b34c65c93dc67956f3"
       },
       {
         "id": "en-rules-and-policies-manipulated-media",
@@ -182,7 +182,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "ebb4c3dd031606bb726f74e50a69535828af44f0"
+        "snapshotId": "eec7d1cd7d585d94a3c5017ff2417b93e9309326"
       },
       {
         "id": "en-rules-and-policies-twitter-trademark-policy",
@@ -193,8 +193,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "4296f2df098dfdcbf43888e4ce3de269c5cff15f"
       },
       {
         "id": "en-rules-and-policies-copyright-policy",
@@ -209,7 +209,7 @@
           "[class*=\"twtr-type--headline-md\"]"
         ],
         "mimeType": "text/html",
-        "snapshotId": "543c6969d3c1ed49215fdafff30bdadcc4f3ea2c"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-enforcement-philosophy",
@@ -221,15 +221,12 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "33edba46b327fcb1e79bbef1f6973548db19d861"
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/media-policy'",
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/platform-manipulation'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy'"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-rules'",
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'"
     ]
   }
 }
