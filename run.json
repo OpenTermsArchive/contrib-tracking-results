@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-28a886ee-2bee-40a5-9899-f34d9eaa94f4",
+  "runId": "ota-run-d258b435-3ca4-48ac-8c77-df25d79882b1",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-12T00:30:04.823Z",
-    "endDate": "2026-11-12T01:16:02.740Z",
+    "startDate": "2026-11-12T12:30:04.959Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,56 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 567,
-    "failed": 263
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Myspace",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Myspace",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "timeanddate.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
