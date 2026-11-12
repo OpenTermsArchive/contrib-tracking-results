@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-12T00:30:04.823Z",
-    "endDate": null,
+    "endDate": "2026-11-12T01:16:02.740Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,17 +14,56 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 567,
+    "failed": 263
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Myspace",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Myspace",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "ubuntu.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "ubuntu.com",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "timeanddate.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 2
 }
