@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:45:01.308Z",
+    "date": "2026-11-13T13:09:39.612Z",
     "serviceName": "Last.fm",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "#mantle_skin"
         ],
         "mimeType": "text/html",
-        "snapshotId": "ae6080b5c8bc63d9c6e7ee4d8b2b8508dbd20bb0"
+        "snapshotId": "601151067cea7dcfdeb91a9d3e88e36818450e79"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.last.fm/legal/terms'"
+      ]
+    }
   }
 }
