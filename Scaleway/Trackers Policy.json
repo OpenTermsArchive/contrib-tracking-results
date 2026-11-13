@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:51:46.512Z",
+    "date": "2026-11-13T13:10:20.953Z",
     "serviceName": "Scaleway",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           "main section"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b9f0010b09a98671c274fe79d1aa4464c61773d4"
+        "snapshotId": "4ac67fcc1030f5a5dc8a1b3f80dd308010343a73"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.scaleway.com/en/cookie/'"
+      ]
+    }
   }
 }
