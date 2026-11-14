@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-14T01:09:06.861Z",
+    "date": "2026-11-14T12:42:52.082Z",
     "serviceName": "IndieGala",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "bab4b240eb8a7a16f99583ef5c24fa5c30221dc3"
+        "snapshotId": "a8695d1f7c5a3e7b8049ec317310d310fce71f3c"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 502 when trying to fetch 'https://www.indiegala.com/privacy-policy'"
-      ]
-    }
+    ]
   }
 }
