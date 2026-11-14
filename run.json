@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-7239cc42-5ce5-469e-870b-0d05a8f85d8f",
+  "runId": "ota-run-68e71226-95e5-4b7d-bdfc-4b4d17f8c4bb",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-14T00:30:04.935Z",
-    "endDate": "2026-11-14T01:13:09.895Z",
+    "startDate": "2026-11-14T12:30:05.045Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,31 +14,17 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 564,
-    "failed": 266
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
