@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-15T00:30:05.007Z",
-    "endDate": null,
+    "endDate": "2026-11-15T01:14:20.988Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,16 +14,38 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 564,
+    "failed": 266
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
     "reasonChanges": []
   },
   "transientErrors": 0
