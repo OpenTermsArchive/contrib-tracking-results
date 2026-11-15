@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-15T12:30:05.249Z",
-    "endDate": null,
+    "endDate": "2026-11-15T13:14:43.751Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
@@ -14,16 +14,34 @@
     "terms": 830
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 564,
+    "failed": 266
   },
   "coverage": {
-    "processed": 0,
+    "processed": 830,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "DuckDuckGo",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
     "reasonChanges": []
   },
   "transientErrors": 0
