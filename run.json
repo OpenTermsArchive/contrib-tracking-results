@@ -1,39 +1,29 @@
 {
-  "runId": "ota-run-5a0e1f71-c7e6-4d28-9955-c84f863f06fc",
+  "runId": "ota-run-6aa8f274-d820-4b3f-a87d-cc3e3a20b54e",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-16T00:30:05.575Z",
-    "endDate": "2026-11-16T01:11:38.907Z",
+    "startDate": "2026-11-16T12:30:04.956Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "3cc97d0f6d457e2daf4b62f96a86167d3c8c9e93",
-    "services": 385,
-    "terms": 830
+    "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
+    "services": 386,
+    "terms": 832
   },
   "tracked": {
-    "ok": 564,
-    "failed": 266
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 830,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "DuckDuckGo",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
   "transientErrors": 0
