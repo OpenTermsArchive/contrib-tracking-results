@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-16T12:40:32.704Z",
+    "serviceName": "FreeTaxUSA",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://www.freetaxusa.com/privacy",
+        "select": "section > .container",
+        "remove": [
+          "a[href*=\"privacy-seal\"]",
+          ".bottom-section"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4e9b715e84f387f57b523949750f79d07e420569"
+      }
+    ]
+  }
+}
