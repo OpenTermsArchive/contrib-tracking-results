@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-15T13:09:26.266Z",
+    "date": "2026-11-16T00:37:58.859Z",
     "serviceName": "DuckDuckGo",
     "sourceDocuments": [
       {
@@ -14,12 +14,9 @@
           "main header",
           "main footer"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "0146c9caf4ad91cbb62f872d84ec0d2fb3cd236a"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://duckduckgo.com/privacy'"
     ]
   }
 }
