@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-16T12:40:21.137Z",
+    "serviceName": "FreeTaxUSA",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.freetaxusa.com/terms",
+        "select": "section > .container",
+        "remove": [
+          ".bottom-section"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8c8ccd549a66887573d898a9d0f34aebf574cdd4"
+      }
+    ]
+  }
+}
