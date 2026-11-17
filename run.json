@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-17T00:30:04.877Z",
-    "endDate": null,
+    "endDate": "2026-11-17T01:12:01.760Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,17 +14,48 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 565,
+    "failed": 267
   },
   "coverage": {
-    "processed": 0,
+    "processed": 832,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Project Gutenberg",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Kick",
+        "termsType": "Premium Partner Conditions"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Nextdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Cdiscount",
+        "termsType": "Trackers Policy"
+      }
+    ]
   },
   "transientErrors": 0
 }
