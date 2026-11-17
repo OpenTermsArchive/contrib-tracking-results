@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-14T00:51:04.360Z",
+    "date": "2026-11-17T01:10:53.076Z",
     "serviceName": "Project Gutenberg",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           ".page_content"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "4b7094aadfb93b85e5ad4a3a308c49f234b500b0"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.gutenberg.org/policy/privacy_policy.html'"
     ]
   }
 }
