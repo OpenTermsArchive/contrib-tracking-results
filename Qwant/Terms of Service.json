@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-29T00:50:12.317Z",
+    "date": "2026-11-17T12:49:48.462Z",
     "serviceName": "Qwant",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           ".elementor-col-66 > .elementor-widget-wrap"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "b99b525d62880ee461cfcd029e5f5dd1b7bc1be8"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".elementor-col-66 > .elementor-widget-wrap\"]\" has no match in the web page at 'https://about.qwant.com/en/legal/qwant-search/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://about.qwant.com/en/legal/qwant-search/"
     ]
   }
 }
