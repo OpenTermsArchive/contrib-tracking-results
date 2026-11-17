@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-17T12:30:05.143Z",
-    "endDate": null,
+    "endDate": "2026-11-17T13:15:19.255Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,17 +14,64 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 564,
+    "failed": 268
   },
   "coverage": {
-    "processed": 0,
+    "processed": 832,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "ubuntu.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "ubuntu.com",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Bolt",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Bolt Drivers",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ulster.ac.uk",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Cdiscount",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Qwant",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Qwant",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
   "transientErrors": 0
 }
