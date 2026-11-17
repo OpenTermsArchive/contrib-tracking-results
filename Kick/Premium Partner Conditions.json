@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-16T12:44:55.331Z",
+    "date": "2026-11-17T00:44:07.052Z",
     "serviceName": "Kick",
     "sourceDocuments": [
       {
@@ -9,11 +9,8 @@
         "fetch": "https://kick.com/partner-terms-and-conditions",
         "select": ".markdown-policy-page",
         "mimeType": "text/html",
-        "snapshotId": "24b998a9b46e7590347ba2d19686776e56638ba8"
+        "snapshotId": "090a92a094d3e3e603c339c36c73e2b22356d4fd"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".markdown-policy-page\" has no match in the web page at 'https://kick.com/partner-terms-and-conditions'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
