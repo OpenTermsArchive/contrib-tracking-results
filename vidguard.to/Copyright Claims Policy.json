@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T01:15:31.378Z",
+    "date": "2026-11-18T13:01:53.385Z",
     "serviceName": "vidguard.to",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://vidguard.to/copyright'"
+      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://vidguard.to/copyright"
     ]
   }
 }
