@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-17T12:34:42.208Z",
+    "date": "2026-11-18T00:34:57.755Z",
     "serviceName": "Bolt Drivers",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "main"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "426d976c5056f2c75dc81a795ccc8dde32d953fe"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 308 when trying to fetch 'https://bolt.eu/en/legal/ie/privacy-for-drivers/'"
     ]
   }
 }
