@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-ee4b1509-2e12-4d2c-bb62-e19a2b597a13",
+  "runId": "ota-run-6e8e6627-0469-47d4-8f81-7f0922248ea7",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-18T00:30:05.275Z",
-    "endDate": "2026-11-18T01:14:42.815Z",
+    "startDate": "2026-11-18T12:30:05.359Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,56 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 564,
-    "failed": 268
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Bolt",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Bolt Drivers",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "ubuntu.com",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Qwant",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Qwant",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
