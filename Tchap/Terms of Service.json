@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-10-22T00:58:00.331Z",
+    "date": "2026-11-19T01:13:16.820Z",
     "serviceName": "Tchap",
     "sourceDocuments": [
       {
@@ -14,12 +14,12 @@
           }
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "695354c0040dfe60cef84643f1964451dc154099"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"start\" selector has no match in document in: {\"startBefore\":\".MuiContainer-root\",\"endBefore\":\"#footer\"}"
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://tchap.beta.gouv.fr/cgu'"
     ]
   }
 }
