@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-32eefd1e-7ebd-4e67-8e72-8ececd211a3b",
+  "runId": "ota-run-3e61e450-d9d7-4a44-96b6-949baa54ab39",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-19T00:30:05.151Z",
-    "endDate": "2026-11-19T01:15:33.868Z",
+    "startDate": "2026-11-19T12:30:05.182Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,60 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 566,
-    "failed": 266
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "VocabularySpellingCity",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 2
+  "transientErrors": 0
 }
