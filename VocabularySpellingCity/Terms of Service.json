@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-18T13:07:54.691Z",
+    "date": "2026-11-19T01:06:46.743Z",
     "serviceName": "VocabularySpellingCity",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           "#wp-main"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "003ded3618e40cb7618778a86f7e5a7f0b7ff038"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.spellingcity.com/terms-of-service.html'"
+      "[extraction] Extract failed: The provided selector \"[\"#wp-main\"]\" has no match in the web page at 'https://www.spellingcity.com/terms-of-service.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
