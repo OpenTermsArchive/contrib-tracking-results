@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-19T01:10:31.413Z",
+    "date": "2026-11-19T12:30:19.925Z",
     "serviceName": "ACDelco",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://www.gm.com/privacy-statement.html",
         "select": ".gbs-page-body",
         "mimeType": "text/html",
-        "snapshotId": "38aff40531956c4fd2de7e88c3a68bf313f2ae0f"
+        "snapshotId": "7133a361abd5eb553ae76094bf040b33bf90b0d8"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.gm.com/privacy-statement.html'"
-      ]
-    }
+    ]
   }
 }
