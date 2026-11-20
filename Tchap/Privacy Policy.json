@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-19T01:12:46.427Z",
+    "date": "2026-11-20T01:02:07.649Z",
     "serviceName": "Tchap",
     "sourceDocuments": [
       {
@@ -11,12 +11,12 @@
           ".MuiContainer-root"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "aceaa4bc51fc8df157db1886899a79679db47f97"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://tchap.beta.gouv.fr/politique-de-confidentialite'"
+      "[extraction] Extract failed: The provided selector \"[\".MuiContainer-root\"]\" has no match in the web page at 'https://tchap.beta.gouv.fr/politique-de-confidentialite'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
