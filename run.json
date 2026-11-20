@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-20T12:30:05.241Z",
-    "endDate": null,
+    "endDate": "2026-11-20T13:13:03.303Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,17 +14,96 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 560,
+    "failed": 272
   },
   "coverage": {
-    "processed": 0,
+    "processed": 832,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "ASUS",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "ASUS",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Vodafone.ie",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Instagram",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Mailjet",
+        "termsType": "Data Processor Agreement"
+      },
+      {
+        "serviceId": "Shockwave.com",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
