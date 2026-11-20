@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-30T00:46:47.408Z",
+    "date": "2026-11-20T01:13:49.350Z",
     "serviceName": "Mailjet",
     "sourceDocuments": [
       {
@@ -13,12 +13,12 @@
             "startBefore": "h1"
           }
         ],
-        "mimeType": "text/html",
-        "snapshotId": "d06a0d917cd340392beb9514ff0676c595f046ef"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"endAfter\":\"main\",\"startBefore\":\"h1\"}"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.mailjet.com/legal/dpa/'"
     ]
   }
 }
