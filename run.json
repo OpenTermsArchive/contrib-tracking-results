@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-3e61e450-d9d7-4a44-96b6-949baa54ab39",
+  "runId": "ota-run-c9f3a426-5204-42ac-820b-6091309a449c",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-19T12:30:05.182Z",
-    "endDate": "2026-11-19T13:17:17.306Z",
+    "startDate": "2026-11-20T00:30:05.168Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,36 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 566,
-    "failed": 266
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
