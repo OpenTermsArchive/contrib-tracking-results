@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-c9f3a426-5204-42ac-820b-6091309a449c",
+  "runId": "ota-run-ea955b71-7ec6-4546-9968-b6d753cc582b",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-20T00:30:05.168Z",
-    "endDate": "2026-11-20T01:18:07.457Z",
+    "startDate": "2026-11-20T12:30:05.241Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,52 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 565,
-    "failed": 267
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Daily Mail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Vodafone.ie",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Tchap",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Tchap",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Mailjet",
-        "termsType": "Data Processor Agreement"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
