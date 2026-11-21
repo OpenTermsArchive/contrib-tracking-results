@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-20T12:54:40.210Z",
+    "date": "2026-11-21T00:56:28.229Z",
     "serviceName": "Shockwave.com",
     "sourceDocuments": [
       {
         "id": "about-terms.jsp",
         "fetch": "http://www.shockwave.com/about/terms.jsp",
         "select": ".podContent",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "e83cd4a700fd95af671c96cab352e04c69b4f355"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 521 when trying to fetch 'http://www.shockwave.com/about/terms.jsp'"
+      "[extraction] Extract failed: The provided selector \".podContent\" has no match in the web page at 'http://www.shockwave.com/about/terms.jsp'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
