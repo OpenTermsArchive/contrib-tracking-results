@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-08T00:46:17.364Z",
+    "date": "2026-11-21T13:13:35.395Z",
     "serviceName": "LiveJournal",
     "sourceDocuments": [
       {
@@ -9,8 +9,13 @@
         "fetch": "https://www.livejournal.com/legal/tos-en.bml",
         "select": ".s-main",
         "mimeType": "text/html",
-        "snapshotId": "2bc57171369b738b5b00919ca0bf7b83a287acc1"
+        "snapshotId": "df722316a619da63a03cb8a2f58389dc9c7381d3"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.livejournal.com/legal/tos-en.bml'"
+      ]
+    }
   }
 }
