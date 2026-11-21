@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-04T12:52:53.528Z",
+    "date": "2026-11-21T01:13:15.707Z",
     "serviceName": "sourcehut",
     "sourceDocuments": [
       {
@@ -14,9 +14,12 @@
         "remove": [
           "h5 a[href^=\"#\"]"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "466eee7556bb410da29899fdf3ff1815570e7a44"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received HTTP code 500 when trying to fetch 'https://man.sr.ht/terms.md'"
     ]
   }
 }
