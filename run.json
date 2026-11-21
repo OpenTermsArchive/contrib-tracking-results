@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-9dec3dd0-679f-4895-8b0d-91e535be4c8d",
+  "runId": "ota-run-f3f710ec-f51b-47f1-a917-738d2513c6b5",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-21T00:30:05.134Z",
-    "endDate": "2026-11-21T01:15:37.806Z",
+    "startDate": "2026-11-21T12:30:05.022Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,56 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 561,
-    "failed": 271
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Instagram",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Instagram",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Instagram",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Shockwave.com",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
