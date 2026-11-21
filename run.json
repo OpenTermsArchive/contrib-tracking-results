@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-21T00:30:05.134Z",
-    "endDate": null,
+    "endDate": "2026-11-21T01:15:37.806Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,17 +14,56 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 561,
+    "failed": 271
   },
   "coverage": {
-    "processed": 0,
+    "processed": 832,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "sourcehut",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "sourcehut",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Honkai- Star Rail",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Instagram",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Shockwave.com",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
   "transientErrors": 0
 }
