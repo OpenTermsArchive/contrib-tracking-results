@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-e9ad4cdd-902e-4810-aabb-c5db9eef1517",
+  "runId": "ota-run-5d346775-9f40-45fa-a60f-16c6ea4fb92d",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-22T00:30:05.323Z",
-    "endDate": "2026-11-22T01:10:15.818Z",
+    "startDate": "2026-11-22T12:30:05.218Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,56 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 563,
-    "failed": 269
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Energia",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Energia",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Energia",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Copyright Claims Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
