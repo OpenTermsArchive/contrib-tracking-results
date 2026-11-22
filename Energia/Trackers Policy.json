@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-22T01:09:25.246Z",
+    "date": "2026-11-22T12:37:48.275Z",
     "serviceName": "Energia",
     "sourceDocuments": [
       {
@@ -10,12 +10,9 @@
         "select": [
           "main"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "789f769ee15ac9e4a9252e83966f6da5f7c06c11"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.energia.ie/home/cookie-policy'"
     ]
   }
 }
