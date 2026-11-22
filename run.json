@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-22T12:30:05.218Z",
-    "endDate": null,
+    "endDate": "2026-11-22T13:09:36.751Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,17 +14,52 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 564,
+    "failed": 268
   },
   "coverage": {
-    "processed": 0,
+    "processed": 832,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Energia",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Energia",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Energia",
+        "termsType": "Trackers Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Nextdoor",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "vidguard.to",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "vidguard.to",
+        "termsType": "Copyright Claims Policy"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
