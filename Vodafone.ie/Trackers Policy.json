@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-22T01:10:14.181Z",
+    "date": "2026-11-22T13:05:01.384Z",
     "serviceName": "Vodafone.ie",
     "sourceDocuments": [
       {
@@ -15,13 +15,8 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "5153f0fd6d213ad82f7066b6c1bf61e70ce1f6ba"
+        "snapshotId": "4b0151b81eb960429de53f380da13bd5e5696976"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://n.vodafone.ie/privacy/cookie-policy.html'"
-      ]
-    }
+    ]
   }
 }
