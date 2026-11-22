@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-22T01:09:24.967Z",
+    "date": "2026-11-22T12:37:46.968Z",
     "serviceName": "Energia",
     "sourceDocuments": [
       {
@@ -11,12 +11,9 @@
           "main"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "7fddc76ac17befa6b48a18cfba5705adb439a0d7"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://www.energia.ie/home/privacy-statement'"
     ]
   }
 }
