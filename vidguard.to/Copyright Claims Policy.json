@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-18T13:01:53.385Z",
+    "date": "2026-11-22T01:10:11.400Z",
     "serviceName": "vidguard.to",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://vidguard.to/copyright"
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://vidguard.to/copyright'"
     ]
   }
 }
