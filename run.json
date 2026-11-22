@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-f3f710ec-f51b-47f1-a917-738d2513c6b5",
+  "runId": "ota-run-e9ad4cdd-902e-4810-aabb-c5db9eef1517",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-21T12:30:05.022Z",
-    "endDate": "2026-11-21T13:17:01.671Z",
+    "startDate": "2026-11-22T00:30:05.323Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,60 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 565,
-    "failed": 267
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "sourcehut",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
