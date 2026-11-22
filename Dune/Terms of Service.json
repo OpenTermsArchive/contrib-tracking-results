@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-21T13:12:59.522Z",
+    "date": "2026-11-22T00:37:33.422Z",
     "serviceName": "Dune",
     "sourceDocuments": [
       {
@@ -12,13 +12,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "da0e9be6b37bdc03cca7858348dff0e1ade4b1c5"
+        "snapshotId": "714996bc8cde067598a6e7f494b127b471bdee74"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://dune.com/terms'"
-      ]
-    }
+    ]
   }
 }
