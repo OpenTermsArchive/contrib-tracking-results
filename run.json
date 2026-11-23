@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-5f4706b4-0f57-41c2-83bc-a5869d50bd45",
+  "runId": "ota-run-42dacc1c-62d4-4507-b7e5-cbb40608b23b",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-23T00:30:05.375Z",
-    "endDate": "2026-11-23T01:58:44.392Z",
+    "startDate": "2026-11-23T12:30:05.035Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,72 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 563,
-    "failed": 269
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LiveJournal",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 3
+  "transientErrors": 0
 }
