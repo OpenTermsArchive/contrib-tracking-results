@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-5d346775-9f40-45fa-a60f-16c6ea4fb92d",
+  "runId": "ota-run-5f4706b4-0f57-41c2-83bc-a5869d50bd45",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-22T12:30:05.218Z",
-    "endDate": "2026-11-22T13:09:36.751Z",
+    "startDate": "2026-11-23T00:30:05.375Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,52 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 564,
-    "failed": 268
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Energia",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Energia",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Energia",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Nextdoor",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Copyright Claims Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
