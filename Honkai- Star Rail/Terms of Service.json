@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-23T01:26:52.149Z",
+    "date": "2026-11-23T12:42:19.033Z",
     "serviceName": "Honkai: Star Rail",
     "sourceDocuments": [
       {
@@ -16,12 +16,9 @@
           "#footer"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "92d981a111834851354f811cfbfaadf2342faf6a"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Runtime.callFunctionOn timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed."
     ]
   }
 }
