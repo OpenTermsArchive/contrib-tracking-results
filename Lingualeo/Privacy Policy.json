@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-01T12:45:43.737Z",
+    "date": "2026-11-23T01:54:22.979Z",
     "serviceName": "Lingualeo",
     "sourceDocuments": [
       {
@@ -14,8 +14,13 @@
           ".wp-block-post-title"
         ],
         "mimeType": "text/html",
-        "snapshotId": "948afde176787cc27d583868d724f48b1ea21ea7"
+        "snapshotId": "d5415b68c45a6ac576a4f29129c60375340231dd"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://lingualeo.com/en/blog/privacy-policy-en/'"
+      ]
+    }
   }
 }
