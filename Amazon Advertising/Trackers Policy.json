@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-23T00:32:28.472Z",
+    "date": "2026-11-23T12:32:17.057Z",
     "serviceName": "Amazon Advertising",
     "sourceDocuments": [
       {
@@ -11,11 +11,8 @@
           ".help-content"
         ],
         "mimeType": "text/html",
-        "snapshotId": "0601d23f09c4311aa29478747741e991fb51b76a"
+        "snapshotId": "1bf46f85e675510d9c205306adbcfb5ef8411aa6"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".help-content\"]\" has no match in the web page at 'https://www.amazon.co.uk/gp/help/customer/display.html?ie=UTF8&nodeId=201890250&ref_=a20m_us_fnav_l_cook_gb'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
