@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-24T13:04:32.672Z",
+    "serviceName": "Wells Fargo",
+    "sourceDocuments": [
+      {
+        "id": "privacy-security-online",
+        "fetch": "https://www.wellsfargo.com/privacy-security/online/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "303860c772b6e62b6b491f76d7220a1af4ddf60a"
+      }
+    ]
+  }
+}
