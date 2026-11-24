@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-42dacc1c-62d4-4507-b7e5-cbb40608b23b",
+  "runId": "ota-run-2b42f6b8-6e68-4349-9511-d48c8533ad39",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-23T12:30:05.035Z",
-    "endDate": "2026-11-23T13:10:25.267Z",
+    "startDate": "2026-11-24T00:30:05.444Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
@@ -14,88 +14,17 @@
     "terms": 832
   },
   "tracked": {
-    "ok": 562,
-    "failed": 270
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Honkai- Star Rail",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "LiveJournal",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Quora",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Kbin",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Kbin",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
   "transientErrors": 0
 }
