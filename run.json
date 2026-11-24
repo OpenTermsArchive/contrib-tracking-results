@@ -1,35 +1,30 @@
 {
-  "runId": "ota-run-2b42f6b8-6e68-4349-9511-d48c8533ad39",
+  "runId": "ota-run-a468b501-b866-460c-9146-24b96dd60965",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-24T00:30:05.444Z",
-    "endDate": "2026-11-24T01:10:03.282Z",
+    "startDate": "2026-11-24T12:30:05.130Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "7a47ca8a8aecac7430cf808c96ce07529afdd9e4",
-    "services": 386,
-    "terms": 832
+    "commit": "4838c7be45828f8d89e0051bf6ff1b3440c0702b",
+    "services": 389,
+    "terms": 838
   },
   "tracked": {
-    "ok": 562,
-    "failed": 270
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 832,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
     "recoveries": [],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
