@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-24T12:30:05.130Z",
-    "endDate": null,
+    "endDate": "2026-11-24T13:11:17.639Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "4838c7be45828f8d89e0051bf6ff1b3440c0702b",
@@ -14,17 +14,40 @@
     "terms": 838
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 566,
+    "failed": 272
   },
   "coverage": {
-    "processed": 0,
+    "processed": 838,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 1
 }
