@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-24T01:09:57.492Z",
+    "date": "2026-11-24T13:10:52.133Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -37,8 +37,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": "text/html",
-        "snapshotId": "154ea95680014285d78c80690cb4d9c43c3f215b"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-abusive-behavior",
@@ -50,7 +50,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "67ea3dbd127fd405119ab31b05085c00a3c60a16"
+        "snapshotId": "7c1d110f48b80a7b9b4d7f91b7e1a7fb498c3390"
       },
       {
         "id": "en-rules-and-policies-hateful-conduct-policy",
@@ -74,7 +74,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "0e5afab8357b0b9b5641b145e96cbc222610398f"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-glorifying-self-harm",
@@ -122,7 +122,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "93fe47a1f761bc19c0215a01d414412ea116a6d6"
+        "snapshotId": "7caf3b02948ecd23608ff49397c09b1d45af235c"
       },
       {
         "id": "en-rules-and-policies-intimate-media",
@@ -134,7 +134,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "3ab2f35e2b14a576dad6a671511d79ebe76560f4"
       },
       {
         "id": "en-rules-and-policies-platform-manipulation",
@@ -158,7 +158,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "b386cf57c922d1e6f8fdea80b41913333063c730"
+        "snapshotId": "4df5dd9cf52e3ab6af42c5160d77ac2b443366a0"
       },
       {
         "id": "en-rules-and-policies-twitter-impersonation-and-deceptive-identities-policy",
@@ -209,7 +209,7 @@
           "[class*=\"twtr-type--headline-md\"]"
         ],
         "mimeType": "text/html",
-        "snapshotId": "25296215d3301afd9f6f6a67946f9bdd1cf1845d"
+        "snapshotId": "9242105db6cedb03c556e003f232e1138c4fcdbf"
       },
       {
         "id": "en-rules-and-policies-enforcement-philosophy",
@@ -221,11 +221,12 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "aa6d9b4e394b760c2b66a2165c143ea1aef0d116"
+        "snapshotId": null
       }
     ],
     "reasons": [
       "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-rules'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy'",
       "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/media-policy'",
       "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'",
       "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/platform-manipulation'",
