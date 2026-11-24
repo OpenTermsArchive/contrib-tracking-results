@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-24T13:04:31.731Z",
+    "serviceName": "Wells Fargo",
+    "sourceDocuments": [
+      {
+        "id": "online-banking-online-access-agreement",
+        "fetch": "https://www.wellsfargo.com/online-banking/online-access-agreement/",
+        "select": [
+          "h1",
+          "#contentBody"
+        ],
+        "remove": [
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "384a9cb70ac277d4976b595d1e537cf366035efb"
+      }
+    ]
+  }
+}
