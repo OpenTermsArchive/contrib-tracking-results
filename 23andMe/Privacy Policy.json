@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-24T12:30:11.562Z",
+    "serviceName": "23andMe",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-full-version",
+        "fetch": "https://www.23andme.com/legal/privacy/full-version/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "facc5fabf2018e0aec26813aceda18b5ad27fc71"
+      }
+    ]
+  }
+}
