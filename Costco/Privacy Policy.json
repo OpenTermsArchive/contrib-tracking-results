@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-24T12:36:55.299Z",
+    "serviceName": "Costco",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.costco.com/privacy-policy.html",
+        "select": [
+          "#search-results"
+        ],
+        "filter": [
+          "removeConsentStateFromUrls"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8f8b833050ee148100ffbfac226551ddf13810eb"
+      }
+    ]
+  }
+}
