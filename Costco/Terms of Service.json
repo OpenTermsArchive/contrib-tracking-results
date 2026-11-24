@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-24T12:36:40.979Z",
+    "serviceName": "Costco",
+    "sourceDocuments": [
+      {
+        "id": "terms-and-conditions-of-use",
+        "fetch": "https://www.costco.com/terms-and-conditions-of-use.html",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".MuiBreadcrumbs-root"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d7e4fb3f2efb2cd8d12de2ad11b6599f3ac91e86"
+      }
+    ]
+  }
+}
