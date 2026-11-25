@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-a468b501-b866-460c-9146-24b96dd60965",
+  "runId": "ota-run-0f80ad2f-432e-4ced-abf9-656c575f645b",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-24T12:30:05.130Z",
-    "endDate": "2026-11-24T13:11:17.639Z",
+    "startDate": "2026-11-25T00:30:05.042Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "4838c7be45828f8d89e0051bf6ff1b3440c0702b",
@@ -14,40 +14,17 @@
     "terms": 838
   },
   "tracked": {
-    "ok": 566,
-    "failed": 272
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 838,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
