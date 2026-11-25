@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-25T12:39:44.001Z",
+    "serviceName": "Equifax",
+    "sourceDocuments": [
+      {
+        "id": "privacy-privacy-statement",
+        "fetch": "https://www.equifax.com/privacy/privacy-statement/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          "a[href=\"#Top\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cca69a613679fd7379ffd8d146165b61f44d8154"
+      }
+    ]
+  }
+}
