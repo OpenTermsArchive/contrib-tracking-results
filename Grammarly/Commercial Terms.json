@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-25T01:09:19.743Z",
+    "date": "2026-11-25T12:43:58.681Z",
     "serviceName": "Grammarly",
     "sourceDocuments": [
       {
@@ -14,13 +14,8 @@
           "h2 br"
         ],
         "mimeType": "text/html",
-        "snapshotId": "bbc639485cf2e48e9f146414d05a0863a4e3e17d"
+        "snapshotId": "3677f99757ae3cc42a158bd7e7b84c9ec9c21810"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.grammarly.com/terms/customer-business-agreement'"
-      ]
-    }
+    ]
   }
 }
