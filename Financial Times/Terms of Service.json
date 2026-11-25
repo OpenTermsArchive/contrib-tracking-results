@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-24T13:07:29.899Z",
+    "date": "2026-11-25T00:39:13.222Z",
     "serviceName": "Financial Times",
     "sourceDocuments": [
       {
         "id": "legal-privacy-terms-and-conditions",
         "fetch": "https://help.ft.com/legal-privacy/terms-and-conditions/",
         "select": ".c-article__content",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "7b8a65838118c08187e3941eed2251c81ede5579"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://help.ft.com/legal-privacy/terms-and-conditions/'"
+      "[extraction] Extract failed: The provided selector \".c-article__content\" has no match in the web page at 'https://help.ft.com/legal-privacy/terms-and-conditions/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
