@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T00:37:27.497Z",
+    "date": "2026-11-25T12:38:48.164Z",
     "serviceName": "Deliveroo",
     "sourceDocuments": [
       {
@@ -11,8 +11,11 @@
           ".StaticPage-39f477ca75232b6b"
         ],
         "mimeType": "text/html",
-        "snapshotId": "5ce911f9096bc48cfd1b950f29f1879f7ff2f621"
+        "snapshotId": "ab9c93aad1d3faefad245883b05696aa3873ac13"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".StaticPage-39f477ca75232b6b\"]\" has no match in the web page at 'https://deliveroo.ie/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
