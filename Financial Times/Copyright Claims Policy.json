@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-24T13:07:30.163Z",
+    "date": "2026-11-25T00:39:13.423Z",
     "serviceName": "Financial Times",
     "sourceDocuments": [
       {
@@ -13,7 +13,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://help.ft.com/legal-privacy/copyright-policy/'"
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.ft.com/legal-privacy/copyright-policy/'"
     ]
   }
 }
