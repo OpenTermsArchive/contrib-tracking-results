@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-25T01:09:20.495Z",
+    "date": "2026-11-25T12:43:59.327Z",
     "serviceName": "Grammarly",
     "sourceDocuments": [
       {
@@ -14,13 +14,8 @@
           "h2 br"
         ],
         "mimeType": "text/html",
-        "snapshotId": "8809c73dc7a033064e2bbf0f33637348cfd7605b"
+        "snapshotId": "65f29baa28ede8715d564f1a9d63a983cfca86d0"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.grammarly.com/acceptable-use-policy'"
-      ]
-    }
+    ]
   }
 }
