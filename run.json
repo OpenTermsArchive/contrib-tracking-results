@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-25T00:30:05.042Z",
-    "endDate": null,
+    "endDate": "2026-11-25T01:13:13.995Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "4838c7be45828f8d89e0051bf6ff1b3440c0702b",
@@ -14,17 +14,64 @@
     "terms": 838
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 564,
+    "failed": 274
   },
   "coverage": {
-    "processed": 0,
+    "processed": 838,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Limitless",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Financial Times",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "vidguard.to",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 5
 }
