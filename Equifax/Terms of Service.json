@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-11-25T12:39:42.411Z",
+    "serviceName": "Equifax",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.equifax.com/terms/",
+        "select": [
+          "#main-content"
+        ],
+        "remove": [
+          ".mkt-dropdown"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "090fdb1b2a71daa8eee351e27db1a74af2e88de5"
+      }
+    ]
+  }
+}
