@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-25T01:09:21.721Z",
+    "date": "2026-11-25T12:44:00.613Z",
     "serviceName": "Grammarly",
     "sourceDocuments": [
       {
@@ -14,13 +14,8 @@
           "h2 br"
         ],
         "mimeType": "text/html",
-        "snapshotId": "d57576647e97b920ea784061d3f3ee92e8cca687"
+        "snapshotId": "7f6d9cbf399760adfd95e8903317a6a90b1b842c"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.grammarly.com/privacy-policy'"
-      ]
-    }
+    ]
   }
 }
