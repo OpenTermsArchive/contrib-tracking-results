@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-18T12:33:18.069Z",
+    "date": "2026-11-25T13:10:40.365Z",
     "serviceName": "Arweave",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "#legal .my-6.mb-16:nth-of-type(2)"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "0ec49ecfc29097756fa30458dc895462437e7615"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.arweave.org/legal-policies'"
     ]
   }
 }
