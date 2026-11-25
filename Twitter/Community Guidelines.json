@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-25T01:12:47.257Z",
+    "date": "2026-11-25T13:15:00.275Z",
     "serviceName": "Twitter",
     "sourceDocuments": [
       {
@@ -13,7 +13,7 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
+        "mimeType": "text/html",
         "snapshotId": null
       },
       {
@@ -26,7 +26,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "c688a12d0244dd0733598ac0e6651780de5e15f2"
       },
       {
         "id": "en-rules-and-policies-sexual-exploitation-policy",
@@ -37,8 +37,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "06d4917d9e3d37e6a98044d794a8bec21c0ef3a5"
       },
       {
         "id": "en-rules-and-policies-abusive-behavior",
@@ -50,7 +50,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "0d5e258d1f74ccbb6ea3005d72a244a1e1e6c00d"
       },
       {
         "id": "en-rules-and-policies-hateful-conduct-policy",
@@ -74,7 +74,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "2ded989c7590e9f194d78b565b25dc4890b438e0"
+        "snapshotId": "442c396439fd93588cba5c6ccc4bfa15f08fb739"
       },
       {
         "id": "en-rules-and-policies-glorifying-self-harm",
@@ -122,7 +122,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": null
+        "snapshotId": "4eebfbc9f7f2dad3448980642637c8ed5005c4f9"
       },
       {
         "id": "en-rules-and-policies-intimate-media",
@@ -146,7 +146,7 @@
           }
         ],
         "mimeType": "text/html",
-        "snapshotId": "6e52de17e35b87f5c9e9e9052f07824705cbcb77"
+        "snapshotId": "cca32ae76a6d924baf685ede6bf19df478a3a7a4"
       },
       {
         "id": "en-rules-and-policies-election-integrity-policy",
@@ -193,8 +193,8 @@
             "endAfter": "[class*=\"rich-text-v\"]"
           }
         ],
-        "mimeType": "text/html",
-        "snapshotId": "3781e2edd6cc1b7f724e1fae3564370f8fea8a13"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-copyright-policy",
@@ -209,7 +209,7 @@
           "[class*=\"twtr-type--headline-md\"]"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e8c6cf68e95f95f8d6b86ffb51f097f39b8a1e80"
+        "snapshotId": null
       },
       {
         "id": "en-rules-and-policies-enforcement-philosophy",
@@ -225,12 +225,11 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-rules'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy'",
       "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/media-policy'",
       "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/regulated-goods-services'",
       "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy'",
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/manipulated-media'"
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/manipulated-media'",
+      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy'"
     ]
   }
 }
