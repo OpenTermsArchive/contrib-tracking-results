@@ -1,77 +1,30 @@
 {
-  "runId": "ota-run-0f80ad2f-432e-4ced-abf9-656c575f645b",
+  "runId": "ota-run-f6bd3144-65e3-4fda-8080-e719a2da513f",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-25T00:30:05.042Z",
-    "endDate": "2026-11-25T01:13:13.995Z",
+    "startDate": "2026-11-25T12:30:05.143Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "4838c7be45828f8d89e0051bf6ff1b3440c0702b",
-    "services": 389,
-    "terms": 838
+    "commit": "79e8a214430fefc1018423624d588477f9d035a6",
+    "services": 390,
+    "terms": 840
   },
   "tracked": {
-    "ok": 564,
-    "failed": 274
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 838,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Limitless",
-        "termsType": "Privacy Policy"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Financial Times",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 5
+  "transientErrors": 0
 }
