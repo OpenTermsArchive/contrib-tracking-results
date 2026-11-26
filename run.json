@@ -4,9 +4,9 @@
   "schedule": "0 6,18 * * *",
   "lastRun": {
     "startDate": "2026-11-26T00:30:05.089Z",
-    "endDate": null,
+    "endDate": "2026-11-26T01:13:58.910Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "79e8a214430fefc1018423624d588477f9d035a6",
@@ -14,17 +14,60 @@
     "terms": 840
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 565,
+    "failed": 275
   },
   "coverage": {
-    "processed": 0,
+    "processed": 840,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Thryv YellowPages",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Arweave",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Arweave",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "LibraryThing",
+        "termsType": "Privacy Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Amazon Advertising",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Trackers Policy"
+      },
+      {
+        "serviceId": "Twitter",
+        "termsType": "Community Guidelines"
+      },
+      {
+        "serviceId": "vidguard.to",
+        "termsType": "Terms of Service"
+      }
+    ]
   },
-  "transientErrors": 0
+  "transientErrors": 7
 }
