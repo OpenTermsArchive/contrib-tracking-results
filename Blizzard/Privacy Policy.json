@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:35:00.154Z",
+    "date": "2026-11-26T01:10:07.234Z",
     "serviceName": "Blizzard",
     "sourceDocuments": [
       {
@@ -11,8 +11,13 @@
           ".aadc-page"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3f08c80bf272454591740d082f539721518484a6"
+        "snapshotId": "e43cce3c2fb74f3b5d8e0da78b7274a2cb40573c"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.blizzard.com/en-us/privacy'"
+      ]
+    }
   }
 }
