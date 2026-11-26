@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-25T13:09:36.923Z",
+    "date": "2026-11-26T00:32:20.918Z",
     "serviceName": "Amazon Advertising",
     "sourceDocuments": [
       {
@@ -10,12 +10,12 @@
         "select": [
           ".help-content"
         ],
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "d3794f4408976845f47924dc866ba0b5795bcd4e"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 403 when trying to fetch 'https://www.amazon.co.uk/gp/help/customer/display.html/?ie=UTF8&nodeId=1040616&ref_=a20m_us_fnav_l_cndtns_gb'"
+      "[extraction] Extract failed: The provided selector \"[\".help-content\"]\" has no match in the web page at 'https://www.amazon.co.uk/gp/help/customer/display.html/?ie=UTF8&nodeId=1040616&ref_=a20m_us_fnav_l_cndtns_gb'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
