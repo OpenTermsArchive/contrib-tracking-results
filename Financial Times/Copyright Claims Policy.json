@@ -1,19 +1,19 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-25T00:39:13.423Z",
+    "date": "2026-11-26T12:39:46.707Z",
     "serviceName": "Financial Times",
     "sourceDocuments": [
       {
         "id": "legal-privacy-copyright-policy",
         "fetch": "https://help.ft.com/legal-privacy/copyright-policy/",
         "select": ".c-article__content",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "dd614426e8b50bf39fa1ef951c8f38b82d68c53c"
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://help.ft.com/legal-privacy/copyright-policy/'"
+      "[extraction] Extract failed: The provided selector \".c-article__content\" has no match in the web page at 'https://help.ft.com/legal-privacy/copyright-policy/'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
