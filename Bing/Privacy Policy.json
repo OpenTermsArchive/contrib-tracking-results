@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-26T01:10:05.094Z",
+    "date": "2026-11-26T12:34:24.321Z",
     "serviceName": "Bing",
     "sourceDocuments": [
       {
@@ -15,13 +15,8 @@
           "removeInvisibleText"
         ],
         "mimeType": "text/html",
-        "snapshotId": "7097849be13cdf9c4f6f91cb4d4183aac7c17bbd"
+        "snapshotId": "ff8aa4f0297fb13c022b2494fe9a62dc75b1173a"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://privacy.microsoft.com/en-gb/privacystatement'"
-      ]
-    }
+    ]
   }
 }
