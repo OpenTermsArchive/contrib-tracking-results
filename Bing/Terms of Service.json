@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:34:57.805Z",
+    "date": "2026-11-26T01:10:06.331Z",
     "serviceName": "Bing",
     "sourceDocuments": [
       {
@@ -22,8 +22,13 @@
           "removeInvisibleText"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3718f2321b00f1ce1293b4f7afd3085ed49c50bd"
+        "snapshotId": "b365b73cf0d4f854ae5df4ed7f791cfa70e38830"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.microsoft.com/en-gb/servicesagreement/'"
+      ]
+    }
   }
 }
