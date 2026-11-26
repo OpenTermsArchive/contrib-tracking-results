@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-25T13:04:28.188Z",
+    "date": "2026-11-26T01:13:46.764Z",
     "serviceName": "vidguard.to",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://vidguard.to/terms'"
+      "[fetch] Fetch failed: net::ERR_CONNECTION_CLOSED at https://vidguard.to/terms"
     ]
   }
 }
