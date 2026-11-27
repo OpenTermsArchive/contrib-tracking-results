@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-23T12:35:10.862Z",
+    "date": "2026-11-27T13:11:15.213Z",
     "serviceName": "Cdiscount",
     "sourceDocuments": [
       {
@@ -9,12 +9,12 @@
         "fetch": "https://www.cdiscount.com/vie-privee-et-cookies.html",
         "select": "#scContent",
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "69687ad49b5025584f32666a92f87b78eeb6f330"
+        "mimeType": null,
+        "snapshotId": null
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"#scContent\" has no match in the web page at 'https://www.cdiscount.com/vie-privee-et-cookies.html'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+      "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://www.cdiscount.com/vie-privee-et-cookies.html'"
     ]
   }
 }
