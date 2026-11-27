@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-26T13:04:43.803Z",
+    "date": "2026-11-27T13:14:26.866Z",
     "serviceName": "vidguard.to",
     "sourceDocuments": [
       {
@@ -19,7 +19,7 @@
       }
     ],
     "reasons": [
-      "[fetch] Fetch failed: Network system error ENOTFOUND occurred when trying to fetch 'https://vidguard.to/copyright'"
+      "[fetch] Fetch failed: Network system error EAI_AGAIN occurred when trying to fetch 'https://vidguard.to/copyright'"
     ]
   }
 }
