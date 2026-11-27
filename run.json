@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-660b2dee-7fee-4479-a17f-44ddb8cb58bc",
+  "runId": "ota-run-98e559b5-2125-4042-8ab4-fef2ec0b5635",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-27T00:30:05.496Z",
-    "endDate": "2026-11-27T01:13:15.155Z",
+    "startDate": "2026-11-27T12:30:05.365Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "79e8a214430fefc1018423624d588477f9d035a6",
@@ -14,44 +14,17 @@
     "terms": 840
   },
   "tracked": {
-    "ok": 564,
-    "failed": 276
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 840,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "LibraryThing",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Alexa",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Terms of Service"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
