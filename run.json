@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-fb49f0a3-57a5-488c-ae97-516524c1b571",
+  "runId": "ota-run-3015b111-a4bc-4fb5-830a-4ecf5b25f424",
   "collectionId": "contrib",
   "schedule": "0 6,18 * * *",
   "lastRun": {
-    "startDate": "2026-11-28T00:30:05.243Z",
-    "endDate": "2026-11-28T01:09:49.175Z",
+    "startDate": "2026-11-28T12:30:05.349Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "79e8a214430fefc1018423624d588477f9d035a6",
@@ -14,64 +14,17 @@
     "terms": 840
   },
   "tracked": {
-    "ok": 566,
-    "failed": 274
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 840,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Terms of Service"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Amazon Advertising",
-        "termsType": "Trackers Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Thryv YellowPages",
-        "termsType": "Terms of Service"
-      }
-    ],
-    "reasonChanges": [
-      {
-        "serviceId": "Cdiscount",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Law Enforcement Guidelines"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Twitter",
-        "termsType": "Community Guidelines"
-      },
-      {
-        "serviceId": "vidguard.to",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "Amazon.com",
-        "termsType": "Privacy Policy"
-      }
-    ]
+    "newFailures": [],
+    "recoveries": [],
+    "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
