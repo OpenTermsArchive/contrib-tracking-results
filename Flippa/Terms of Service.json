@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-27T13:11:19.325Z",
+    "date": "2026-11-28T00:39:49.378Z",
     "serviceName": "Flippa",
     "sourceDocuments": [
       {
@@ -14,13 +14,8 @@
           ".et_pb_fullwidth_menu"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c76ae60bd8dcd209625c9768736730ccb4ce4843"
+        "snapshotId": "7fb51db225b86aa69d549ee7052794f9ecd5b034"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://flippa.com/terms-of-service/'"
-      ]
-    }
+    ]
   }
 }
